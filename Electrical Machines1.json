@@ -1,0 +1,74 @@
+{
+  "quiz1": [
+    {
+      "question": "Which type of motor is used in ceiling fans?",
+      "options": [
+        "Synchronous motor",
+        "Capacitor start motor",
+        "Shaded pole motor",
+        "Capacitor start and run motor"
+      ],
+      "answer": 3,
+      "explanation": "Ceiling fans use a capacitor start and run motor for better starting torque and efficiency."
+    },
+    {
+      "question": "What is the main function of a commutator in a DC machine?",
+      "options": [
+        "Reduce sparking",
+        "Convert AC to DC",
+        "Convert DC to AC",
+        "Reverse the direction of current"
+      ],
+      "answer": 1,
+      "explanation": "The commutator in a DC machine converts the internally generated AC into unidirectional DC."
+    }
+  ],
+  "quiz2": [
+    {
+      "question": "Which of the following machines has a constant speed?",
+      "options": [
+        "DC shunt motor",
+        "Induction motor",
+        "Synchronous motor",
+        "Universal motor"
+      ],
+      "answer": 2,
+      "explanation": "A synchronous motor runs at a constant speed determined by supply frequency and number of poles."
+    },
+    {
+      "question": "The no-load current of a transformer is about:",
+      "options": [
+        "2-5% of full load current",
+        "20-30% of full load current",
+        "50-60% of full load current",
+        "75-80% of full load current"
+      ],
+      "answer": 0,
+      "explanation": "The no-load current of a transformer is typically 2-5% of full load current."
+    }
+  ],
+  "quiz3": [
+    {
+      "question": "Which test is used to determine the efficiency of a transformer?",
+      "options": [
+        "Open circuit test",
+        "Short circuit test",
+        "Sumpner’s test",
+        "Polarity test"
+      ],
+      "answer": 2,
+      "explanation": "Sumpner’s test or back-to-back test is used to determine the efficiency of transformers."
+    },
+    {
+      "question": "In a transformer, maximum efficiency occurs when:",
+      "options": [
+        "Core loss = Copper loss",
+        "Core loss > Copper loss",
+        "Core loss < Copper loss",
+        "It is on no load"
+      ],
+      "answer": 0,
+      "explanation": "Transformer efficiency is maximum when copper loss equals iron (core) loss."
+    }
+  ]
+}
