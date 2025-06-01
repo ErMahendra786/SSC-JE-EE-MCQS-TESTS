@@ -1,0 +1,3288 @@
+{
+  "quiz1": [
+    {
+      "question": "In a DC generator, the cause of sparking at brushes is:",
+      "options": [
+        "Low resistance of brushes",
+        "High armature speed",
+        "Armature reaction",
+        "High field current"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Armature reaction distorts the main field flux, leading to sparking at brushes."
+    },
+    {
+      "question": "The function of a commutator in a DC machine is to:",
+      "options": [
+        "Reduce eddy current losses",
+        "Convert DC to AC",
+        "Convert AC to DC",
+        "Increase the current"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: The commutator converts the internally generated AC in the armature to DC at the output."
+    },
+    {
+      "question": "The torque developed in a 3-phase induction motor is maximum when:",
+      "options": [
+        "Rotor resistance = rotor reactance",
+        "Rotor reactance = stator reactance",
+        "Rotor resistance = stator resistance",
+        "Slip is zero"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Torque is maximum when rotor resistance equals rotor reactance at the operating frequency."
+    },
+    {
+      "question": "A synchronous motor runs at:",
+      "options": [
+        "Below synchronous speed",
+        "Above synchronous speed",
+        "Synchronous speed",
+        "Variable speed"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: A synchronous motor runs at constant synchronous speed regardless of load."
+    },
+    {
+      "question": "The efficiency of a transformer is maximum when:",
+      "options": [
+        "Load is full",
+        "Load is half",
+        "Core loss = copper loss",
+        "Copper loss is zero"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Transformer efficiency is maximum when iron losses equal copper losses."
+    },
+    {
+      "question": "The no-load current of a transformer has:",
+      "options": [
+        "High magnitude and low power factor",
+        "Low magnitude and low power factor",
+        "High magnitude and high power factor",
+        "Low magnitude and high power factor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: No-load current is small and highly lagging due to magnetizing inductance."
+    },
+    {
+      "question": "The speed of a DC shunt motor is:",
+      "options": [
+        "Constant",
+        "Inversely proportional to armature voltage",
+        "Proportional to armature current",
+        "Inversely proportional to field current"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Speed ∝ 1/Φ and Φ depends on field current. So speed increases when field current decreases."
+    },
+    {
+      "question": "The starting torque of a squirrel cage induction motor is:",
+      "options": [
+        "Low",
+        "High",
+        "Very high",
+        "Zero"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Squirrel cage motors have low starting torque but are simple and rugged."
+    },
+    {
+      "question": "In transformer core, silicon is added to:",
+      "options": [
+        "Increase conductivity",
+        "Increase permeability",
+        "Reduce eddy current losses",
+        "Reduce weight"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Silicon increases resistivity of core material, reducing eddy current losses."
+    },
+    {
+      "question": "Which of the following machines has the highest starting torque?",
+      "options": [
+        "DC shunt motor",
+        "DC series motor",
+        "Induction motor",
+        "Universal motor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: DC series motors produce very high starting torque due to series connection of field and armature."
+    },
+    {
+      "question": "The purpose of providing a laminated core in a transformer is to:",
+      "options": [
+        "Reduce eddy current loss",
+        "Increase magnetic field strength",
+        "Reduce hysteresis loss",
+        "Reduce copper loss"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Lamination increases resistance to eddy currents, thereby reducing eddy current losses."
+    },
+    {
+      "question": "The slip in an induction motor at no-load is approximately:",
+      "options": [
+        "0%",
+        "2%",
+        "100%",
+        "10%"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: At no-load, rotor speed is nearly equal to synchronous speed, so slip is very small (~0%)."
+    },
+    {
+      "question": "The frequency of rotor current in a 3-phase induction motor is:",
+      "options": [
+        "Equal to supply frequency",
+        "Zero at no-load",
+        "Depends on slip",
+        "Always 50 Hz"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Rotor frequency = slip × stator frequency."
+    },
+    {
+      "question": "If the speed of a DC motor is increased, the back EMF will:",
+      "options": [
+        "Increase",
+        "Decrease",
+        "Remain constant",
+        "First increase then decrease"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Back EMF is directly proportional to speed:"
+    },
+    {
+      "question": "In a transformer, the voltage per turn is:",
+      "options": [
+        "Same in primary and secondary",
+        "More in primary",
+        "More in secondary",
+        "Depends on load"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Voltage per turn is same in both windings since the same core flux links both."
+    },
+    {
+      "question": "The starting current of a transformer is:",
+      "options": [
+        "Equal to full load current",
+        "Higher than full load current",
+        "Less than full load current",
+        "Zero"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Inrush current can be 5–10 times higher than full load current during switching."
+    },
+    {
+      "question": "In synchronous generators, the frequency of generated EMF depends on:",
+      "options": [
+        "Load",
+        "Field current",
+        "Speed and number of poles",
+        "Armature current"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Frequency"
+    },
+    {
+      "question": "In a DC motor, the function of interpoles is to:",
+      "options": [
+        "Improve commutation",
+        "Increase torque",
+        "Reduce armature reaction",
+        "Both A and C"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Interpoles improve commutation and reduce the effect of armature reaction."
+    },
+    {
+      "question": "The rotating magnetic field in an induction motor is produced by:",
+      "options": [
+        "Rotor winding",
+        "Single phase supply",
+        "3-phase stator winding",
+        "Commutator"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: The 3-phase stator winding creates a rotating magnetic field."
+    },
+    {
+      "question": "The reason for using starter in DC motor is to:",
+      "options": [
+        "Prevent motor from running at high speed",
+        "Reduce voltage",
+        "Limit starting current",
+        "Boost starting torque"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: At start, back EMF is zero, so starter limits the high inrush current."
+    },
+    {
+      "question": "In a 3-phase induction motor, maximum torque is independent of:",
+      "options": [
+        "Rotor resistance",
+        "Rotor reactance",
+        "Supply voltage",
+        "Rotor current"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Maximum torque is independent of rotor resistance but depends on voltage and rotor reactance."
+    },
+    {
+      "question": "Which of the following is not a part of the transformer?",
+      "options": [
+        "Core",
+        "Stator",
+        "Windings",
+        "Conservator"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: \"Stator\" is not a part of transformer; it's a part of rotating machines."
+    },
+    {
+      "question": "Hysteresis loss in a magnetic material depends on:",
+      "options": [
+        "Current",
+        "Supply voltage",
+        "Area of hysteresis loop",
+        "Temperature"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Hysteresis loss ∝ area of hysteresis loop × frequency."
+    },
+    {
+      "question": "Which of the following motors is used in electric traction?",
+      "options": [
+        "DC shunt motor",
+        "Synchronous motor",
+        "DC series motor",
+        "Single phase induction motor"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: DC series motors offer high starting torque, ideal for traction."
+    },
+    {
+      "question": "The primary purpose of using a dummy coil in DC machines is:",
+      "options": [
+        "To reduce losses",
+        "To increase torque",
+        "Mechanical balance",
+        "Improve commutation"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Dummy coils are used for mechanical balancing in wave winding when slots are not divisible."
+    },
+    {
+      "question": "Which test on a transformer gives the core loss?",
+      "options": [
+        "Load test",
+        "Open circuit test",
+        "Short circuit test",
+        "Back-to-back test"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Open circuit test gives the iron (core) losses at rated voltage."
+    },
+    {
+      "question": "The speed regulation of a DC shunt motor is:",
+      "options": [
+        "Poor",
+        "Very poor",
+        "Excellent",
+        "Zero"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: DC shunt motors have nearly constant speed, hence excellent speed regulation."
+    },
+    {
+      "question": "What is the effect of doubling the frequency on hysteresis loss in transformer?",
+      "options": [
+        "No effect",
+        "Halved",
+        "Doubled",
+        "Four times"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Hysteresis loss ∝ frequency. Doubling the frequency doubles the loss."
+    },
+    {
+      "question": "The core of a transformer is made of laminated steel to:",
+      "options": [
+        "Reduce eddy current losses",
+        "Increase magnetic flux",
+        "Reduce copper losses",
+        "Decrease weight"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Laminations increase electrical resistance and thus reduce eddy current losses."
+    },
+    {
+      "question": "The direction of rotation of a 3-phase induction motor can be reversed by:",
+      "options": [
+        "Reversing field winding",
+        "Changing rotor winding connections",
+        "Reversing any two supply phases",
+        "Using a commutator"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Reversing any two phases of supply changes the direction of rotating magnetic field."
+    },
+    {
+      "question": "The function of brushes in a DC machine is to:",
+      "options": [
+        "Provide insulation",
+        "Reduce losses",
+        "Collect current from armature",
+        "Increase speed"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Brushes collect current from the rotating commutator and transfer it to the external circuit."
+    },
+    {
+      "question": "In synchronous motor, the rotor runs:",
+      "options": [
+        "Slower than stator field",
+        "Faster than stator field",
+        "At synchronous speed",
+        "At varying speed"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: A synchronous motor always runs at synchronous speed (Ns = 120f/P)."
+    },
+    {
+      "question": "A transformer cannot work on DC because:",
+      "options": [
+        "There will be no back EMF",
+        "Core losses will be high",
+        "There is no rotating magnetic field",
+        "No mutual induction"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Transformer requires alternating flux to induce EMF via mutual induction, which is not possible with DC."
+    },
+    {
+      "question": "Which of the following motors can run on both AC and DC supply?",
+      "options": [
+        "Induction motor",
+        "Stepper motor",
+        "Universal motor",
+        "Synchronous motor"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Universal motors are designed to operate on both AC and DC supply."
+    },
+    {
+      "question": "The rated secondary voltage of a transformer is 230 V. The no-load secondary voltage will be:",
+      "options": [
+        "Greater than 230 V",
+        "Equal to 230 V",
+        "Less than 230 V",
+        "Zero"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: No-load secondary voltage is slightly higher due to no voltage drop in secondary winding."
+    },
+    {
+      "question": "The main cause of humming sound in transformers is:",
+      "options": [
+        "Copper loss",
+        "Magnetic flux leakage",
+        "Vibration of laminations",
+        "Cooling fans"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Humming is caused by magnetostriction, which causes vibration of core laminations."
+    },
+    {
+      "question": "Which of the following motor has the highest power factor?",
+      "options": [
+        "Synchronous motor",
+        "Capacitor-start motor",
+        "Repulsion motor",
+        "Universal motor"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Synchronous motors can operate at unity or leading power factor depending on excitation."
+    },
+    {
+      "question": "Auto-transformer is most economical when:",
+      "options": [
+        "Voltage ratio is high",
+        "Voltage ratio is low",
+        "Current is low",
+        "Used at no-load"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Auto-transformers save copper when voltage ratio is low (i.e., voltages are close)."
+    },
+    {
+      "question": "The emf equation of a transformer is E = 4.44fNΦ. Here, N is:",
+      "options": [
+        "Number of poles",
+        "Number of slots",
+        "Number of turns",
+        "Speed in RPM"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: N is the number of turns in the winding where EMF is induced."
+    },
+    {
+      "question": "The torque developed in a 3-phase induction motor is proportional to:",
+      "options": [
+        "Supply voltage",
+        "Square of rotor current",
+        "Rotor resistance",
+        "Square of supply voltage"
+      ],
+      "answer": 3,
+      "explanation": "✅ You now have a full set of 40 MCQs from UPPSC and other state JE Electrical exams on Electrical Machines."
+    },
+    {
+      "question": "In a DC generator, the cause of sparking at brushes is:",
+      "options": [
+        "Low resistance of brushes",
+        "High armature speed",
+        "Armature reaction",
+        "High field current"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Armature reaction distorts the main field flux, leading to sparking at brushes."
+    },
+    {
+      "question": "The function of a commutator in a DC machine is to:",
+      "options": [
+        "Reduce eddy current losses",
+        "Convert DC to AC",
+        "Convert AC to DC",
+        "Increase the current"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: The commutator converts the internally generated AC in the armature to DC at the output."
+    },
+    {
+      "question": "The torque developed in a 3-phase induction motor is maximum when:",
+      "options": [
+        "Rotor resistance = rotor reactance",
+        "Rotor reactance = stator reactance",
+        "Rotor resistance = stator resistance",
+        "Slip is zero"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Torque is maximum when rotor resistance equals rotor reactance at the operating frequency."
+    },
+    {
+      "question": "A synchronous motor runs at:",
+      "options": [
+        "Below synchronous speed",
+        "Above synchronous speed",
+        "Synchronous speed",
+        "Variable speed"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: A synchronous motor runs at constant synchronous speed regardless of load."
+    },
+    {
+      "question": "The efficiency of a transformer is maximum when:",
+      "options": [
+        "Load is full",
+        "Load is half",
+        "Core loss = copper loss",
+        "Copper loss is zero"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Transformer efficiency is maximum when iron losses equal copper losses."
+    },
+    {
+      "question": "The no-load current of a transformer has:",
+      "options": [
+        "High magnitude and low power factor",
+        "Low magnitude and low power factor",
+        "High magnitude and high power factor",
+        "Low magnitude and high power factor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: No-load current is small and highly lagging due to magnetizing inductance."
+    },
+    {
+      "question": "The speed of a DC shunt motor is:",
+      "options": [
+        "Constant",
+        "Inversely proportional to armature voltage",
+        "Proportional to armature current",
+        "Inversely proportional to field current"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Speed ∝ 1/Φ and Φ depends on field current. So speed increases when field current decreases."
+    },
+    {
+      "question": "The starting torque of a squirrel cage induction motor is:",
+      "options": [
+        "Low",
+        "High",
+        "Very high",
+        "Zero"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Squirrel cage motors have low starting torque but are simple and rugged."
+    },
+    {
+      "question": "In transformer core, silicon is added to:",
+      "options": [
+        "Increase conductivity",
+        "Increase permeability",
+        "Reduce eddy current losses",
+        "Reduce weight"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Silicon increases resistivity of core material, reducing eddy current losses."
+    },
+    {
+      "question": "Which of the following machines has the highest starting torque?",
+      "options": [
+        "DC shunt motor",
+        "DC series motor",
+        "Induction motor",
+        "Universal motor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: DC series motors produce very high starting torque due to series connection of field and armature."
+    },
+    {
+      "question": "The purpose of providing a laminated core in a transformer is to:",
+      "options": [
+        "Reduce eddy current loss",
+        "Increase magnetic field strength",
+        "Reduce hysteresis loss",
+        "Reduce copper loss"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Lamination increases resistance to eddy currents, thereby reducing eddy current losses."
+    },
+    {
+      "question": "The slip in an induction motor at no-load is approximately:",
+      "options": [
+        "0%",
+        "2%",
+        "100%",
+        "10%"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: At no-load, rotor speed is nearly equal to synchronous speed, so slip is very small (~0%)."
+    },
+    {
+      "question": "The frequency of rotor current in a 3-phase induction motor is:",
+      "options": [
+        "Equal to supply frequency",
+        "Zero at no-load",
+        "Depends on slip",
+        "Always 50 Hz"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Rotor frequency = slip × stator frequency."
+    },
+    {
+      "question": "If the speed of a DC motor is increased, the back EMF will:",
+      "options": [
+        "Increase",
+        "Decrease",
+        "Remain constant",
+        "First increase then decrease"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Back EMF is directly proportional to speed:"
+    },
+    {
+      "question": "In a transformer, the voltage per turn is:",
+      "options": [
+        "Same in primary and secondary",
+        "More in primary",
+        "More in secondary",
+        "Depends on load"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Voltage per turn is same in both windings since the same core flux links both."
+    },
+    {
+      "question": "The starting current of a transformer is:",
+      "options": [
+        "Equal to full load current",
+        "Higher than full load current",
+        "Less than full load current",
+        "Zero"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Inrush current can be 5–10 times higher than full load current during switching."
+    },
+    {
+      "question": "In synchronous generators, the frequency of generated EMF depends on:",
+      "options": [
+        "Load",
+        "Field current",
+        "Speed and number of poles",
+        "Armature current"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Frequency"
+    },
+    {
+      "question": "In a DC motor, the function of interpoles is to:",
+      "options": [
+        "Improve commutation",
+        "Increase torque",
+        "Reduce armature reaction",
+        "Both A and C"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Interpoles improve commutation and reduce the effect of armature reaction."
+    },
+    {
+      "question": "The rotating magnetic field in an induction motor is produced by:",
+      "options": [
+        "Rotor winding",
+        "Single phase supply",
+        "3-phase stator winding",
+        "Commutator"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: The 3-phase stator winding creates a rotating magnetic field."
+    },
+    {
+      "question": "The reason for using starter in DC motor is to:",
+      "options": [
+        "Prevent motor from running at high speed",
+        "Reduce voltage",
+        "Limit starting current",
+        "Boost starting torque"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: At start, back EMF is zero, so starter limits the high inrush current."
+    },
+    {
+      "question": "In a 3-phase induction motor, maximum torque is independent of:",
+      "options": [
+        "Rotor resistance",
+        "Rotor reactance",
+        "Supply voltage",
+        "Rotor current"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Maximum torque is independent of rotor resistance but depends on voltage and rotor reactance."
+    },
+    {
+      "question": "Which of the following is not a part of the transformer?",
+      "options": [
+        "Core",
+        "Stator",
+        "Windings",
+        "Conservator"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: \"Stator\" is not a part of transformer; it's a part of rotating machines."
+    },
+    {
+      "question": "Hysteresis loss in a magnetic material depends on:",
+      "options": [
+        "Current",
+        "Supply voltage",
+        "Area of hysteresis loop",
+        "Temperature"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Hysteresis loss ∝ area of hysteresis loop × frequency."
+    },
+    {
+      "question": "Which of the following motors is used in electric traction?",
+      "options": [
+        "DC shunt motor",
+        "Synchronous motor",
+        "DC series motor",
+        "Single phase induction motor"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: DC series motors offer high starting torque, ideal for traction."
+    },
+    {
+      "question": "The primary purpose of using a dummy coil in DC machines is:",
+      "options": [
+        "To reduce losses",
+        "To increase torque",
+        "Mechanical balance",
+        "Improve commutation"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Dummy coils are used for mechanical balancing in wave winding when slots are not divisible."
+    },
+    {
+      "question": "Which test on a transformer gives the core loss?",
+      "options": [
+        "Load test",
+        "Open circuit test",
+        "Short circuit test",
+        "Back-to-back test"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Open circuit test gives the iron (core) losses at rated voltage."
+    },
+    {
+      "question": "The speed regulation of a DC shunt motor is:",
+      "options": [
+        "Poor",
+        "Very poor",
+        "Excellent",
+        "Zero"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: DC shunt motors have nearly constant speed, hence excellent speed regulation."
+    },
+    {
+      "question": "What is the effect of doubling the frequency on hysteresis loss in transformer?",
+      "options": [
+        "No effect",
+        "Halved",
+        "Doubled",
+        "Four times"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Hysteresis loss ∝ frequency. Doubling the frequency doubles the loss."
+    },
+    {
+      "question": "The core of a transformer is made of laminated steel to:",
+      "options": [
+        "Reduce eddy current losses",
+        "Increase magnetic flux",
+        "Reduce copper losses",
+        "Decrease weight"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Laminations increase electrical resistance and thus reduce eddy current losses."
+    },
+    {
+      "question": "The direction of rotation of a 3-phase induction motor can be reversed by:",
+      "options": [
+        "Reversing field winding",
+        "Changing rotor winding connections",
+        "Reversing any two supply phases",
+        "Using a commutator"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Reversing any two phases of supply changes the direction of rotating magnetic field."
+    },
+    {
+      "question": "The function of brushes in a DC machine is to:",
+      "options": [
+        "Provide insulation",
+        "Reduce losses",
+        "Collect current from armature",
+        "Increase speed"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Brushes collect current from the rotating commutator and transfer it to the external circuit."
+    },
+    {
+      "question": "In synchronous motor, the rotor runs:",
+      "options": [
+        "Slower than stator field",
+        "Faster than stator field",
+        "At synchronous speed",
+        "At varying speed"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: A synchronous motor always runs at synchronous speed (Ns = 120f/P)."
+    },
+    {
+      "question": "A transformer cannot work on DC because:",
+      "options": [
+        "There will be no back EMF",
+        "Core losses will be high",
+        "There is no rotating magnetic field",
+        "No mutual induction"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Transformer requires alternating flux to induce EMF via mutual induction, which is not possible with DC."
+    },
+    {
+      "question": "Which of the following motors can run on both AC and DC supply?",
+      "options": [
+        "Induction motor",
+        "Stepper motor",
+        "Universal motor",
+        "Synchronous motor"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Universal motors are designed to operate on both AC and DC supply."
+    },
+    {
+      "question": "The rated secondary voltage of a transformer is 230 V. The no-load secondary voltage will be:",
+      "options": [
+        "Greater than 230 V",
+        "Equal to 230 V",
+        "Less than 230 V",
+        "Zero"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: No-load secondary voltage is slightly higher due to no voltage drop in secondary winding."
+    },
+    {
+      "question": "The main cause of humming sound in transformers is:",
+      "options": [
+        "Copper loss",
+        "Magnetic flux leakage",
+        "Vibration of laminations",
+        "Cooling fans"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Humming is caused by magnetostriction, which causes vibration of core laminations."
+    },
+    {
+      "question": "Which of the following motor has the highest power factor?",
+      "options": [
+        "Synchronous motor",
+        "Capacitor-start motor",
+        "Repulsion motor",
+        "Universal motor"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Synchronous motors can operate at unity or leading power factor depending on excitation."
+    },
+    {
+      "question": "Auto-transformer is most economical when:",
+      "options": [
+        "Voltage ratio is high",
+        "Voltage ratio is low",
+        "Current is low",
+        "Used at no-load"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Auto-transformers save copper when voltage ratio is low (i.e., voltages are close)."
+    },
+    {
+      "question": "The emf equation of a transformer is E = 4.44fNΦ. Here, N is:",
+      "options": [
+        "Number of poles",
+        "Number of slots",
+        "Number of turns",
+        "Speed in RPM"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: N is the number of turns in the winding where EMF is induced."
+    },
+    {
+      "question": "The torque developed in a 3-phase induction motor is proportional to:",
+      "options": [
+        "Supply voltage",
+        "Square of rotor current",
+        "Rotor resistance",
+        "Square of supply voltage"
+      ],
+      "answer": 3,
+      "explanation": "✅ You now have a full set of 40 MCQs from UPPSC and other state JE Electrical exams on Electrical Machines."
+    }
+  ],
+  "quiz2": [
+    {
+      "question": "The voltage regulation of a transformer is zero at:",
+      "options": [
+        "Full load",
+        "Unity power factor",
+        "Leading power factor",
+        "Lagging power factor"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Voltage regulation becomes zero or negative at a leading power factor due to reduced impedance drop."
+    },
+    {
+      "question": "In a DC generator, the ripple in output voltage can be reduced by:",
+      "options": [
+        "Increasing armature resistance",
+        "Using a commutator",
+        "Increasing number of poles and armature coils",
+        "Decreasing speed"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: More coils and poles smoothen the output by reducing ripple."
+    },
+    {
+      "question": "The starting torque of a 3-phase squirrel cage induction motor is:",
+      "options": [
+        "Very high",
+        "Very low",
+        "Moderate",
+        "Zero"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Squirrel cage induction motors have moderate starting torque due to fixed rotor resistance."
+    },
+    {
+      "question": "The V-curve of a synchronous motor represents:",
+      "options": [
+        "Armature current vs voltage",
+        "Armature current vs field current",
+        "Torque vs speed",
+        "Power factor vs load"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: V-curve plots armature current against field current, showing a 'V' shape."
+    },
+    {
+      "question": "The material used for transformer core to reduce eddy currents is:",
+      "options": [
+        "Silicon steel",
+        "Cast iron",
+        "Aluminum",
+        "Copper"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Laminated silicon steel reduces eddy current and hysteresis losses."
+    },
+    {
+      "question": "Which component in a DC motor ensures unidirectional torque?",
+      "options": [
+        "Brushes",
+        "Commutator",
+        "Field winding",
+        "Armature"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Commutator reverses current direction in armature windings, ensuring unidirectional torque."
+    },
+    {
+      "question": "The load sharing between two parallel transformers depends on:",
+      "options": [
+        "Efficiency",
+        "Power factor",
+        "Impedance",
+        "Size"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Load is shared in inverse proportion to their per-unit impedance."
+    },
+    {
+      "question": "In single-phase induction motors, the centrifugal switch is used to:",
+      "options": [
+        "Increase torque",
+        "Connect start winding",
+        "Disconnect start winding",
+        "Reverse rotation"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: The centrifugal switch disconnects the start winding after motor reaches a certain speed."
+    },
+    {
+      "question": "A salient pole synchronous machine is distinguished by:",
+      "options": [
+        "Smooth cylindrical rotor",
+        "Equal reluctance in all directions",
+        "Projecting poles",
+        "Uniform air gap"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Salient pole machines have projecting poles and are used for low-speed applications."
+    },
+    {
+      "question": "The function of interpoles in a DC machine is to:",
+      "options": [
+        "Improve commutation",
+        "Decrease flux",
+        "Increase armature reaction",
+        "Change polarity"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Interpoles neutralize armature reaction and improve commutation."
+    },
+    {
+      "question": "In a transformer, leakage flux exists because:",
+      "options": [
+        "Iron core is not laminated",
+        "Flux is not entirely confined to the core",
+        "Load is not connected",
+        "Winding resistance is high"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Leakage flux is that part of the magnetic flux which does not link with both primary and secondary windings."
+    },
+    {
+      "question": "The speed of a DC series motor:",
+      "options": [
+        "Increases with load",
+        "Decreases with load",
+        "Constant at all loads",
+        "Not affected by load"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Speed ∝ 1/Flux; in DC series motor, with increasing load, current increases → flux increases → speed decreases."
+    },
+    {
+      "question": "Which machine operates on the principle of rotating magnetic field?",
+      "options": [
+        "DC motor",
+        "Transformer",
+        "Induction motor",
+        "Alternator"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: 3-phase supply to stator of induction motor creates a rotating magnetic field."
+    },
+    {
+      "question": "In transformer testing, open circuit test is used to measure:",
+      "options": [
+        "Copper loss",
+        "Insulation resistance",
+        "Iron loss",
+        "Impedance"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Open circuit test determines core (iron) losses as secondary is open and current is minimal."
+    },
+    {
+      "question": "The condition for maximum power output in a DC motor is:",
+      "options": [
+        "Ra = Rload",
+        "Load torque = Constant",
+        "Back EMF = 0",
+        "Back EMF = ½ Applied voltage"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Maximum mechanical power is developed when E = V/2 in a DC motor."
+    },
+    {
+      "question": "In a synchronous generator, the frequency of generated voltage depends on:",
+      "options": [
+        "Load",
+        "Armature current",
+        "Speed and number of poles",
+        "Excitation"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Frequency f = (P × N)/120 where P = number of poles, N = speed in RPM."
+    },
+    {
+      "question": "Which motor is used in electric traction and trains?",
+      "options": [
+        "Synchronous motor",
+        "DC series motor",
+        "Universal motor",
+        "Stepper motor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: DC series motor provides high starting torque and is ideal for traction applications."
+    },
+    {
+      "question": "If transformer frequency is increased keeping voltage constant, the core loss will:",
+      "options": [
+        "Remain same",
+        "Increase",
+        "Decrease",
+        "Become zero"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Core loss ∝ frequency; hence, increasing frequency increases eddy current and hysteresis losses."
+    },
+    {
+      "question": "The armature reaction in an alternator at lagging power factor is:",
+      "options": [
+        "Purely demagnetizing",
+        "Magnetizing",
+        "Cross magnetizing",
+        "Zero"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: At lagging power factor, armature reaction is magnetizing and supports the main field."
+    },
+    {
+      "question": "The slip of an induction motor is:",
+      "options": [
+        "Zero at no load",
+        "Zero at full load",
+        "One at synchronous speed",
+        "Same at all loads"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Slip is zero only in ideal conditions. At no load, slip is nearly zero; increases with load."
+    },
+    {
+      "question": "The function of a breather in a transformer is to:",
+      "options": [
+        "Cool the oil",
+        "Indicate oil level",
+        "Prevent moisture from entering",
+        "Reduce noise"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: The breather contains silica gel which absorbs moisture from the air entering the conservator tank."
+    },
+    {
+      "question": "In an induction motor, the rotor current is produced by:",
+      "options": [
+        "Battery",
+        "Induction from stator",
+        "Permanent magnets",
+        "Brushes"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Rotor current in an induction motor is induced due to relative motion between stator’s rotating magnetic field and the rotor."
+    },
+    {
+      "question": "In a DC motor, armature torque is proportional to:",
+      "options": [
+        "Armature voltage",
+        "Speed",
+        "Armature current",
+        "Square of armature current"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Torque (T) ∝ ΦIa; in case of constant flux, torque is directly proportional to armature current."
+    },
+    {
+      "question": "Which test is used to determine the efficiency of two similar transformers?",
+      "options": [
+        "Open circuit test",
+        "Short circuit test",
+        "Load test",
+        "Sumpner’s test"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Sumpner’s test (back-to-back test) is used to determine full-load efficiency and heating without actual loading."
+    },
+    {
+      "question": "For parallel operation of transformers, which condition must be strictly followed?",
+      "options": [
+        "Same core material",
+        "Same voltage ratio",
+        "Same size",
+        "Same tap position"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Same voltage ratio ensures no circulating current flows between the transformers."
+    },
+    {
+      "question": "The armature reaction effect in a DC generator causes:",
+      "options": [
+        "Increased EMF",
+        "Decreased flux under the pole",
+        "Better commutation",
+        "Increase in speed"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Armature reaction distorts and weakens the main flux under load conditions."
+    },
+    {
+      "question": "The transformer rating is in kVA because:",
+      "options": [
+        "Power factor is not considered",
+        "Voltage is constant",
+        "Current is constant",
+        "It is a standard"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Transformer losses depend on voltage and current, not on power factor, so it is rated in kVA."
+    },
+    {
+      "question": "Crawling in induction motor is caused due to:",
+      "options": [
+        "High rotor resistance",
+        "Harmonics in the supply",
+        "High starting torque",
+        "Low voltage"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Harmonics (especially 7th harmonic) can cause the motor to run at sub-synchronous speed (1/7th of Ns)."
+    },
+    {
+      "question": "The main reason for lamination of transformer core is to:",
+      "options": [
+        "Reduce weight",
+        "Reduce iron losses",
+        "Reduce copper loss",
+        "Increase magnetic field"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Laminations reduce the eddy current path and hence reduce iron losses."
+    },
+    {
+      "question": "The starting method generally used for large squirrel cage induction motors is:",
+      "options": [
+        "Direct on line starter",
+        "Rotor resistance starter",
+        "Star-delta starter",
+        "Auto-transformer starter"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Auto-transformer starters reduce voltage during starting and are suitable for large motors."
+    },
+    {
+      "question": "The value of back EMF in a DC motor is maximum when:",
+      "options": [
+        "Starting",
+        "At no-load",
+        "At full-load",
+        "At locked rotor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: At no-load, the motor runs at highest speed, and back EMF (Eb) is maximum."
+    },
+    {
+      "question": "In a 3-phase induction motor, the rotor frequency at standstill is:",
+      "options": [
+        "Zero",
+        "Equal to supply frequency",
+        "Half of supply frequency",
+        "Double of supply frequency"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: At standstill, slip s = 1, so rotor frequency fr = s × f = f."
+    },
+    {
+      "question": "In a single-phase induction motor, the rotor never runs at synchronous speed because:",
+      "options": [
+        "Rotor resistance is high",
+        "Single-phase supply is not efficient",
+        "No relative speed → no rotor EMF",
+        "Load is too small"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: At synchronous speed, relative speed between stator field and rotor is zero, so no EMF is induced."
+    },
+    {
+      "question": "In a DC generator, residual magnetism is required for:",
+      "options": [
+        "Increasing efficiency",
+        "Voltage build-up",
+        "Speed control",
+        "Current limiting"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Residual magnetism provides initial EMF to excite the field winding and start voltage build-up."
+    },
+    {
+      "question": "Hysteresis loss in a magnetic material is proportional to:",
+      "options": [
+        "Frequency",
+        "Square of frequency",
+        "Inverse of frequency",
+        "Voltage"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Hysteresis loss ∝ frequency × area of hysteresis loop."
+    },
+    {
+      "question": "Which motor is used in mixer-grinders and vacuum cleaners?",
+      "options": [
+        "DC shunt motor",
+        "Universal motor",
+        "Synchronous motor",
+        "Stepper motor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Universal motors can operate on both AC and DC and provide high-speed rotation."
+    },
+    {
+      "question": "The field winding of a synchronous motor is excited with:",
+      "options": [
+        "DC supply",
+        "AC supply",
+        "Rectified AC",
+        "Pulsed supply"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: The rotor (field winding) of synchronous motors is excited using DC to produce constant magnetic field."
+    },
+    {
+      "question": "In a 3-phase induction motor, torque is maximum when slip is:",
+      "options": [
+        "Zero",
+        "One",
+        "Equal to rotor resistance/reactance",
+        "Half"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Maximum torque occurs when rotor resistance = rotor reactance."
+    },
+    {
+      "question": "The purpose of skewing rotor slots in induction motor is to:",
+      "options": [
+        "Improve power factor",
+        "Reduce noise and cogging",
+        "Increase torque",
+        "Reduce losses"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Skewing helps in reducing magnetic locking (cogging) and noise."
+    },
+    {
+      "question": "The synchronous reactance of an alternator is the sum of:",
+      "options": [
+        "Resistance and leakage reactance",
+        "Leakage and armature reactance",
+        "Leakage reactance and armature reaction reactance",
+        "Only leakage reactance"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Synchronous reactance = Xl (leakage) + Xar (armature reaction reactance)."
+    },
+    {
+      "question": "The voltage regulation of a transformer is zero at:",
+      "options": [
+        "Full load",
+        "Unity power factor",
+        "Leading power factor",
+        "Lagging power factor"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Voltage regulation becomes zero or negative at a leading power factor due to reduced impedance drop."
+    },
+    {
+      "question": "In a DC generator, the ripple in output voltage can be reduced by:",
+      "options": [
+        "Increasing armature resistance",
+        "Using a commutator",
+        "Increasing number of poles and armature coils",
+        "Decreasing speed"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: More coils and poles smoothen the output by reducing ripple."
+    },
+    {
+      "question": "The starting torque of a 3-phase squirrel cage induction motor is:",
+      "options": [
+        "Very high",
+        "Very low",
+        "Moderate",
+        "Zero"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Squirrel cage induction motors have moderate starting torque due to fixed rotor resistance."
+    },
+    {
+      "question": "The V-curve of a synchronous motor represents:",
+      "options": [
+        "Armature current vs voltage",
+        "Armature current vs field current",
+        "Torque vs speed",
+        "Power factor vs load"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: V-curve plots armature current against field current, showing a 'V' shape."
+    },
+    {
+      "question": "The material used for transformer core to reduce eddy currents is:",
+      "options": [
+        "Silicon steel",
+        "Cast iron",
+        "Aluminum",
+        "Copper"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Laminated silicon steel reduces eddy current and hysteresis losses."
+    },
+    {
+      "question": "Which component in a DC motor ensures unidirectional torque?",
+      "options": [
+        "Brushes",
+        "Commutator",
+        "Field winding",
+        "Armature"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Commutator reverses current direction in armature windings, ensuring unidirectional torque."
+    },
+    {
+      "question": "The load sharing between two parallel transformers depends on:",
+      "options": [
+        "Efficiency",
+        "Power factor",
+        "Impedance",
+        "Size"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Load is shared in inverse proportion to their per-unit impedance."
+    },
+    {
+      "question": "In single-phase induction motors, the centrifugal switch is used to:",
+      "options": [
+        "Increase torque",
+        "Connect start winding",
+        "Disconnect start winding",
+        "Reverse rotation"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: The centrifugal switch disconnects the start winding after motor reaches a certain speed."
+    },
+    {
+      "question": "A salient pole synchronous machine is distinguished by:",
+      "options": [
+        "Smooth cylindrical rotor",
+        "Equal reluctance in all directions",
+        "Projecting poles",
+        "Uniform air gap"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Salient pole machines have projecting poles and are used for low-speed applications."
+    },
+    {
+      "question": "The function of interpoles in a DC machine is to:",
+      "options": [
+        "Improve commutation",
+        "Decrease flux",
+        "Increase armature reaction",
+        "Change polarity"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Interpoles neutralize armature reaction and improve commutation."
+    },
+    {
+      "question": "In a transformer, leakage flux exists because:",
+      "options": [
+        "Iron core is not laminated",
+        "Flux is not entirely confined to the core",
+        "Load is not connected",
+        "Winding resistance is high"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Leakage flux is that part of the magnetic flux which does not link with both primary and secondary windings."
+    },
+    {
+      "question": "The speed of a DC series motor:",
+      "options": [
+        "Increases with load",
+        "Decreases with load",
+        "Constant at all loads",
+        "Not affected by load"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Speed ∝ 1/Flux; in DC series motor, with increasing load, current increases → flux increases → speed decreases."
+    },
+    {
+      "question": "Which machine operates on the principle of rotating magnetic field?",
+      "options": [
+        "DC motor",
+        "Transformer",
+        "Induction motor",
+        "Alternator"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: 3-phase supply to stator of induction motor creates a rotating magnetic field."
+    },
+    {
+      "question": "In transformer testing, open circuit test is used to measure:",
+      "options": [
+        "Copper loss",
+        "Insulation resistance",
+        "Iron loss",
+        "Impedance"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Open circuit test determines core (iron) losses as secondary is open and current is minimal."
+    },
+    {
+      "question": "The condition for maximum power output in a DC motor is:",
+      "options": [
+        "Ra = Rload",
+        "Load torque = Constant",
+        "Back EMF = 0",
+        "Back EMF = ½ Applied voltage"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Maximum mechanical power is developed when E = V/2 in a DC motor."
+    },
+    {
+      "question": "In a synchronous generator, the frequency of generated voltage depends on:",
+      "options": [
+        "Load",
+        "Armature current",
+        "Speed and number of poles",
+        "Excitation"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Frequency f = (P × N)/120 where P = number of poles, N = speed in RPM."
+    },
+    {
+      "question": "Which motor is used in electric traction and trains?",
+      "options": [
+        "Synchronous motor",
+        "DC series motor",
+        "Universal motor",
+        "Stepper motor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: DC series motor provides high starting torque and is ideal for traction applications."
+    },
+    {
+      "question": "If transformer frequency is increased keeping voltage constant, the core loss will:",
+      "options": [
+        "Remain same",
+        "Increase",
+        "Decrease",
+        "Become zero"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Core loss ∝ frequency; hence, increasing frequency increases eddy current and hysteresis losses."
+    },
+    {
+      "question": "The armature reaction in an alternator at lagging power factor is:",
+      "options": [
+        "Purely demagnetizing",
+        "Magnetizing",
+        "Cross magnetizing",
+        "Zero"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: At lagging power factor, armature reaction is magnetizing and supports the main field."
+    },
+    {
+      "question": "The slip of an induction motor is:",
+      "options": [
+        "Zero at no load",
+        "Zero at full load",
+        "One at synchronous speed",
+        "Same at all loads"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Slip is zero only in ideal conditions. At no load, slip is nearly zero; increases with load."
+    },
+    {
+      "question": "The function of a breather in a transformer is to:",
+      "options": [
+        "Cool the oil",
+        "Indicate oil level",
+        "Prevent moisture from entering",
+        "Reduce noise"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: The breather contains silica gel which absorbs moisture from the air entering the conservator tank."
+    },
+    {
+      "question": "In an induction motor, the rotor current is produced by:",
+      "options": [
+        "Battery",
+        "Induction from stator",
+        "Permanent magnets",
+        "Brushes"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Rotor current in an induction motor is induced due to relative motion between stator’s rotating magnetic field and the rotor."
+    },
+    {
+      "question": "In a DC motor, armature torque is proportional to:",
+      "options": [
+        "Armature voltage",
+        "Speed",
+        "Armature current",
+        "Square of armature current"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Torque (T) ∝ ΦIa; in case of constant flux, torque is directly proportional to armature current."
+    },
+    {
+      "question": "Which test is used to determine the efficiency of two similar transformers?",
+      "options": [
+        "Open circuit test",
+        "Short circuit test",
+        "Load test",
+        "Sumpner’s test"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Sumpner’s test (back-to-back test) is used to determine full-load efficiency and heating without actual loading."
+    },
+    {
+      "question": "For parallel operation of transformers, which condition must be strictly followed?",
+      "options": [
+        "Same core material",
+        "Same voltage ratio",
+        "Same size",
+        "Same tap position"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Same voltage ratio ensures no circulating current flows between the transformers."
+    },
+    {
+      "question": "The armature reaction effect in a DC generator causes:",
+      "options": [
+        "Increased EMF",
+        "Decreased flux under the pole",
+        "Better commutation",
+        "Increase in speed"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Armature reaction distorts and weakens the main flux under load conditions."
+    },
+    {
+      "question": "The transformer rating is in kVA because:",
+      "options": [
+        "Power factor is not considered",
+        "Voltage is constant",
+        "Current is constant",
+        "It is a standard"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Transformer losses depend on voltage and current, not on power factor, so it is rated in kVA."
+    },
+    {
+      "question": "Crawling in induction motor is caused due to:",
+      "options": [
+        "High rotor resistance",
+        "Harmonics in the supply",
+        "High starting torque",
+        "Low voltage"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Harmonics (especially 7th harmonic) can cause the motor to run at sub-synchronous speed (1/7th of Ns)."
+    },
+    {
+      "question": "The main reason for lamination of transformer core is to:",
+      "options": [
+        "Reduce weight",
+        "Reduce iron losses",
+        "Reduce copper loss",
+        "Increase magnetic field"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Laminations reduce the eddy current path and hence reduce iron losses."
+    },
+    {
+      "question": "The starting method generally used for large squirrel cage induction motors is:",
+      "options": [
+        "Direct on line starter",
+        "Rotor resistance starter",
+        "Star-delta starter",
+        "Auto-transformer starter"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Auto-transformer starters reduce voltage during starting and are suitable for large motors."
+    },
+    {
+      "question": "The value of back EMF in a DC motor is maximum when:",
+      "options": [
+        "Starting",
+        "At no-load",
+        "At full-load",
+        "At locked rotor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: At no-load, the motor runs at highest speed, and back EMF (Eb) is maximum."
+    },
+    {
+      "question": "In a 3-phase induction motor, the rotor frequency at standstill is:",
+      "options": [
+        "Zero",
+        "Equal to supply frequency",
+        "Half of supply frequency",
+        "Double of supply frequency"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: At standstill, slip s = 1, so rotor frequency fr = s × f = f."
+    },
+    {
+      "question": "In a single-phase induction motor, the rotor never runs at synchronous speed because:",
+      "options": [
+        "Rotor resistance is high",
+        "Single-phase supply is not efficient",
+        "No relative speed → no rotor EMF",
+        "Load is too small"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: At synchronous speed, relative speed between stator field and rotor is zero, so no EMF is induced."
+    },
+    {
+      "question": "In a DC generator, residual magnetism is required for:",
+      "options": [
+        "Increasing efficiency",
+        "Voltage build-up",
+        "Speed control",
+        "Current limiting"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Residual magnetism provides initial EMF to excite the field winding and start voltage build-up."
+    },
+    {
+      "question": "Hysteresis loss in a magnetic material is proportional to:",
+      "options": [
+        "Frequency",
+        "Square of frequency",
+        "Inverse of frequency",
+        "Voltage"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Hysteresis loss ∝ frequency × area of hysteresis loop."
+    },
+    {
+      "question": "Which motor is used in mixer-grinders and vacuum cleaners?",
+      "options": [
+        "DC shunt motor",
+        "Universal motor",
+        "Synchronous motor",
+        "Stepper motor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Universal motors can operate on both AC and DC and provide high-speed rotation."
+    },
+    {
+      "question": "The field winding of a synchronous motor is excited with:",
+      "options": [
+        "DC supply",
+        "AC supply",
+        "Rectified AC",
+        "Pulsed supply"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: The rotor (field winding) of synchronous motors is excited using DC to produce constant magnetic field."
+    },
+    {
+      "question": "In a 3-phase induction motor, torque is maximum when slip is:",
+      "options": [
+        "Zero",
+        "One",
+        "Equal to rotor resistance/reactance",
+        "Half"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Maximum torque occurs when rotor resistance = rotor reactance."
+    },
+    {
+      "question": "The purpose of skewing rotor slots in induction motor is to:",
+      "options": [
+        "Improve power factor",
+        "Reduce noise and cogging",
+        "Increase torque",
+        "Reduce losses"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Skewing helps in reducing magnetic locking (cogging) and noise."
+    },
+    {
+      "question": "The synchronous reactance of an alternator is the sum of:",
+      "options": [
+        "Resistance and leakage reactance",
+        "Leakage and armature reactance",
+        "Leakage reactance and armature reaction reactance",
+        "Only leakage reactance"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Synchronous reactance = Xl (leakage) + Xar (armature reaction reactance)."
+    }
+  ],
+  "quiz3": [
+    {
+      "question": "Which of the following motors is non-self-starting?",
+      "options": [
+        "DC shunt motor",
+        "Three-phase induction motor",
+        "Synchronous motor",
+        "Universal motor"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Synchronous motors require external means to bring the rotor up to synchronous speed before they can lock in step with the rotating magnetic field."
+    },
+    {
+      "question": "In transformer testing, short-circuit test is performed to determine:",
+      "options": [
+        "Core loss",
+        "Efficiency at no load",
+        "Copper loss at full load",
+        "Insulation resistance"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Short-circuit test is used to find copper losses under full-load current conditions."
+    },
+    {
+      "question": "Which motor is used in electric traction systems like trains?",
+      "options": [
+        "DC series motor",
+        "DC shunt motor",
+        "Induction motor",
+        "Universal motor"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: DC series motors provide high starting torque, ideal for traction applications."
+    },
+    {
+      "question": "In transformer cores, lamination thickness is usually:",
+      "options": [
+        "1–2 mm",
+        "0.1–0.5 mm",
+        "5–10 mm",
+        "Above 10 mm"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Thin laminations (0.3 to 0.5 mm) are used to reduce eddy current losses."
+    },
+    {
+      "question": "A capacitor is used in single-phase induction motors to:",
+      "options": [
+        "Reduce current",
+        "Improve power factor",
+        "Split the phase",
+        "Increase losses"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Capacitor creates a phase shift to produce a rotating magnetic field for starting the motor."
+    },
+    {
+      "question": "The speed of a DC shunt motor is:",
+      "options": [
+        "Almost constant",
+        "Proportional to load",
+        "Variable with torque",
+        "Inversely proportional to current"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: DC shunt motors have almost constant speed since field and armature are connected in parallel."
+    },
+    {
+      "question": "In transformer, maximum efficiency occurs when:",
+      "options": [
+        "Iron loss > Copper loss",
+        "Copper loss = Iron loss",
+        "Copper loss < Iron loss",
+        "Load is maximum"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Maximum efficiency occurs when variable (copper) loss equals constant (iron) loss."
+    },
+    {
+      "question": "Which of the following motors can run on both AC and DC?",
+      "options": [
+        "Shaded pole motor",
+        "Universal motor",
+        "Synchronous motor",
+        "Induction motor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Universal motors operate on both AC and DC and are commonly used in portable tools."
+    },
+    {
+      "question": "The direction of rotation of a three-phase induction motor can be reversed by:",
+      "options": [
+        "Interchanging any two stator terminals",
+        "Changing rotor direction",
+        "Adding a capacitor",
+        "Reducing voltage"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Swapping any two phases in a 3-phase motor reverses the rotating magnetic field and the motor direction."
+    },
+    {
+      "question": "The torque-speed characteristic of a DC series motor is:",
+      "options": [
+        "Linear",
+        "Parabolic",
+        "Hyperbolic",
+        "Constant torque"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Torque is inversely proportional to speed in a DC series motor (T ∝ 1/N)."
+    },
+    {
+      "question": "The starting torque of a squirrel cage induction motor is:",
+      "options": [
+        "Zero",
+        "Very high",
+        "Moderate",
+        "Low"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Squirrel cage induction motors generally have low starting torque compared to wound rotor motors."
+    },
+    {
+      "question": "Which of the following is used as a cooling medium in transformers?",
+      "options": [
+        "Air",
+        "Oil",
+        "Water",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Transformers can be cooled by air, oil, or water depending on their size and design."
+    },
+    {
+      "question": "The torque developed by an induction motor is proportional to:",
+      "options": [
+        "Rotor current",
+        "Square of rotor current",
+        "Speed",
+        "Slip"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Torque is proportional to the square of rotor current in an induction motor."
+    },
+    {
+      "question": "The main function of the commutator in a DC motor is to:",
+      "options": [
+        "Convert AC to DC",
+        "Reverse the direction of current in the armature windings",
+        "Supply field current",
+        "Increase voltage"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: The commutator reverses current direction in the armature winding to maintain unidirectional torque."
+    },
+    {
+      "question": "In a synchronous motor, the rotor speed:",
+      "options": [
+        "Is always less than synchronous speed",
+        "Equals synchronous speed",
+        "Is variable",
+        "Depends on load"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: The rotor of a synchronous motor runs exactly at synchronous speed."
+    },
+    {
+      "question": "Which of the following tests is performed to find the magnetizing current of a transformer?",
+      "options": [
+        "Short circuit test",
+        "Open circuit test",
+        "Load test",
+        "Polarity test"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Open circuit test is used to determine core losses and magnetizing current."
+    },
+    {
+      "question": "The flux in a transformer core is proportional to:",
+      "options": [
+        "Voltage / Frequency",
+        "Voltage × Frequency",
+        "Current",
+        "Power"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Flux Φ = V / (4.44 f N), showing it is proportional to voltage and inversely proportional to frequency."
+    },
+    {
+      "question": "Which losses are present in both transformers and induction motors?",
+      "options": [
+        "Copper losses",
+        "Hysteresis losses",
+        "Eddy current losses",
+        "Both B and C"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Both hysteresis and eddy current losses occur in iron cores of transformers and motors."
+    },
+    {
+      "question": "The back EMF in a DC motor:",
+      "options": [
+        "Is proportional to speed",
+        "Is proportional to current",
+        "Is inversely proportional to speed",
+        "Does not depend on speed"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Back EMF Eb = kΦN, proportional to speed N."
+    },
+    {
+      "question": "The main advantage of a three-phase induction motor over a single-phase motor is:",
+      "options": [
+        "Simple construction",
+        "Higher starting torque",
+        "Higher efficiency and better performance",
+        "Cheaper"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Three-phase motors have better efficiency, smoother torque and performance than single-phase motors."
+    },
+    {
+      "question": "In a DC motor, the speed is controlled by varying:",
+      "options": [
+        "Armature voltage",
+        "Field current",
+        "Both A and B",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Speed control in DC motors can be done by adjusting armature voltage or field flux."
+    },
+    {
+      "question": "The slip of an induction motor at synchronous speed is:",
+      "options": [
+        "0",
+        "1",
+        "Between 0 and 1",
+        "Infinity"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Slip s = (Ns - N) / Ns = 0 at synchronous speed."
+    },
+    {
+      "question": "The main cause of noise in transformers is:",
+      "options": [
+        "Eddy currents",
+        "Hysteresis",
+        "Magnetostriction of core",
+        "Copper losses"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Magnetostriction causes vibrations leading to audible noise in transformers."
+    },
+    {
+      "question": "The armature reaction in a DC machine causes:",
+      "options": [
+        "Increase in field flux",
+        "Distortion and weakening of main field flux",
+        "Increase in speed",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Armature reaction weakens and distorts the main field flux."
+    },
+    {
+      "question": "In an induction motor, the rotor frequency is:",
+      "options": [
+        "Equal to supply frequency at all times",
+        "Zero at synchronous speed",
+        "Maximum at synchronous speed",
+        "Twice the supply frequency at standstill"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Rotor frequency fr = s × f, zero when slip s = 0 (at synchronous speed)."
+    },
+    {
+      "question": "Which test on a transformer gives the core loss?",
+      "options": [
+        "Open circuit test",
+        "Short circuit test",
+        "Load test",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Open circuit test is conducted to measure core losses (iron losses)."
+    },
+    {
+      "question": "The maximum efficiency of a transformer occurs at:",
+      "options": [
+        "Full load",
+        "Half load",
+        "Load where copper loss = iron loss",
+        "No load"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Maximum efficiency occurs when copper loss equals iron loss."
+    },
+    {
+      "question": "The speed of a synchronous motor depends on:",
+      "options": [
+        "Load torque",
+        "Supply frequency and number of poles",
+        "Field excitation",
+        "Armature voltage"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Synchronous speed Ns = 120f / P."
+    },
+    {
+      "question": "The purpose of a starter in DC motors is to:",
+      "options": [
+        "Increase voltage",
+        "Limit starting current",
+        "Increase speed",
+        "Decrease torque"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Starter limits the high inrush current at starting."
+    },
+    {
+      "question": "The rotor of a squirrel cage induction motor is made of:",
+      "options": [
+        "Laminated iron core with insulated copper bars",
+        "Solid steel core with aluminum bars",
+        "Laminated iron core with aluminum or copper bars",
+        "Steel core with insulated copper winding"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Rotor consists of laminated iron core with embedded aluminum or copper bars."
+    },
+    {
+      "question": "The function of the brush in a DC machine is to:",
+      "options": [
+        "Supply current to the armature winding",
+        "Provide mechanical support",
+        "Reduce losses",
+        "Control speed"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Brushes transfer current between the external circuit and rotating armature winding."
+    },
+    {
+      "question": "Which type of losses in a transformer depend on the load?",
+      "options": [
+        "Core losses",
+        "Copper losses",
+        "Hysteresis losses",
+        "Eddy current losses"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Copper losses depend on the load current flowing through the windings."
+    },
+    {
+      "question": "What is the typical range of slip in a healthy induction motor during full load?",
+      "options": [
+        "0.001 to 0.005",
+        "0.01 to 0.06",
+        "0.1 to 0.2",
+        "0.3 to 0.5"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Slip typically ranges from 1% to 6% at full load in most induction motors."
+    },
+    {
+      "question": "The hysteresis loss in a transformer core depends on:",
+      "options": [
+        "Frequency and volume of the core",
+        "Square of flux density and frequency",
+        "Flux density raised to power 1.6 to 2.0 and frequency",
+        "Only flux density"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Hysteresis loss ∝ B^n × f, where n is approx. 1.6 to 2."
+    },
+    {
+      "question": "The synchronous motor is mainly used for:",
+      "options": [
+        "Speed control",
+        "Power factor correction",
+        "High starting torque applications",
+        "Variable speed drives"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Synchronous motors are used for power factor correction by adjusting excitation."
+    },
+    {
+      "question": "What happens to the torque of a DC shunt motor if the load is suddenly increased?",
+      "options": [
+        "Torque decreases",
+        "Torque increases",
+        "Torque remains same",
+        "Motor stops"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Torque increases as the motor draws more current to handle the increased load."
+    },
+    {
+      "question": "The main advantage of a three-phase induction motor over a DC motor is:",
+      "options": [
+        "Easy speed control",
+        "No commutator required",
+        "Higher starting torque",
+        "Operates on DC supply"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Induction motors do not have brushes and commutators, reducing maintenance."
+    },
+    {
+      "question": "In transformer, the ratio of primary voltage to secondary voltage is equal to:",
+      "options": [
+        "Ratio of number of turns in primary to secondary",
+        "Ratio of core areas",
+        "Ratio of currents",
+        "Ratio of fluxes"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Vp / Vs = Np / Ns."
+    },
+    {
+      "question": "The rotor frequency of an induction motor at standstill is:",
+      "options": [
+        "Zero",
+        "Equal to supply frequency",
+        "Half of supply frequency",
+        "Twice supply frequency"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: At standstill slip s=1, rotor frequency fr = s × f = f."
+    },
+    {
+      "question": "The no-load current of a transformer is usually:",
+      "options": [
+        "Large and lagging",
+        "Small and lagging",
+        "Small and leading",
+        "Large and leading"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: No-load current is small and lags supply voltage because it is mainly magnetizing current."
+    },
+    {
+      "question": "Which of the following motors is non-self-starting?",
+      "options": [
+        "DC shunt motor",
+        "Three-phase induction motor",
+        "Synchronous motor",
+        "Universal motor"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Synchronous motors require external means to bring the rotor up to synchronous speed before they can lock in step with the rotating magnetic field."
+    },
+    {
+      "question": "In transformer testing, short-circuit test is performed to determine:",
+      "options": [
+        "Core loss",
+        "Efficiency at no load",
+        "Copper loss at full load",
+        "Insulation resistance"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Short-circuit test is used to find copper losses under full-load current conditions."
+    },
+    {
+      "question": "Which motor is used in electric traction systems like trains?",
+      "options": [
+        "DC series motor",
+        "DC shunt motor",
+        "Induction motor",
+        "Universal motor"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: DC series motors provide high starting torque, ideal for traction applications."
+    },
+    {
+      "question": "In transformer cores, lamination thickness is usually:",
+      "options": [
+        "1–2 mm",
+        "0.1–0.5 mm",
+        "5–10 mm",
+        "Above 10 mm"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Thin laminations (0.3 to 0.5 mm) are used to reduce eddy current losses."
+    },
+    {
+      "question": "A capacitor is used in single-phase induction motors to:",
+      "options": [
+        "Reduce current",
+        "Improve power factor",
+        "Split the phase",
+        "Increase losses"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Capacitor creates a phase shift to produce a rotating magnetic field for starting the motor."
+    },
+    {
+      "question": "The speed of a DC shunt motor is:",
+      "options": [
+        "Almost constant",
+        "Proportional to load",
+        "Variable with torque",
+        "Inversely proportional to current"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: DC shunt motors have almost constant speed since field and armature are connected in parallel."
+    },
+    {
+      "question": "In transformer, maximum efficiency occurs when:",
+      "options": [
+        "Iron loss > Copper loss",
+        "Copper loss = Iron loss",
+        "Copper loss < Iron loss",
+        "Load is maximum"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Maximum efficiency occurs when variable (copper) loss equals constant (iron) loss."
+    },
+    {
+      "question": "Which of the following motors can run on both AC and DC?",
+      "options": [
+        "Shaded pole motor",
+        "Universal motor",
+        "Synchronous motor",
+        "Induction motor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Universal motors operate on both AC and DC and are commonly used in portable tools."
+    },
+    {
+      "question": "The direction of rotation of a three-phase induction motor can be reversed by:",
+      "options": [
+        "Interchanging any two stator terminals",
+        "Changing rotor direction",
+        "Adding a capacitor",
+        "Reducing voltage"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Swapping any two phases in a 3-phase motor reverses the rotating magnetic field and the motor direction."
+    },
+    {
+      "question": "The torque-speed characteristic of a DC series motor is:",
+      "options": [
+        "Linear",
+        "Parabolic",
+        "Hyperbolic",
+        "Constant torque"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Torque is inversely proportional to speed in a DC series motor (T ∝ 1/N)."
+    },
+    {
+      "question": "The starting torque of a squirrel cage induction motor is:",
+      "options": [
+        "Zero",
+        "Very high",
+        "Moderate",
+        "Low"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Squirrel cage induction motors generally have low starting torque compared to wound rotor motors."
+    },
+    {
+      "question": "Which of the following is used as a cooling medium in transformers?",
+      "options": [
+        "Air",
+        "Oil",
+        "Water",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Transformers can be cooled by air, oil, or water depending on their size and design."
+    },
+    {
+      "question": "The torque developed by an induction motor is proportional to:",
+      "options": [
+        "Rotor current",
+        "Square of rotor current",
+        "Speed",
+        "Slip"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Torque is proportional to the square of rotor current in an induction motor."
+    },
+    {
+      "question": "The main function of the commutator in a DC motor is to:",
+      "options": [
+        "Convert AC to DC",
+        "Reverse the direction of current in the armature windings",
+        "Supply field current",
+        "Increase voltage"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: The commutator reverses current direction in the armature winding to maintain unidirectional torque."
+    },
+    {
+      "question": "In a synchronous motor, the rotor speed:",
+      "options": [
+        "Is always less than synchronous speed",
+        "Equals synchronous speed",
+        "Is variable",
+        "Depends on load"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: The rotor of a synchronous motor runs exactly at synchronous speed."
+    },
+    {
+      "question": "Which of the following tests is performed to find the magnetizing current of a transformer?",
+      "options": [
+        "Short circuit test",
+        "Open circuit test",
+        "Load test",
+        "Polarity test"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Open circuit test is used to determine core losses and magnetizing current."
+    },
+    {
+      "question": "The flux in a transformer core is proportional to:",
+      "options": [
+        "Voltage / Frequency",
+        "Voltage × Frequency",
+        "Current",
+        "Power"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Flux Φ = V / (4.44 f N), showing it is proportional to voltage and inversely proportional to frequency."
+    },
+    {
+      "question": "Which losses are present in both transformers and induction motors?",
+      "options": [
+        "Copper losses",
+        "Hysteresis losses",
+        "Eddy current losses",
+        "Both B and C"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Both hysteresis and eddy current losses occur in iron cores of transformers and motors."
+    },
+    {
+      "question": "The back EMF in a DC motor:",
+      "options": [
+        "Is proportional to speed",
+        "Is proportional to current",
+        "Is inversely proportional to speed",
+        "Does not depend on speed"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Back EMF Eb = kΦN, proportional to speed N."
+    },
+    {
+      "question": "The main advantage of a three-phase induction motor over a single-phase motor is:",
+      "options": [
+        "Simple construction",
+        "Higher starting torque",
+        "Higher efficiency and better performance",
+        "Cheaper"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Three-phase motors have better efficiency, smoother torque and performance than single-phase motors."
+    },
+    {
+      "question": "In a DC motor, the speed is controlled by varying:",
+      "options": [
+        "Armature voltage",
+        "Field current",
+        "Both A and B",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Speed control in DC motors can be done by adjusting armature voltage or field flux."
+    },
+    {
+      "question": "The slip of an induction motor at synchronous speed is:",
+      "options": [
+        "0",
+        "1",
+        "Between 0 and 1",
+        "Infinity"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Slip s = (Ns - N) / Ns = 0 at synchronous speed."
+    },
+    {
+      "question": "The main cause of noise in transformers is:",
+      "options": [
+        "Eddy currents",
+        "Hysteresis",
+        "Magnetostriction of core",
+        "Copper losses"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Magnetostriction causes vibrations leading to audible noise in transformers."
+    },
+    {
+      "question": "The armature reaction in a DC machine causes:",
+      "options": [
+        "Increase in field flux",
+        "Distortion and weakening of main field flux",
+        "Increase in speed",
+        "None of the above"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Armature reaction weakens and distorts the main field flux."
+    },
+    {
+      "question": "In an induction motor, the rotor frequency is:",
+      "options": [
+        "Equal to supply frequency at all times",
+        "Zero at synchronous speed",
+        "Maximum at synchronous speed",
+        "Twice the supply frequency at standstill"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Rotor frequency fr = s × f, zero when slip s = 0 (at synchronous speed)."
+    },
+    {
+      "question": "Which test on a transformer gives the core loss?",
+      "options": [
+        "Open circuit test",
+        "Short circuit test",
+        "Load test",
+        "None of the above"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Open circuit test is conducted to measure core losses (iron losses)."
+    },
+    {
+      "question": "The maximum efficiency of a transformer occurs at:",
+      "options": [
+        "Full load",
+        "Half load",
+        "Load where copper loss = iron loss",
+        "No load"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Maximum efficiency occurs when copper loss equals iron loss."
+    },
+    {
+      "question": "The speed of a synchronous motor depends on:",
+      "options": [
+        "Load torque",
+        "Supply frequency and number of poles",
+        "Field excitation",
+        "Armature voltage"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Synchronous speed Ns = 120f / P."
+    },
+    {
+      "question": "The purpose of a starter in DC motors is to:",
+      "options": [
+        "Increase voltage",
+        "Limit starting current",
+        "Increase speed",
+        "Decrease torque"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Starter limits the high inrush current at starting."
+    },
+    {
+      "question": "The rotor of a squirrel cage induction motor is made of:",
+      "options": [
+        "Laminated iron core with insulated copper bars",
+        "Solid steel core with aluminum bars",
+        "Laminated iron core with aluminum or copper bars",
+        "Steel core with insulated copper winding"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Rotor consists of laminated iron core with embedded aluminum or copper bars."
+    },
+    {
+      "question": "The function of the brush in a DC machine is to:",
+      "options": [
+        "Supply current to the armature winding",
+        "Provide mechanical support",
+        "Reduce losses",
+        "Control speed"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Brushes transfer current between the external circuit and rotating armature winding."
+    },
+    {
+      "question": "Which type of losses in a transformer depend on the load?",
+      "options": [
+        "Core losses",
+        "Copper losses",
+        "Hysteresis losses",
+        "Eddy current losses"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Copper losses depend on the load current flowing through the windings."
+    },
+    {
+      "question": "What is the typical range of slip in a healthy induction motor during full load?",
+      "options": [
+        "0.001 to 0.005",
+        "0.01 to 0.06",
+        "0.1 to 0.2",
+        "0.3 to 0.5"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Slip typically ranges from 1% to 6% at full load in most induction motors."
+    },
+    {
+      "question": "The hysteresis loss in a transformer core depends on:",
+      "options": [
+        "Frequency and volume of the core",
+        "Square of flux density and frequency",
+        "Flux density raised to power 1.6 to 2.0 and frequency",
+        "Only flux density"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Hysteresis loss ∝ B^n × f, where n is approx. 1.6 to 2."
+    },
+    {
+      "question": "The synchronous motor is mainly used for:",
+      "options": [
+        "Speed control",
+        "Power factor correction",
+        "High starting torque applications",
+        "Variable speed drives"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Synchronous motors are used for power factor correction by adjusting excitation."
+    },
+    {
+      "question": "What happens to the torque of a DC shunt motor if the load is suddenly increased?",
+      "options": [
+        "Torque decreases",
+        "Torque increases",
+        "Torque remains same",
+        "Motor stops"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Torque increases as the motor draws more current to handle the increased load."
+    },
+    {
+      "question": "The main advantage of a three-phase induction motor over a DC motor is:",
+      "options": [
+        "Easy speed control",
+        "No commutator required",
+        "Higher starting torque",
+        "Operates on DC supply"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Induction motors do not have brushes and commutators, reducing maintenance."
+    },
+    {
+      "question": "In transformer, the ratio of primary voltage to secondary voltage is equal to:",
+      "options": [
+        "Ratio of number of turns in primary to secondary",
+        "Ratio of core areas",
+        "Ratio of currents",
+        "Ratio of fluxes"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Vp / Vs = Np / Ns."
+    },
+    {
+      "question": "The rotor frequency of an induction motor at standstill is:",
+      "options": [
+        "Zero",
+        "Equal to supply frequency",
+        "Half of supply frequency",
+        "Twice supply frequency"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: At standstill slip s=1, rotor frequency fr = s × f = f."
+    },
+    {
+      "question": "The no-load current of a transformer is usually:",
+      "options": [
+        "Large and lagging",
+        "Small and lagging",
+        "Small and leading",
+        "Large and leading"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: No-load current is small and lags supply voltage because it is mainly magnetizing current."
+    }
+  ],
+  "quiz4": [
+    {
+      "question": "The primary purpose of a starter in an induction motor is to:",
+      "options": [
+        "Increase starting torque",
+        "Limit the starting current",
+        "Increase speed",
+        "Change direction of rotation"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: A starter limits the very high inrush current during starting of an induction motor."
+    },
+    {
+      "question": "Which type of DC motor is used where constant speed is required?",
+      "options": [
+        "Series motor",
+        "Shunt motor",
+        "Compound motor",
+        "Universal motor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: DC shunt motors provide nearly constant speed under varying load."
+    },
+    {
+      "question": "The no-load current of a transformer primarily consists of:",
+      "options": [
+        "Magnetizing current and core loss component",
+        "Copper loss current",
+        "Load current",
+        "Eddy current only"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: No-load current mainly includes magnetizing component and core loss (hysteresis and eddy current) component."
+    },
+    {
+      "question": "The synchronous speed of a 6-pole, 50 Hz induction motor is:",
+      "options": [
+        "1000 RPM",
+        "1200 RPM",
+        "1500 RPM",
+        "1800 RPM"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Ns = 120f/P = 120 × 50 / 6 = 1000 RPM."
+    },
+    {
+      "question": "In which test on a transformer are copper losses measured?",
+      "options": [
+        "Open circuit test",
+        "Short circuit test",
+        "Load test",
+        "Insulation test"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Short circuit test is used to find copper losses."
+    },
+    {
+      "question": "The torque developed in a synchronous motor is proportional to:",
+      "options": [
+        "Rotor speed",
+        "Field excitation",
+        "Load torque",
+        "Supply frequency"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Torque depends on the rotor’s magnetic field strength (excitation)."
+    },
+    {
+      "question": "The efficiency of a transformer at full load and unity power factor is:",
+      "options": [
+        "Less than at half load",
+        "Maximum",
+        "Minimum",
+        "Same at all loads"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Transformer efficiency is maximum at full load and unity power factor."
+    },
+    {
+      "question": "Which of the following materials is generally used for transformer cores?",
+      "options": [
+        "Copper",
+        "Silicon steel laminations",
+        "Aluminum",
+        "Cast iron"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Silicon steel laminations reduce hysteresis and eddy current losses."
+    },
+    {
+      "question": "The speed of a series DC motor:",
+      "options": [
+        "Increases with load",
+        "Decreases with load",
+        "Remains constant",
+        "Is zero at no load"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Series motor speed increases as load increases due to reduced field flux."
+    },
+    {
+      "question": "The power factor of a synchronous motor can be improved by:",
+      "options": [
+        "Increasing load",
+        "Adjusting field excitation",
+        "Increasing supply voltage",
+        "Increasing slip"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: By over or under-exciting the field, power factor can be controlled."
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of a squirrel cage induction motor?",
+      "options": [
+        "Simple construction",
+        "High starting torque",
+        "Requires brushes and commutator",
+        "Low maintenance"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Squirrel cage rotors do not have brushes or commutators."
+    },
+    {
+      "question": "The starter used for a three-phase squirrel cage induction motor is:",
+      "options": [
+        "Three-point starter",
+        "Autotransformer starter",
+        "No starter required",
+        "Series resistor starter"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Autotransformer starters reduce starting current for squirrel cage motors."
+    },
+    {
+      "question": "In a DC motor, the back emf is:",
+      "options": [
+        "Equal to applied voltage",
+        "Opposes the applied voltage",
+        "Greater than applied voltage",
+        "Zero at no load"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Back emf opposes the applied voltage and limits armature current."
+    },
+    {
+      "question": "The main component responsible for producing torque in an induction motor is:",
+      "options": [
+        "Stator flux",
+        "Rotor current interacting with stator flux",
+        "Rotor resistance",
+        "Stator resistance"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Torque is produced by interaction of rotor currents and stator magnetic field."
+    },
+    {
+      "question": "The term “slip” in an induction motor is defined as:",
+      "options": [
+        "Difference between synchronous and rotor speed expressed as percentage of rotor speed",
+        "Difference between synchronous and rotor speed expressed as percentage of synchronous speed",
+        "Ratio of rotor speed to synchronous speed",
+        "Ratio of synchronous speed to rotor speed"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Slip = (Ns - Nr)/Ns."
+    },
+    {
+      "question": "The maximum torque of an induction motor occurs at:",
+      "options": [
+        "Slip = 0",
+        "Slip = 1",
+        "Slip > starting slip",
+        "Slip between 0 and 1, known as pull-out slip"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Maximum torque occurs at pull-out slip, which is less than 1."
+    },
+    {
+      "question": "Which test on transformer is conducted to find out equivalent resistance and reactance?",
+      "options": [
+        "Open circuit test",
+        "Short circuit test",
+        "Load test",
+        "Insulation test"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Short circuit test provides copper losses, equivalent resistance, and reactance."
+    },
+    {
+      "question": "In a synchronous motor, if load is suddenly removed, the motor:",
+      "options": [
+        "Stops immediately",
+        "Runs at synchronous speed with no load torque",
+        "Speed increases above synchronous speed",
+        "Speed decreases below synchronous speed"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Speed remains constant at synchronous speed regardless of load."
+    },
+    {
+      "question": "The resistance of the rotor in a squirrel cage induction motor is:",
+      "options": [
+        "Very high",
+        "Very low",
+        "Variable",
+        "Zero"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Rotor bars are made of copper/aluminum with low resistance for efficiency."
+    },
+    {
+      "question": "The transformer rating is expressed in:",
+      "options": [
+        "Volts",
+        "Amps",
+        "Volt-Amperes (VA)",
+        "Watts"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Transformer rating is in VA or kVA, representing apparent power."
+    },
+    {
+      "question": "The armature reaction in a DC machine causes:",
+      "options": [
+        "Increase in generated emf",
+        "Distortion and weakening of main field flux",
+        "No effect on flux",
+        "Increase in speed"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Armature reaction distorts and weakens the main field flux, affecting commutation."
+    },
+    {
+      "question": "Which type of transformer losses remain constant irrespective of load?",
+      "options": [
+        "Copper losses",
+        "Iron losses",
+        "Stray losses",
+        "Load losses"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Iron losses (hysteresis and eddy current) are constant as they depend on voltage and frequency."
+    },
+    {
+      "question": "What is the main reason for using laminations in transformer cores?",
+      "options": [
+        "To reduce copper losses",
+        "To reduce eddy current losses",
+        "To increase magnetic flux",
+        "To increase mechanical strength"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Laminations increase resistance to eddy currents, reducing losses."
+    },
+    {
+      "question": "The direction of rotation of a three-phase induction motor can be reversed by:",
+      "options": [
+        "Reversing supply phases",
+        "Reversing rotor connections",
+        "Reversing stator connections",
+        "Both A and C"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Reversing any two supply phases reverses the rotating magnetic field and thus the direction."
+    },
+    {
+      "question": "The starting torque of a capacitor start single phase induction motor is:",
+      "options": [
+        "Low",
+        "High",
+        "Zero",
+        "Variable"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Capacitor start motors provide high starting torque due to phase difference."
+    },
+    {
+      "question": "The field excitation of a synchronous motor is supplied from:",
+      "options": [
+        "Stator winding",
+        "Rotor winding",
+        "Commutator",
+        "Brushes only"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Field excitation is supplied to the rotor winding through slip rings."
+    },
+    {
+      "question": "The emf induced in a transformer secondary winding depends on:",
+      "options": [
+        "Number of turns and rate of change of flux",
+        "Primary voltage only",
+        "Core material only",
+        "Load current"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Induced emf = N dΦ/dt, proportional to turns and flux change."
+    },
+    {
+      "question": "In a DC motor, if the field flux decreases, the speed:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Motor stops"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Speed is inversely proportional to flux for a given voltage."
+    },
+    {
+      "question": "The slip of an induction motor at synchronous speed is:",
+      "options": [
+        "0",
+        "1",
+        "0.5",
+        "Infinity"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: At synchronous speed, slip s = 0."
+    },
+    {
+      "question": "The primary purpose of a starter in an induction motor is to:",
+      "options": [
+        "Increase starting torque",
+        "Limit the starting current",
+        "Increase speed",
+        "Change direction of rotation"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: A starter limits the very high inrush current during starting of an induction motor."
+    },
+    {
+      "question": "Which type of DC motor is used where constant speed is required?",
+      "options": [
+        "Series motor",
+        "Shunt motor",
+        "Compound motor",
+        "Universal motor"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: DC shunt motors provide nearly constant speed under varying load."
+    },
+    {
+      "question": "The no-load current of a transformer primarily consists of:",
+      "options": [
+        "Magnetizing current and core loss component",
+        "Copper loss current",
+        "Load current",
+        "Eddy current only"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: No-load current mainly includes magnetizing component and core loss (hysteresis and eddy current) component."
+    },
+    {
+      "question": "The synchronous speed of a 6-pole, 50 Hz induction motor is:",
+      "options": [
+        "1000 RPM",
+        "1200 RPM",
+        "1500 RPM",
+        "1800 RPM"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Ns = 120f/P = 120 × 50 / 6 = 1000 RPM."
+    },
+    {
+      "question": "In which test on a transformer are copper losses measured?",
+      "options": [
+        "Open circuit test",
+        "Short circuit test",
+        "Load test",
+        "Insulation test"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Short circuit test is used to find copper losses."
+    },
+    {
+      "question": "The torque developed in a synchronous motor is proportional to:",
+      "options": [
+        "Rotor speed",
+        "Field excitation",
+        "Load torque",
+        "Supply frequency"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Torque depends on the rotor’s magnetic field strength (excitation)."
+    },
+    {
+      "question": "The efficiency of a transformer at full load and unity power factor is:",
+      "options": [
+        "Less than at half load",
+        "Maximum",
+        "Minimum",
+        "Same at all loads"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Transformer efficiency is maximum at full load and unity power factor."
+    },
+    {
+      "question": "Which of the following materials is generally used for transformer cores?",
+      "options": [
+        "Copper",
+        "Silicon steel laminations",
+        "Aluminum",
+        "Cast iron"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Silicon steel laminations reduce hysteresis and eddy current losses."
+    },
+    {
+      "question": "The speed of a series DC motor:",
+      "options": [
+        "Increases with load",
+        "Decreases with load",
+        "Remains constant",
+        "Is zero at no load"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Series motor speed increases as load increases due to reduced field flux."
+    },
+    {
+      "question": "The power factor of a synchronous motor can be improved by:",
+      "options": [
+        "Increasing load",
+        "Adjusting field excitation",
+        "Increasing supply voltage",
+        "Increasing slip"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: By over or under-exciting the field, power factor can be controlled."
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of a squirrel cage induction motor?",
+      "options": [
+        "Simple construction",
+        "High starting torque",
+        "Requires brushes and commutator",
+        "Low maintenance"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Squirrel cage rotors do not have brushes or commutators."
+    },
+    {
+      "question": "The starter used for a three-phase squirrel cage induction motor is:",
+      "options": [
+        "Three-point starter",
+        "Autotransformer starter",
+        "No starter required",
+        "Series resistor starter"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Autotransformer starters reduce starting current for squirrel cage motors."
+    },
+    {
+      "question": "In a DC motor, the back emf is:",
+      "options": [
+        "Equal to applied voltage",
+        "Opposes the applied voltage",
+        "Greater than applied voltage",
+        "Zero at no load"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Back emf opposes the applied voltage and limits armature current."
+    },
+    {
+      "question": "The main component responsible for producing torque in an induction motor is:",
+      "options": [
+        "Stator flux",
+        "Rotor current interacting with stator flux",
+        "Rotor resistance",
+        "Stator resistance"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Torque is produced by interaction of rotor currents and stator magnetic field."
+    },
+    {
+      "question": "The term “slip” in an induction motor is defined as:",
+      "options": [
+        "Difference between synchronous and rotor speed expressed as percentage of rotor speed",
+        "Difference between synchronous and rotor speed expressed as percentage of synchronous speed",
+        "Ratio of rotor speed to synchronous speed",
+        "Ratio of synchronous speed to rotor speed"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Slip = (Ns - Nr)/Ns."
+    },
+    {
+      "question": "The maximum torque of an induction motor occurs at:",
+      "options": [
+        "Slip = 0",
+        "Slip = 1",
+        "Slip > starting slip",
+        "Slip between 0 and 1, known as pull-out slip"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Maximum torque occurs at pull-out slip, which is less than 1."
+    },
+    {
+      "question": "Which test on transformer is conducted to find out equivalent resistance and reactance?",
+      "options": [
+        "Open circuit test",
+        "Short circuit test",
+        "Load test",
+        "Insulation test"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Short circuit test provides copper losses, equivalent resistance, and reactance."
+    },
+    {
+      "question": "In a synchronous motor, if load is suddenly removed, the motor:",
+      "options": [
+        "Stops immediately",
+        "Runs at synchronous speed with no load torque",
+        "Speed increases above synchronous speed",
+        "Speed decreases below synchronous speed"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Speed remains constant at synchronous speed regardless of load."
+    },
+    {
+      "question": "The resistance of the rotor in a squirrel cage induction motor is:",
+      "options": [
+        "Very high",
+        "Very low",
+        "Variable",
+        "Zero"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Rotor bars are made of copper/aluminum with low resistance for efficiency."
+    },
+    {
+      "question": "The transformer rating is expressed in:",
+      "options": [
+        "Volts",
+        "Amps",
+        "Volt-Amperes (VA)",
+        "Watts"
+      ],
+      "answer": 2,
+      "explanation": "🧾 Explanation: Transformer rating is in VA or kVA, representing apparent power."
+    },
+    {
+      "question": "The armature reaction in a DC machine causes:",
+      "options": [
+        "Increase in generated emf",
+        "Distortion and weakening of main field flux",
+        "No effect on flux",
+        "Increase in speed"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Armature reaction distorts and weakens the main field flux, affecting commutation."
+    },
+    {
+      "question": "Which type of transformer losses remain constant irrespective of load?",
+      "options": [
+        "Copper losses",
+        "Iron losses",
+        "Stray losses",
+        "Load losses"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Iron losses (hysteresis and eddy current) are constant as they depend on voltage and frequency."
+    },
+    {
+      "question": "What is the main reason for using laminations in transformer cores?",
+      "options": [
+        "To reduce copper losses",
+        "To reduce eddy current losses",
+        "To increase magnetic flux",
+        "To increase mechanical strength"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Laminations increase resistance to eddy currents, reducing losses."
+    },
+    {
+      "question": "The direction of rotation of a three-phase induction motor can be reversed by:",
+      "options": [
+        "Reversing supply phases",
+        "Reversing rotor connections",
+        "Reversing stator connections",
+        "Both A and C"
+      ],
+      "answer": 3,
+      "explanation": "🧾 Explanation: Reversing any two supply phases reverses the rotating magnetic field and thus the direction."
+    },
+    {
+      "question": "The starting torque of a capacitor start single phase induction motor is:",
+      "options": [
+        "Low",
+        "High",
+        "Zero",
+        "Variable"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Capacitor start motors provide high starting torque due to phase difference."
+    },
+    {
+      "question": "The field excitation of a synchronous motor is supplied from:",
+      "options": [
+        "Stator winding",
+        "Rotor winding",
+        "Commutator",
+        "Brushes only"
+      ],
+      "answer": 1,
+      "explanation": "🧾 Explanation: Field excitation is supplied to the rotor winding through slip rings."
+    },
+    {
+      "question": "The emf induced in a transformer secondary winding depends on:",
+      "options": [
+        "Number of turns and rate of change of flux",
+        "Primary voltage only",
+        "Core material only",
+        "Load current"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Induced emf = N dΦ/dt, proportional to turns and flux change."
+    },
+    {
+      "question": "In a DC motor, if the field flux decreases, the speed:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains constant",
+        "Motor stops"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: Speed is inversely proportional to flux for a given voltage."
+    },
+    {
+      "question": "The slip of an induction motor at synchronous speed is:",
+      "options": [
+        "0",
+        "1",
+        "0.5",
+        "Infinity"
+      ],
+      "answer": 0,
+      "explanation": "🧾 Explanation: At synchronous speed, slip s = 0."
+    }
+  ]
+}
