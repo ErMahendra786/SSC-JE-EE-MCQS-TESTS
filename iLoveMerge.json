@@ -3283,6 +3283,747 @@
       ],
       "answer": 0,
       "explanation": "🧾 Explanation: At synchronous speed, slip s = 0."
+      {
+  "quiz_name": "Electrical Machines - Quiz 1 (GATE/SSC/RRB/PSU)",
+  "quiz_description": "40 MCQs covering transformers, DC machines, induction motors, and synchronous machines.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "The core losses in a transformer depend primarily on:",
+      "options": {
+        "A": "Load current",
+        "B": "Supply voltage and frequency",
+        "C": "Ambient temperature",
+        "D": "Power factor of the load"
+      },
+      "correct_answer": "B",
+      "explanation": "Core losses (hysteresis + eddy current) depend on supply voltage and frequency, not load current."
+    },
+    {
+      "question_number": 2,
+      "question": "In a DC generator, the function of the commutator is to:",
+      "options": {
+        "A": "Convert AC armature current to DC",
+        "B": "Reduce armature reaction",
+        "C": "Increase efficiency",
+        "D": "Provide mechanical support"
+      },
+      "correct_answer": "A",
+      "explanation": "The commutator converts alternating current (AC) generated in the armature to direct current (DC)."
+    },
+    {
+      "question_number": 3,
+      "question": "The slip of an induction motor under no-load condition is nearly:",
+      "options": {
+        "A": "0%",
+        "B": "5%",
+        "C": "10%",
+        "D": "50%"
+      },
+      "correct_answer": "A",
+      "explanation": "Under no-load, the rotor speed is almost synchronous speed, so slip ≈ 0%."
+    },
+    {
+      "question_number": 4,
+      "question": "The synchronous speed of a 4-pole, 50 Hz induction motor is:",
+      "options": {
+        "A": "1500 rpm",
+        "B": "1000 rpm",
+        "C": "750 rpm",
+        "D": "3000 rpm"
+      },
+      "correct_answer": "A",
+      "explanation": "Synchronous speed (Ns) = 120×f/P = 120×50/4 = 1500 rpm."
+    },
+    {
+      "question_number": 5,
+      "question": "The starting torque of a squirrel-cage induction motor is:",
+      "options": {
+        "A": "Very high",
+        "B": "Moderate",
+        "C": "Low",
+        "D": "Zero"
+      },
+      "correct_answer": "B",
+      "explanation": "Squirrel-cage motors have moderate starting torque compared to slip-ring motors."
+    },
+    {
+      "question_number": 6,
+      "question": "The power factor of a synchronous motor can be controlled by:",
+      "options": {
+        "A": "Varying field excitation",
+        "B": "Changing supply voltage",
+        "C": "Adjusting load",
+        "D": "Varying rotor resistance"
+      },
+      "correct_answer": "A",
+      "explanation": "Synchronous motors can operate at leading/lagging PF by adjusting field excitation."
+    },
+    {
+      "question_number": 7,
+      "question": "The efficiency of a transformer is maximum when:",
+      "options": {
+        "A": "Copper loss = Iron loss",
+        "B": "Copper loss > Iron loss",
+        "C": "Copper loss < Iron loss",
+        "D": "Load current is zero"
+      },
+      "correct_answer": "A",
+      "explanation": "Efficiency is maximized when variable losses (copper) equal fixed losses (iron)."
+    },
+    {
+      "question_number": 8,
+      "question": "The armature reaction in a DC generator causes:",
+      "options": {
+        "A": "Demagnetization only",
+        "B": "Cross-magnetization only",
+        "C": "Both demagnetization and cross-magnetization",
+        "D": "No effect on flux"
+      },
+      "correct_answer": "C",
+      "explanation": "Armature reaction distorts the main flux (cross-magnetization) and weakens it (demagnetization)."
+    },
+    {
+      "question_number": 9,
+      "question": "The rotor of a 3-phase induction motor rotates due to:",
+      "options": {
+        "A": "Stator magnetic field",
+        "B": "Rotor magnetic field",
+        "C": "Slip rings",
+        "D": "External DC source"
+      },
+      "correct_answer": "A",
+      "explanation": "The rotating magnetic field of the stator induces currents in the rotor, causing rotation."
+    },
+    {
+      "question_number": 10,
+      "question": "The purpose of damper windings in a synchronous motor is to:",
+      "options": {
+        "A": "Provide starting torque",
+        "B": "Reduce harmonics",
+        "C": "Increase efficiency",
+        "D": "Prevent hunting"
+      },
+      "correct_answer": "A",
+      "explanation": "Damper windings help synchronous motors start as induction motors (provide starting torque)."
+    {
+  "quiz_name": "Electrical Machines - Quiz 2 (Advanced - GATE/SSC/RRB/PSU)",
+  "quiz_description": "40 high-difficulty MCQs covering transformers, DC machines, induction motors, and synchronous machines.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "In a transformer, the harmonic component most dominant in the no-load current is:",
+      "options": {
+        "A": "2nd harmonic",
+        "B": "3rd harmonic",
+        "C": "5th harmonic",
+        "D": "7th harmonic"
+      },
+      "correct_answer": "B",
+      "explanation": "The no-load current is highly distorted due to the **3rd harmonic** caused by core saturation."
+    },
+    {
+      "question_number": 2,
+      "question": "A 3-phase induction motor has a slip of 4% at full load. If the rotor resistance is doubled while keeping the same torque, the new slip will be:",
+      "options": {
+        "A": "2%",
+        "B": "4%",
+        "C": "8%",
+        "D": "16%"
+      },
+      "correct_answer": "C",
+      "explanation": "Slip is directly proportional to rotor resistance (for constant torque). If R₂ doubles, slip doubles (4% → 8%)."
+    },
+    {
+      "question_number": 3,
+      "question": "The armature reaction in a DC generator results in:",
+      "options": {
+        "A": "A shift in MNA (Magnetic Neutral Axis)",
+        "B": "Reduced terminal voltage",
+        "C": "Increased efficiency",
+        "D": "Reduced iron losses"
+      },
+      "correct_answer": "A",
+      "explanation": "Armature reaction causes **cross-magnetization**, shifting the MNA and distorting the flux distribution."
+    },
+    {
+      "question_number": 4,
+      "question": "A synchronous motor operating at a leading power factor acts as a:",
+      "options": {
+        "A": "Inductive load",
+        "B": "Capacitive load",
+        "C": "Resistive load",
+        "D": "Non-linear load"
+      },
+      "correct_answer": "B",
+      "explanation": "A **leading PF** means the motor supplies reactive power, behaving like a **capacitive load**."
+    },
+    {
+      "question_number": 5,
+      "question": "The 'crawling' phenomenon in induction motors is primarily due to:",
+      "options": {
+        "A": "High rotor resistance",
+        "B": "Harmonics in the stator MMF",
+        "C": "Low supply voltage",
+        "D": "Excessive mechanical load"
+      },
+      "correct_answer": "B",
+      "explanation": "Crawling is caused by **space harmonics (7th or 5th)** in the stator MMF, making the motor 'crawl' at sub-synchronous speeds."
+    },
+    {
+      "question_number": 6,
+      "question": "The Buchholz relay is used in transformers for protection against:",
+      "options": {
+        "A": "Overloading",
+        "B": "Internal faults (e.g., shorted turns)",
+        "C": "High ambient temperature",
+        "D": "Lightning surges"
+      },
+      "correct_answer": "B",
+      "explanation": "Buchholz relay detects **internal faults** (gas accumulation due to arcing) in oil-immersed transformers."
+    },
+    {
+      "question_number": 7,
+      "question": "The speed of a DC shunt motor can be increased by:",
+      "options": {
+        "A": "Increasing armature resistance",
+        "B": "Decreasing field flux",
+        "C": "Decreasing terminal voltage",
+        "D": "Adding series resistance"
+      },
+      "correct_answer": "B",
+      "explanation": "Speed (N) ∝ 1/Φ. **Reducing field flux (weakening field)** increases speed (but reduces torque)."
+    },
+    {
+      "question_number": 8,
+      "question": "The 'V-curves' of a synchronous motor represent the relationship between:",
+      "options": {
+        "A": "Armature current and field current",
+        "B": "Speed and torque",
+        "C": "Efficiency and load",
+        "D": "Power factor and slip"
+      },
+      "correct_answer": "A",
+      "explanation": "V-curves plot **armature current (Ia) vs. field current (If)** for different loads, showing PF control."
+    },
+    {
+      "question_number": 9,
+      "question": "In a 3-phase induction motor, if the air gap is increased, then:",
+      "options": {
+        "A": "Power factor improves",
+        "B": "Magnetizing current increases",
+        "C": "Efficiency increases",
+        "D": "Starting torque decreases"
+      },
+      "correct_answer": "B",
+      "explanation": "A larger air gap **increases magnetizing current** (higher reluctance → more current needed for flux)."
+    },
+    {
+      "question_number": 10,
+      "question": "The 'Hopkinson's test' is performed on DC machines to determine:",
+      "options": {
+        "A": "Iron losses",
+        "B": "Stray losses",
+        "C": "Total losses at full load",
+        "D": "Temperature rise"
+      },
+      "correct_answer": "C",
+      "explanation": "Hopkinson's test (back-to-back test) measures **total losses** under full-load conditions without actual loading."
+  {
+  "quiz_name": "Electrical Machines - Quiz 3 (Advanced - GATE/PSU/RRB)",
+  "quiz_description": "40 challenging MCQs on transformers, DC machines, induction motors, and synchronous machines.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "The zero-power characteristic (ZPC) of a synchronous machine is used to determine:",
+      "options": {
+        "A": "Armature reaction",
+        "B": "Synchronous reactance (Xₛ)",
+        "C": "Short-circuit ratio (SCR)",
+        "D": "Open-circuit voltage"
+      },
+      "correct_answer": "A",
+      "explanation": "ZPC separates armature reaction effects from the total field current, helping quantify **armature reaction**."
+    },
+    {
+      "question_number": 2,
+      "question": "A 3-phase, 4-pole induction motor runs at 1440 rpm on a 50 Hz supply. The frequency of rotor currents is:",
+      "options": {
+        "A": "2 Hz",
+        "B": "3 Hz",
+        "C": "5 Hz",
+        "D": "10 Hz"
+      },
+      "correct_answer": "A",
+      "explanation": "Slip = (1500-1440)/1500 = 0.04. Rotor frequency = slip × supply frequency = 0.04 × 50 = **2 Hz**."
+    },
+    {
+      "question_number": 3,
+      "question": "In a DC shunt motor, if the field winding gets opened while running, the motor will:",
+      "options": {
+        "A": "Stop immediately",
+        "B": "Run at dangerously high speed",
+        "C": "Continue at the same speed",
+        "D": "Draw excessive current and burn"
+      },
+      "correct_answer": "B",
+      "explanation": "Open field winding → flux ↓ → speed ↑↑ (N ∝ 1/Φ). The motor may **run away** at destructive speeds."
+    },
+    {
+      "question_number": 4,
+      "question": "The 'Potier triangle' method is used to separate:",
+      "options": {
+        "A": "Hysteresis and eddy current losses",
+        "B": "Armature leakage reactance and armature reaction",
+        "C": "Copper and iron losses",
+        "D": "Stator and rotor losses"
+      },
+      "correct_answer": "B",
+      "explanation": "Potier triangle segregates **leakage reactance (Xₗ)** and **armature reaction effects** in synchronous machines."
+    },
+    {
+      "question_number": 5,
+      "question": "A transformer has 2% resistance and 5% reactance. Its voltage regulation at 0.8 pf lagging is:",
+      "options": {
+        "A": "4.6%",
+        "B": "5.2%",
+        "C": "6.0%",
+        "D": "7.4%"
+      },
+      "correct_answer": "A",
+      "explanation": "Regulation = (Rcosϕ + Xsinϕ) = (2×0.8 + 5×0.6) = 1.6 + 3.0 = **4.6%**."
+    },
+    {
+      "question_number": 6,
+      "question": "The 'double-cage rotor' in induction motors is designed to:",
+      "options": {
+        "A": "Reduce starting current",
+        "B": "Increase starting torque",
+        "C": "Improve efficiency",
+        "D": "Reduce harmonics"
+      },
+      "correct_answer": "B",
+      "explanation": "Double-cage rotors provide **high starting torque** (outer cage) and **good efficiency** (inner cage) at run-time."
+    },
+    {
+      "question_number": 7,
+      "question": "In a synchronous generator, the damper windings are primarily used to:",
+      "options": {
+        "A": "Reduce hunting",
+        "B": "Provide starting torque",
+        "C": "Improve voltage regulation",
+        "D": "Reduce armature reaction"
+      },
+      "correct_answer": "A",
+      "explanation": "Damper windings suppress **hunting** (oscillations) by providing a damping torque."
+    },
+    {
+      "question_number": 8,
+      "question": "A 100 kVA transformer has 400 W iron loss and 600 W copper loss at full load. Its efficiency at 50% load and 0.8 pf is:",
+      "options": {
+        "A": "95.2%",
+        "B": "96.8%",
+        "C": "97.6%",
+        "D": "98.2%"
+      },
+      "correct_answer": "C",
+      "explanation": "At 50% load: Cu loss = (0.5)² × 600 = 150 W. Efficiency = (50×0.8)/(50×0.8 + 0.15 + 0.4) = **97.6%**."
+    },
+    {
+      "question_number": 9,
+      "question": "The 'slip-power recovery' scheme is used in:",
+      "options": {
+        "A": "Squirrel-cage induction motors",
+        "B": "Wound-rotor induction motors",
+        "C": "Synchronous motors",
+        "D": "DC shunt motors"
+      },
+      "correct_answer": "B",
+      "explanation": "Slip-power recovery (e.g., Kramer/Scherbius drives) is applicable to **wound-rotor induction motors**."
+    },
+    {
+      "question_number": 10,
+      "question": "The 'short-circuit ratio' (SCR) of a synchronous machine is inversely proportional to:",
+      "options": {
+        "A": "Synchronous reactance (Xₛ)",
+        "B": "Armature resistance (Rₐ)",
+        "C": "Leakage reactance (Xₗ)",
+        "D": "Field current (I_f)"
+      },
+      "correct_answer": "A",
+      "explanation": "SCR = 1/Xₛ. Thus, it is **inversely proportional to synchronous reactance**."
     }
-  ]
-}
+    {
+  "quiz_name": "Electrical Machines - Quiz 4 (GATE/PSU/RRB Advanced)",
+  "quiz_description": "40 challenging MCQs with a focus on numerical problems and conceptual depth.",
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "The 'synchronizing power coefficient' (Pₛₙ) of a synchronous machine is given by:",
+      "options": {
+        "A": "Pₛₙ = V²/Xₛ",
+        "B": "Pₛₙ = VE/Xₛ",
+        "C": "Pₛₙ = VE sinδ/Xₛ",
+        "D": "Pₛₙ = VE cosδ/Xₛ"
+      },
+      "correct_answer": "D",
+      "explanation": "Synchronizing power coefficient (Pₛₙ) = **VE cosδ/Xₛ**, where δ is the load angle."
+    },
+    {
+      "question_number": 2,
+      "question": "A 3-phase, 6-pole induction motor is supplied by a 10-pole alternator. If the alternator runs at 600 rpm, the motor's no-load speed is:",
+      "options": {
+        "A": "600 rpm",
+        "B": "720 rpm",
+        "C": "1000 rpm",
+        "D": "1200 rpm"
+      },
+      "correct_answer": "C",
+      "explanation": "Alternator frequency (f) = (P×N)/120 = (10×600)/120 = 50 Hz. Motor sync speed = (120×50)/6 = **1000 rpm** (no-load speed ≈ sync speed)."
+    },
+    {
+      "question_number": 3,
+      "question": "In a DC machine, the interpoles are connected in:",
+      "options": {
+        "A": "Series with the armature",
+        "B": "Parallel with the armature",
+        "C": "Series with the field winding",
+        "D": "Parallel with the field winding"
+      },
+      "correct_answer": "A",
+      "explanation": "Interpoles are wound with **series-connected armature windings** to neutralize cross-magnetizing armature reaction."
+    },
+    {
+      "question_number": 4,
+      "question": "The 'Skewing' of rotor slots in an induction motor reduces:",
+      "options": {
+        "A": "Copper losses",
+        "B": "Cogging and magnetic locking",
+        "C": "Stator harmonics",
+        "D": "Iron losses"
+      },
+      "correct_answer": "B",
+      "explanation": "Skewing prevents **cogging** (magnetic locking between stator and rotor teeth) and reduces noise."
+    },
+    {
+      "question_number": 5,
+      "question": "A 200 kVA transformer has 1.5% resistance and 4% reactance. Its percentage voltage regulation at 0.9 pf lagging is:",
+      "options": {
+        "A": "3.45%",
+        "B": "4.35%",
+        "C": "5.10%",
+        "D": "6.20%"
+      },
+      "correct_answer": "B",
+      "explanation": "Regulation = (Rcosϕ + Xsinϕ) = (1.5×0.9 + 4×0.436) = 1.35 + 1.744 ≈ **4.35%**."
+    },
+    {
+      "question_number": 6,
+      "question": "The 'Hunting' in synchronous machines is minimized by:",
+      "options": {
+        "A": "Damper windings",
+        "B": "Increasing field current",
+        "C": "Reducing mechanical load",
+        "D": "Using salient poles"
+      },
+      "correct_answer": "A",
+      "explanation": "**Damper windings** provide a damping torque to suppress hunting (oscillations)."
+    },
+    {
+      "question_number": 7,
+      "question": "A 4-pole, 50 Hz synchronous generator has a mechanical speed of 1500 rpm. If the prime mover fails, the machine will operate as a:",
+      "options": {
+        "A": "Synchronous motor",
+        "B": "Induction generator",
+        "C": "DC generator",
+        "D": "Reluctance motor"
+      },
+      "correct_answer": "B",
+      "explanation": "If the prime mover fails, the generator **draws reactive power** and acts as an **induction generator** (slip ≠ 0)."
+    },
+    {
+      "question_number": 8,
+      "question": "The 'Pole-changing method' for speed control is applicable to:",
+      "options": {
+        "A": "DC shunt motors",
+        "B": "Squirrel-cage induction motors",
+        "C": "Slip-ring induction motors",
+        "D": "Synchronous motors"
+      },
+      "correct_answer": "B",
+      "explanation": "Pole-changing (e.g., Dahlander winding) is used for **squirrel-cage motors** to change synchronous speed (Nₛ = 120f/P)."
+    },
+    {
+      "question_number": 9,
+      "question": "The 'Short-circuit test' on a transformer primarily measures:",
+      "options": {
+        "A": "Iron losses",
+        "B": "Copper losses at full load",
+        "C": "Leakage reactance",
+        "D": "Magnetizing current"
+      },
+      "correct_answer": "B",
+      "explanation": "SC test measures **full-load copper losses** (I²R) and equivalent impedance (Zₑ)."
+    },
+    {
+      "question_number": 10,
+      "question": "The 'Critical resistance' of a DC shunt generator is the field resistance at which:",
+      "options": {
+        "A": "Voltage builds up",
+        "B": "Voltage fails to build up",
+        "C": "Armature current is maximum",
+        "D": "Efficiency is maximum"
+      },
+      "correct_answer": "B",
+      "explanation": "If field resistance > critical resistance, **voltage fails to build up** due to insufficient residual magnetism."
+    }
+  {
+  "quiz_name": "Electrical Machines - Quiz 5 (Advanced)",
+  "quiz_description": "40 high-difficulty questions covering transformers, rotating machines, and special topics",
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "The 'spiral core transformer' design is primarily used to:",
+      "options": {
+        "A": "Reduce hysteresis losses",
+        "B": "Minimize eddy current losses",
+        "C": "Decrease magnetic reluctance",
+        "D": "Improve cooling efficiency"
+      },
+      "correct_answer": "B",
+      "explanation": "Spiral core design (with continuous grain-oriented steel) reduces **eddy current losses** by aligning with the magnetic flux path."
+    },
+    {
+      "question_number": 2,
+      "question": "A 3-phase, 50 Hz alternator has a stator with 72 slots and 8 poles. The slot angle (γ) is:",
+      "options": {
+        "A": "10°",
+        "B": "15°",
+        "C": "20°",
+        "D": "30°"
+      },
+      "correct_answer": "C",
+      "explanation": "Slot angle (γ) = 180°/(slots/pole) = 180°/(72/8) = **20°**."
+    },
+    {
+      "question_number": 3,
+      "question": "In a DC series motor, if the load torque is doubled, the armature current will:",
+      "options": {
+        "A": "Remain unchanged",
+        "B": "Increase by √2 times",
+        "C": "Double",
+        "D": "Increase by 4 times"
+      },
+      "correct_answer": "B",
+      "explanation": "In DC series motors, T ∝ Iₐ². For 2× torque, current increases by **√2 times** (Iₐ₂ = Iₐ₁ × √2)."
+    },
+    {
+      "question_number": 4,
+      "question": "The 'negative sequence reactance' (X₂) of a synchronous machine is approximately equal to:",
+      "options": {
+        "A": "X_d (direct-axis reactance)",
+        "B": "X_q (quadrature-axis reactance)",
+        "C": "X''_d (subtransient reactance)",
+        "D": "X₁ (positive sequence reactance)"
+      },
+      "correct_answer": "C",
+      "explanation": "Negative sequence reactance (X₂) ≈ **X''_d** (subtransient reactance), as both represent rapid flux changes."
+    },
+    {
+      "question_number": 5,
+      "question": "A 100 kVA transformer has 400 W iron loss and 900 W copper loss at full load. At 50% overload, its efficiency at 0.8 pf is:",
+      "options": {
+        "A": "95.2%",
+        "B": "96.8%",
+        "C": "97.4%",
+        "D": "98.1%"
+      },
+      "correct_answer": "B",
+      "explanation": "At 150% load: Copper loss = (1.5)² × 900 = 2025 W. Output = 150×0.8 = 120 kW. Efficiency = 120/(120+0.4+2.025) = **96.8%**."
+    },
+    {
+      "question_number": 6,
+      "question": "The 'sensitivity of a synchroscope' is defined as the:",
+      "options": {
+        "A": "Minimum voltage required for operation",
+        "B": "Torque per unit phase angle difference",
+        "C": "Speed of rotation under no-load",
+        "D": "Current drawn during synchronization"
+      },
+      "correct_answer": "B",
+      "explanation": "Sensitivity = **Torque per unit phase angle difference** (higher sensitivity means finer synchronization detection)."
+    },
+    {
+      "question_number": 7,
+      "question": "In a 3-phase induction motor, if the rotor resistance is halved while keeping the slip constant, the torque will:",
+      "options": {
+        "A": "Double",
+        "B": "Halve",
+        "C": "Remain unchanged",
+        "D": "Become zero"
+      },
+      "correct_answer": "A",
+      "explanation": "Torque ∝ (R₂/s). If R₂ is halved at **constant slip**, torque doubles (T₂ = T₁ × (0.5R₂/R₂)⁻¹ = 2T₁)."
+    },
+    {
+      "question_number": 8,
+      "question": "The 'Ferranti effect' in transmission lines becomes significant when:",
+      "options": {
+        "A": "Load current is very high",
+        "B": "Line is lightly loaded or open-circuited",
+        "C": "Power factor is leading",
+        "D": "Shunt capacitance is negligible"
+      },
+      "correct_answer": "B",
+      "explanation": "Ferranti effect (voltage rise at receiving end) occurs during **light/no-load** conditions due to line capacitance."
+    },
+    {
+      "question_number": 9,
+      "question": "The 'equal-area criterion' in power systems is used to analyze:",
+      "options": {
+        "A": "Transformer temperature rise",
+        "B": "Synchronous machine stability",
+        "C": "Induction motor starting",
+        "D": "DC motor speed control"
+      },
+      "correct_answer": "B",
+      "explanation": "Equal-area criterion determines **transient stability** of synchronous machines during faults."
+    },
+    {
+      "question_number": 10,
+      "question": "A 6-pole, 50 Hz induction motor has a rotor emf frequency of 2.5 Hz. The rotor speed is:",
+      "options": {
+        "A": "950 rpm",
+        "B": "975 rpm",
+        "C": "1000 rpm",
+        "D": "1050 rpm"
+      },
+      "correct_answer": "A",
+      "explanation": "Slip (s) = f_r/f_s = 2.5/50 = 0.05. Sync speed = 120×50/6 = 1000 rpm. Rotor speed = N_s(1-s) = 1000×0.95 = **950 rpm**."
+    }
+    
+  {
+  "quiz_name": "Electrical Machines - Quiz 6 (Advanced)",
+  "quiz_description": "40 challenging questions covering transformers, rotating machines, and special applications",
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "The 'Poynting vector' in a transformer is used to analyze:",
+      "options": {
+        "A": "Core loss distribution",
+        "B": "Leakage flux energy flow",
+        "C": "Eddy current paths",
+        "D": "Copper loss density"
+      },
+      "correct_answer": "B",
+      "explanation": "The Poynting vector (**S = E × H**) quantifies the **energy flow due to leakage fields** in transformers."
+    },
+    {
+      "question_number": 2,
+      "question": "A 4-pole, 50 Hz synchronous motor operates at a power angle of 30° elect. The torque angle in mechanical degrees is:",
+      "options": {
+        "A": "7.5°",
+        "B": "15°",
+        "C": "30°",
+        "D": "60°"
+      },
+      "correct_answer": "B",
+      "explanation": "Mechanical angle = Electrical angle / (P/2) = 30° / (4/2) = **15°**."
+    },
+    {
+      "question_number": 3,
+      "question": "The 'Rotor Resistance Starter' is most effective for:",
+      "options": {
+        "A": "Squirrel-cage induction motors",
+        "B": "Slip-ring induction motors",
+        "C": "Synchronous motors",
+        "D": "DC shunt motors"
+      },
+      "correct_answer": "B",
+      "explanation": "Rotor resistance starters are used with **slip-ring induction motors** to control starting torque/speed."
+    },
+    {
+      "question_number": 4,
+      "question": "In a DC machine, the 'commutation process' is improved by:",
+      "options": {
+        "A": "Increasing armature resistance",
+        "B": "Shifting brushes to the MNA",
+        "C": "Reducing interpole strength",
+        "D": "Using laminated yoke"
+      },
+      "correct_answer": "B",
+      "explanation": "Brushes are shifted to the **Magnetic Neutral Axis (MNA)** to minimize sparking during commutation."
+    },
+    {
+      "question_number": 5,
+      "question": "A 3-phase transformer has a delta-connected primary and star-connected secondary with a turns ratio of 2:1. If primary voltage is 400 V, the secondary line voltage is:",
+      "options": {
+        "A": "100 V",
+        "B": "115.5 V",
+        "C": "200 V",
+        "D": "346.4 V"
+      },
+      "correct_answer": "B",
+      "explanation": "Phase voltage ratio = 2:1. Secondary phase voltage = 400/2 = 200 V. Star line voltage = 200 × √3 ≈ **115.5 V**."
+    },
+    {
+      "question_number": 6,
+      "question": "The 'Carter's coefficient' in electrical machines accounts for:",
+      "options": {
+        "A": "Slot leakage flux",
+        "B": "Air gap reluctance due to slots",
+        "C": "Armature reaction",
+        "D": "Iron loss distribution"
+      },
+      "correct_answer": "B",
+      "explanation": "Carter's coefficient adjusts the **effective air gap length** to account for slot openings."
+    },
+    {
+      "question_number": 7,
+      "question": "A 10 kVA, 400/200 V single-phase transformer has 5% impedance. At full load, the voltage drop across the transformer is:",
+      "options": {
+        "A": "10 V",
+        "B": "20 V",
+        "C": "30 V",
+        "D": "40 V"
+      },
+      "correct_answer": "A",
+      "explanation": "Voltage drop = %Z × secondary voltage = 0.05 × 200 = **10 V**."
+    },
+    {
+      "question_number": 8,
+      "question": "The 'Universal Motor' can operate on:",
+      "options": {
+        "A": "AC only",
+        "B": "DC only",
+        "C": "Both AC and DC",
+        "D": "Pulsed DC only"
+      },
+      "correct_answer": "C",
+      "explanation": "Universal motors work on **both AC/DC** due to series-wound construction (field & armature in series)."
+    },
+    {
+      "question_number": 9,
+      "question": "The 'Short-Circuit Ratio' (SCR) of a synchronous generator is 0.6. Its synchronous reactance (Xₛ) in pu is:",
+      "options": {
+        "A": "0.6",
+        "B": "1.0",
+        "C": "1.67",
+        "D": "2.0"
+      },
+      "correct_answer": "C",
+      "explanation": "SCR = 1/Xₛ → Xₛ = 1/SCR = 1/0.6 ≈ **1.67 pu**."
+    },
+    {
+      "question_number": 10,
+      "question": "In a 3-phase induction motor, if the air gap is doubled, the magnetizing current will:",
+      "options": {
+        "A": "Halve",
+        "B": "Double",
+        "C": "Remain unchanged",
+        "D": "Quadruple"
+      },
+      "correct_answer": "D",
+      "explanation": "Magnetizing current ∝ air gap length. Doubling the gap **quadruples** the current (Iₘ ∝ Bₚ × δ, where Bₚ is flux density)."
+    }
+  ]}
