@@ -1,8 +1,4 @@
-{
-  "quizzes": [
-    {
-      "quiz_id": "Quiz_1",
-      "questions": [
+{"Quiz1": [
         {
           "question_id": "Q25",
           "question_text": "What is a sample hard question from Power Systems?",
@@ -606,8 +602,7 @@
       ]
     },
     {
-      "quiz_id": "Quiz_2",
-      "questions": [
+      "quiz2": [
         {
           "question_id": "Q73",
           "question_text": "What is a sample hard question from Electrical Measurements?",
@@ -1211,8 +1206,7 @@
       ]
     },
     {
-      "quiz_id": "Quiz_3",
-      "questions": [
+      "quiz3":[
         {
           "question_id": "Q114",
           "question_text": "What is a sample hard question from Synchronous Machines?",
@@ -1816,8 +1810,7 @@
       ]
     },
     {
-      "quiz_id": "Quiz_4",
-      "questions": [
+      "quiz4": [
         {
           "question_id": "Q154",
           "question_text": "What is a sample hard question from Ohm's Law?",
@@ -2421,8 +2414,7 @@
       ]
     },
     {
-      "quiz_id": "Quiz_5",
-      "questions": [
+      "quiz5": [
         {
           "question_id": "Q171",
           "question_text": "What is a sample medium question from DC Machines?",
@@ -3026,8 +3018,7 @@
       ]
     },
     {
-      "quiz_id": "Quiz_6",
-      "questions": [
+      "quiz6":[
         {
           "question_id": "Q233",
           "question_text": "What is a sample hard question from Ohm's Law?",
@@ -3631,8 +3622,7 @@
       ]
     },
     {
-      "quiz_id": "Quiz_7",
-      "questions": [
+      "quiz7": [
         {
           "question_id": "Q255",
           "question_text": "What is a sample medium question from AC Fundamentals?",
@@ -4236,8 +4226,7 @@
       ]
     },
     {
-      "quiz_id": "Quiz_8",
-      "questions": [
+      "quiz8":[
         {
           "question_id": "Q302",
           "question_text": "What is a sample hard question from Induction Motors?",
@@ -4841,8 +4830,7 @@
       ]
     },
     {
-      "quiz_id": "Quiz_9",
-      "questions": [
+      "quiz9": [
         {
           "question_id": "Q355",
           "question_text": "What is a sample hard question from Induction Motors?",
@@ -5446,8 +5434,7 @@
       ]
     },
     {
-      "quiz_id": "Quiz_10",
-      "questions": [
+      "quiz10":[
         {
           "question_id": "Q364",
           "question_text": "What is a sample easy question from Transformers?",
