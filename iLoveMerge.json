@@ -4025,5 +4025,4 @@
       },
       "correct_answer": "D",
       "explanation": "Magnetizing current ∝ air gap length. Doubling the gap **quadruples** the current (Iₘ ∝ Bₚ × δ, where Bₚ is flux density)."
-    }
-  ]}
+    }]}
