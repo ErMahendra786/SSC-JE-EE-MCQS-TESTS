@@ -7948,7 +7948,453 @@ Copy code
       "answer": 3,
       "explanation": "RMS of half-wave rectified sine wave = Vm/2√2."
     }
+  ],
+  {
+  "quiz21": [
+    {
+      "question": "In a Wheatstone bridge, if the bridge is balanced and all four resistors are interchanged diagonally, what happens to the balance?",
+      "options": [
+        "The bridge remains balanced",
+        "The bridge becomes unbalanced",
+        "The galvanometer reads maximum current",
+        "Cannot determine"
+      ],
+      "answer": 0,
+      "explanation": "In a balanced Wheatstone bridge, swapping diagonally positioned resistors keeps the ratio same and the bridge balanced."
+    },
+    {
+      "question": "A circuit consists of a resistor R and capacitor C in series. At t = 0, a DC voltage is applied. What is the current immediately after switching?",
+      "options": [
+        "Zero",
+        "Maximum",
+        "Minimum",
+        "Infinity"
+      ],
+      "answer": 1,
+      "explanation": "Initially, the capacitor acts as a short circuit, so current is maximum at t = 0."
+    },
+    {
+      "question": "In a purely capacitive AC circuit, the current:",
+      "options": [
+        "Lags the voltage by 90°",
+        "Leads the voltage by 90°",
+        "Is in phase with voltage",
+        "Has no relation with voltage"
+      ],
+      "answer": 1,
+      "explanation": "In a capacitive AC circuit, current leads the voltage by 90°."
+    },
+    {
+      "question": "The potential difference between two points is defined as:",
+      "options": [
+        "Work done per unit charge",
+        "Power per unit charge",
+        "Energy per unit mass",
+        "Force per unit charge"
+      ],
+      "answer": 0,
+      "explanation": "Potential difference is the work done to move a unit charge between two points."
+    },
+    {
+      "question": "A 100 µF capacitor charged to 50 V is connected across an uncharged 100 µF capacitor. The final voltage across each capacitor is:",
+      "options": [
+        "0 V",
+        "25 V",
+        "50 V",
+        "100 V"
+      ],
+      "answer": 1,
+      "explanation": "Charge divides equally since capacitances are equal. Final V = total charge / total C = (100×50)/(100+100) = 25 V."
+    },
+    {
+      "question": "Which material is best suited for making transformer cores?",
+      "options": [
+        "Copper",
+        "Aluminum",
+        "Silicon steel",
+        "Cast iron"
+      ],
+      "answer": 2,
+      "explanation": "Silicon steel minimizes hysteresis loss and is ideal for transformer cores."
+    },
+    {
+      "question": "In a balanced 3-phase system, the power factor can be determined using:",
+      "options": [
+        "One wattmeter",
+        "Two wattmeter method",
+        "Three ammeters",
+        "One voltmeter"
+      ],
+      "answer": 1,
+      "explanation": "The two wattmeter method is commonly used for measuring power and power factor in 3-phase systems."
+    },
+    {
+      "question": "The time constant of an RL circuit is:",
+      "options": [
+        "L/R",
+        "R/L",
+        "1/LC",
+        "RC"
+      ],
+      "answer": 0,
+      "explanation": "Time constant τ = L/R in an RL circuit."
+    },
+    {
+      "question": "Which instrument has the least power consumption?",
+      "options": [
+        "Induction type",
+        "Moving iron type",
+        "Digital voltmeter",
+        "Electrodynamometer"
+      ],
+      "answer": 2,
+      "explanation": "Digital instruments consume very low power compared to analog types."
+    },
+    {
+      "question": "When two identical resistors are connected in parallel, the equivalent resistance is:",
+      "options": [
+        "Equal to one of the resistors",
+        "Half of one resistor",
+        "Twice the resistance",
+        "Zero"
+      ],
+      "answer": 1,
+      "explanation": "R_eq = R/2 for two identical resistors in parallel."
+    },
+    {
+      "question": "The open-circuit test on a transformer is used to determine:",
+      "options": [
+        "Copper loss",
+        "Core loss",
+        "Both losses",
+        "Efficiency"
+      ],
+      "answer": 1,
+      "explanation": "Open-circuit test measures core loss since current is small and copper loss is negligible."
+    },
+    {
+      "question": "Kirchhoff’s Voltage Law (KVL) is based on the law of conservation of:",
+      "options": [
+        "Charge",
+        "Energy",
+        "Momentum",
+        "Mass"
+      ],
+      "answer": 1,
+      "explanation": "KVL is based on energy conservation in a closed loop."
+    },
+    {
+      "question": "If current in a coil changes from 2 A to 4 A in 0.1 s and self-induced emf is 10 V, then self-inductance is:",
+      "options": [
+        "0.5 H",
+        "1 H",
+        "2 H",
+        "5 H"
+      ],
+      "answer": 1,
+      "explanation": "L = emf / (di/dt) = 10 / (2/0.1) = 10 / 20 = 0.5 H."
+    },
+    {
+      "question": "A bulb rated 60 W, 230 V is used for 5 hours/day. Energy consumed per day is:",
+      "options": [
+        "0.3 kWh",
+        "0.6 kWh",
+        "1.2 kWh",
+        "2.3 kWh"
+      ],
+      "answer": 0,
+      "explanation": "Energy = Power × Time = 60 W × 5 h = 300 Wh = 0.3 kWh."
+    },
+    {
+      "question": "In an electric field, the force on a positive test charge is:",
+      "options": [
+        "In the direction of field",
+        "Opposite to field",
+        "Perpendicular to field",
+        "Zero"
+      ],
+      "answer": 0,
+      "explanation": "A positive charge experiences force in the direction of the electric field."
+    },
+    {
+      "question": "When frequency increases in an RLC circuit, the capacitive reactance:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains same",
+        "Becomes zero"
+      ],
+      "answer": 1,
+      "explanation": "Xc = 1 / (2πfC), so as frequency increases, Xc decreases."
+    },
+    {
+      "question": "For maximum power transfer, the load resistance should be:",
+      "options": [
+        "Greater than source resistance",
+        "Equal to source resistance",
+        "Less than source resistance",
+        "Zero"
+      ],
+      "answer": 1,
+      "explanation": "Maximum power is transferred when load resistance equals source resistance."
+    },
+    {
+      "question": "The phase angle in a purely resistive circuit is:",
+      "options": [
+        "90° lag",
+        "90° lead",
+        "0°",
+        "45°"
+      ],
+      "answer": 2,
+      "explanation": "Voltage and current are in phase in a resistive circuit (0°)."
+    },
+    {
+      "question": "Which method is used for measuring high AC voltage?",
+      "options": [
+        "Thermocouple meter",
+        "Electrostatic voltmeter",
+        "Moving coil meter",
+        "Digital multimeter"
+      ],
+      "answer": 1,
+      "explanation": "Electrostatic voltmeters are used for high voltage measurements as they draw negligible current."
+    },
+    {
+      "question": "In a series RLC circuit at resonance, the power factor is:",
+      "options": [
+        "0",
+        "0.5",
+        "1",
+        "Infinity"
+      ],
+      "answer": 2,
+      "explanation": "At resonance, current and voltage are in phase, so power factor = 1."
+    }
+  ],
+  {
+  "quiz21": [
+    ...
+    {
+      "question": "If a conductor moves perpendicular to a magnetic field, an emf is induced due to:",
+      "options": [
+        "Self-induction",
+        "Mutual induction",
+        "Electromagnetic induction",
+        "Capacitive effect"
+      ],
+      "answer": 2,
+      "explanation": "Motional emf is produced when a conductor cuts magnetic flux lines, known as electromagnetic induction."
+    },
+    {
+      "question": "A 3-phase, 4-wire system supplies 100 A per phase. What is the neutral current if all phase currents are balanced?",
+      "options": [
+        "100 A",
+        "173 A",
+        "Zero",
+        "50 A"
+      ],
+      "answer": 2,
+      "explanation": "In a balanced 3-phase system, the neutral current is zero."
+    },
+    {
+      "question": "Which of the following does not affect the resistance of a conductor?",
+      "options": [
+        "Length",
+        "Cross-sectional area",
+        "Temperature",
+        "Voltage applied"
+      ],
+      "answer": 3,
+      "explanation": "Resistance depends on material, length, area, and temperature, but not on applied voltage."
+    },
+    {
+      "question": "A voltmeter has a sensitivity of 10 kΩ/V. What is the resistance when set to 10 V range?",
+      "options": [
+        "1 kΩ",
+        "10 kΩ",
+        "100 kΩ",
+        "1000 kΩ"
+      ],
+      "answer": 2,
+      "explanation": "Total resistance = Sensitivity × Range = 10 kΩ/V × 10 V = 100 kΩ."
+    },
+    {
+      "question": "The electric field intensity due to a point charge is:",
+      "options": [
+        "Proportional to distance",
+        "Inversely proportional to square of distance",
+        "Constant everywhere",
+        "Zero"
+      ],
+      "answer": 1,
+      "explanation": "E = kQ/r², hence electric field intensity decreases with the square of distance."
+    },
+    {
+      "question": "The skin effect in AC transmission causes:",
+      "options": [
+        "Increase in resistance",
+        "Reduction in voltage",
+        "Reduction in inductance",
+        "Increased capacitance"
+      ],
+      "answer": 0,
+      "explanation": "Skin effect forces current to flow near conductor surface, effectively increasing resistance."
+    },
+    {
+      "question": "The unit of magnetic flux density is:",
+      "options": [
+        "Tesla",
+        "Henry",
+        "Weber",
+        "Farad"
+      ],
+      "answer": 0,
+      "explanation": "Magnetic flux density B is measured in Tesla (T)."
+    },
+    {
+      "question": "Thevenin’s theorem converts any linear network into:",
+      "options": [
+        "A voltage source in series with a resistance",
+        "A current source in parallel with a resistance",
+        "A pure resistance",
+        "An ideal transformer"
+      ],
+      "answer": 0,
+      "explanation": "Thevenin's theorem reduces a circuit to a voltage source and series resistance."
+    },
+    {
+      "question": "If power factor of a system is 0.5 lagging, then angle between voltage and current is:",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "answer": 2,
+      "explanation": "cos(θ) = 0.5 → θ = 60° lagging."
+    },
+    {
+      "question": "The SI unit of electric charge is:",
+      "options": [
+        "Coulomb",
+        "Ampere",
+        "Farad",
+        "Volt"
+      ],
+      "answer": 0,
+      "explanation": "Coulomb (C) is the standard unit of electric charge."
+    },
+    {
+      "question": "What is the average value of a full-wave rectified sine wave?",
+      "options": [
+        "0",
+        "Vmax/2",
+        "2Vmax/π",
+        "Vmax/π"
+      ],
+      "answer": 2,
+      "explanation": "Average value = (2Vmax)/π for full-wave rectified sine wave."
+    },
+    {
+      "question": "When a dielectric is inserted between the plates of a capacitor, capacitance:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Becomes zero",
+        "Remains same"
+      ],
+      "answer": 0,
+      "explanation": "C ∝ ε → Capacitance increases with dielectric constant."
+    },
+    {
+      "question": "The total impedance of a series RLC circuit at resonance is:",
+      "options": [
+        "Zero",
+        "Infinity",
+        "Equal to resistance",
+        "Inductive reactance"
+      ],
+      "answer": 2,
+      "explanation": "At resonance, XL = XC → impedance = R (purely resistive)."
+    },
+    {
+      "question": "Which among the following is dimensionless?",
+      "options": [
+        "Power factor",
+        "Voltage",
+        "Inductance",
+        "Resistance"
+      ],
+      "answer": 0,
+      "explanation": "Power factor is a ratio and has no units or dimensions."
+    },
+    {
+      "question": "In electrostatics, electric field lines never:",
+      "options": [
+        "Intersect",
+        "Start from positive charge",
+        "End on negative charge",
+        "Form loops"
+      ],
+      "answer": 0,
+      "explanation": "Electric field lines never intersect because direction would be ambiguous."
+    },
+    {
+      "question": "The magnitude of induced emf is proportional to:",
+      "options": [
+        "Rate of change of flux",
+        "Flux density",
+        "Time",
+        "Current"
+      ],
+      "answer": 0,
+      "explanation": "Faraday’s law: emf = -dΦ/dt."
+    },
+    {
+      "question": "A good conductor has:",
+      "options": [
+        "High resistivity",
+        "High conductivity",
+        "Low conductivity",
+        "Zero resistance"
+      ],
+      "answer": 1,
+      "explanation": "Good conductors like copper have very high electrical conductivity."
+    },
+    {
+      "question": "The primary reason for using AC over DC in power systems is:",
+      "options": [
+        "Cheaper wires",
+        "Less losses",
+        "Easier voltage transformation",
+        "More stable"
+      ],
+      "answer": 2,
+      "explanation": "AC voltages can be easily stepped up or down using transformers, aiding transmission."
+    },
+    {
+      "question": "The current through an inductor cannot change abruptly because:",
+      "options": [
+        "It behaves like a resistor",
+        "It stores energy in the form of electric field",
+        "It stores energy in the form of magnetic field",
+        "It has high resistance"
+      ],
+      "answer": 2,
+      "explanation": "Inductors store energy in magnetic field and oppose sudden change in current."
+    },
+    {
+      "question": "The conductance of a 5 ohm resistor is:",
+      "options": [
+        "0.5 S",
+        "0.2 S",
+        "5 S",
+        "10 S"
+      ],
+      "answer": 1,
+      "explanation": "Conductance G = 1/R = 1/5 = 0.2 S (Siemens)."
+    }
   ]
-            }
-            
+}
         
