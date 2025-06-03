@@ -1,4 +1,5 @@
- [
+ {
+  "quiz1":[
     {
       "question": "In a DC generator, the cause of sparking at brushes is:",
       "options": [
@@ -438,8 +439,11 @@
       ],
       "answer": 3,
       "explanation": "\u2705 You now have a full set of 40 MCQs from UPPSC and other state JE Electrical exams on Electrical Machines."
-    },
-    {
+    }
+  ],
+  
+    "quiz2":[
+   {
       "question": "The voltage regulation of a transformer is zero at:",
       "options": [
         "Full load",
@@ -867,7 +871,9 @@
       ],
       "answer": 1,
       "explanation": "\ud83e\uddfe Explanation: Skewing helps in reducing magnetic locking (cogging) and noise."
-    },
+    }
+    ],
+  "quiz3":[
     {
       "question": "The synchronous reactance of an alternator is the sum of:",
       "options": [
@@ -1296,7 +1302,9 @@
       ],
       "answer": 0,
       "explanation": "\ud83e\uddfe Explanation: Vp / Vs = Np / Ns."
-    },
+    }
+  ],
+  "quiz5":[
     {
       "question": "The rotor frequency of an induction motor at standstill is:",
       "options": [
@@ -1639,3 +1647,4 @@
       "explanation": "\ud83e\uddfe Explanation: At synchronous speed, slip s = 0."
     }
   ]
+ }
