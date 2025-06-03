@@ -1,5 +1,4 @@
-{
-  "quiz1": [
+ [
     {
       "question": "In a DC generator, the cause of sparking at brushes is:",
       "options": [
@@ -439,9 +438,7 @@
       ],
       "answer": 3,
       "explanation": "\u2705 You now have a full set of 40 MCQs from UPPSC and other state JE Electrical exams on Electrical Machines."
-    }
-  ],
-  "quiz2": [
+    },
     {
       "question": "The voltage regulation of a transformer is zero at:",
       "options": [
@@ -881,9 +878,7 @@
       ],
       "answer": 2,
       "explanation": "\ud83e\uddfe Explanation: Synchronous reactance = Xl (leakage) + Xar (armature reaction reactance)."
-    }
-  ],
-  "quiz3": [
+    },
     {
       "question": "Which of the following motors is non-self-starting?",
       "options": [
@@ -1323,9 +1318,7 @@
       ],
       "answer": 1,
       "explanation": "\ud83e\uddfe Explanation: No-load current is small and lags supply voltage because it is mainly magnetizing current."
-    }
-  ],
-  "quiz4": [
+    },
     {
       "question": "The primary purpose of a starter in an induction motor is to:",
       "options": [
@@ -1646,4 +1639,3 @@
       "explanation": "\ud83e\uddfe Explanation: At synchronous speed, slip s = 0."
     }
   ]
-}
