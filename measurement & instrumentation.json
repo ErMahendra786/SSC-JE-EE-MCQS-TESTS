@@ -219,6 +219,36 @@
       ],
       "answer": 2,
       "explanation": "📝 Standard test voltage formula:\nV_test = 2×V_rated + 1kV\nFor 11kV: 2×11 + 1 = 23kV → limited to 5kV"
+    },
+
+       {
+      "question": "The frequency response of a first-order measurement system is best represented by:",
+      "options": [
+        "Linear plot",
+        "Logarithmic Bode plot",
+        "Polar plot",
+        "Nyquist plot"
+      ],
+      "answer": 1,
+      "explanation": {
+        "text": "Bode plots show magnitude (dB) vs frequency on logarithmic scales:",
+        "graphic": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTAwIj48cGF0aCBkPSJNMjAgODBMMTAwIDgwTDE4MCAyMCIgc3Ryb2tlPSJibHVlIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48dGV4dCB4PSIxMDAiIHk9IjkwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5mPC90ZXh0Pjwvc3ZnPg=="
+      }
+    },
+    {
+      "question": "The Lissajous pattern for 90° phase difference appears as:",
+      "options": [
+        "Straight line",
+        "Ellipse",
+        "Circle",
+        "Figure-eight"
+      ],
+      "answer": 2,
+      "explanation": {
+        "text": "90° phase shift produces a perfect circle in X-Y mode:",
+        "graphic": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg=="
+      }
+    
     }
   ]
 }
