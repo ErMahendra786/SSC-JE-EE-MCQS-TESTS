@@ -863,7 +863,7 @@
     }
   ],
         
-{
+
   "quiz3": [
     {
       "question": "The RMS value of a sinusoidal current is:",
@@ -1317,7 +1317,7 @@
       "explanation": "Magnetizing flux links both primary and secondary."
     }
   ],
-        {
+        
   "quiz4": [
     {
       "question": "The unit of magnetic flux is:",
@@ -1727,7 +1727,7 @@
       "explanation": "Commutator reverses current direction in the armature coil to produce unidirectional torque."
     }
   ],
-        {
+        
   "quiz5": [
     {
       "question": "The resistance of a conductor increases with:",
@@ -2125,7 +2125,7 @@
       "answer": 0,
       "explanation": "Silicon steel is used to reduce hysteresis loss in cores."
     }
-  ],{
+  ],
   "quiz6": [
     {
       "question": "Ohm’s law states that current is directly proportional to voltage and inversely proportional to:",
@@ -2569,7 +2569,6 @@
     }
   ],
         
-{
   "quiz7": [
     {
       "question": "The SI unit of electric charge is:",
@@ -2979,8 +2978,8 @@
       "explanation": "Field winding produces the magnetic field in a DC motor."
     }
   ],
-        {
-  "quiz9": [
+        
+  "quiz8": [
     {
       "question": "Which of the following is the correct unit of capacitance?",
       "options": [
@@ -3433,8 +3432,8 @@
       "explanation": "Earthing ensures safe dissipation of fault currents."
     }
   ],
-        {
-  "quiz11": [
+        
+  "quiz10": [
     {
       "question": "The unit of capacitance is:",
       "options": [
@@ -3876,8 +3875,8 @@
       "explanation": "Impedance in resistors equals resistance, frequency independent."
     }
   ],
-        {
-  "quiz12": [
+        
+  "quiz11": [
     {
       "question": "What happens to the capacitance if the distance between capacitor plates is increased?",
       "options": [
@@ -4276,7 +4275,7 @@
     }
   ],
         {
-  "quiz13": [
+  "quiz12": [
     {
       "question": "What is the principle of operation of an ammeter?",
       "options": [
@@ -4697,7 +4696,7 @@
     }
   ],
         {
-  "quiz14": [
+  "quiz13": [
     {
       "question": "The unit of electrical resistance is:",
       "options": [
@@ -5026,31 +5025,11 @@
 "Volt"
 ],
 "answer": 0,
-"explanation": "Coulomb is the S.I. unit of electric charge."
+"explanation": "Coulomb is the S.I. unit of electric charge"
 }
-]
-}
-
-csharp
-Copy code
-
-Shall I continue with **quiz15**?
-
-
-
-
-
-You said:
-Yes please 
-
-
-ChatGPT said:
-Here is quiz15 with 40 non-repeating, diverse Basic Electrical MCQs (minimizing Electrical Machines, Power Systems, and Power Electronics content) and keeping the difficulty ratio of approx. 10% Easy, 30% Medium, 60% Hard:
-
-json
-Copy code
-{
-  "quiz15": [
+  ],
+  
+  "quiz14": [
     {
       "question": "Which quantity is measured in farads?",
       "options": [
@@ -5718,8 +5697,8 @@ Copy code
     }
   ],
 
-    {
-  "quiz16": [
+    
+  "quiz15": [
     {
       "question": "Which law states that the algebraic sum of currents at a junction is zero?",
       "options": [
@@ -6163,8 +6142,8 @@ Copy code
     "explanation": "The phase angle affects the power factor (cos θ) of the circuit."
   }
 ],
-{
-  "quiz17": [
+
+  "quiz16": [
     {
       "question": "Which of the following is the reciprocal of resistance?",
       "options": [
@@ -6386,9 +6365,9 @@ Copy code
       "explanation": "In DC, capacitive reactance is infinite, acting as an open circuit."
     }
   ],
-        {
+        
   "quiz17": [
-    ...
+    
     {
       "question": "Which component stores energy in the form of a magnetic field?",
       "options": [
@@ -6611,7 +6590,7 @@ Copy code
     }
   ],
 
-{
+
   "quiz18": [
     {
       "question": "Which of the following is a bilateral element?",
@@ -6832,10 +6811,7 @@ Copy code
       ],
       "answer": 2,
       "explanation": "Capacitive reactance (Xc) is the opposition of capacitor to AC."
-    }
-  ],
-        {
-  "quiz18_part2": [
+    },
     {
       "question": "In an RLC series circuit, resonance occurs when:",
       "options": [
@@ -7057,7 +7033,7 @@ Copy code
       "explanation": "An RC circuit consists of resistor and capacitor."
     }
   ],
-        {
+        
   "quiz19": [
     {
       "question": "The SI unit of electric charge is:",
@@ -7278,10 +7254,7 @@ Copy code
       ],
       "answer": 1,
       "explanation": "Weber is the unit of magnetic flux."
-    }
-  ],
-{
-  "quiz19_continued": [
+    },
     {
       "question": "In a purely capacitive AC circuit, the current leads voltage by:",
       "options": [
@@ -7503,7 +7476,7 @@ Copy code
       "explanation": "Inverters convert DC into AC voltage."
     }
   ],
-        {
+        
   "quiz20": [
     {
       "question": "What is the power factor of a purely resistive AC circuit?",
@@ -7724,10 +7697,7 @@ Copy code
       ],
       "answer": 2,
       "explanation": "Capacitors store energy in an electric field."
-    }
-  ],
-        {
-  "quiz20": [
+    },
     {
       "question": "Which of the following instruments can measure both AC and DC?",
       "options": [
@@ -7949,7 +7919,7 @@ Copy code
       "explanation": "RMS of half-wave rectified sine wave = Vm/2√2."
     }
   ],
-  {
+  
   "quiz21": [
     {
       "question": "In a Wheatstone bridge, if the bridge is balanced and all four resistors are interchanged diagonally, what happens to the balance?",
@@ -8170,11 +8140,7 @@ Copy code
       ],
       "answer": 2,
       "explanation": "At resonance, current and voltage are in phase, so power factor = 1."
-    }
-  ],
-  {
-  "quiz21": [
-    ...
+    },
     {
       "question": "If a conductor moves perpendicular to a magnetic field, an emf is induced due to:",
       "options": [
