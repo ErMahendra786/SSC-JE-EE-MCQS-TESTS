@@ -862,5 +862,1226 @@
           "answer": 1,
           "explanation": "📝 Qg determines the energy required to switch the device (Qg×Vg) and gate driver current capability."
         }
-        ]
+        ],
+     
+      "quiz3": [
+        {
+          "question": "The most suitable device for a 10kW, 100kHz SMPS is:",
+          "options": [
+            "SCR",
+            "IGBT",
+            "Power MOSFET",
+            "GTO"
+          ],
+          "answer": 2,
+          "explanation": "📝 Power MOSFETs are preferred for high-frequency (>50kHz) applications due to fast switching and low losses."
+        },
+        {
+          "question": "In a single-phase full converter with R load, the average output voltage at α=60° is:",
+          "options": [
+            "0.45V_m(1+cos60°)",
+            "0.9V_m(1+cos60°)",
+            "0.45V_mcos60°",
+            "0.9V_mcos60°"
+          ],
+          "answer": 1,
+          "explanation": "📝 For full converter: Vdc = (2Vm/π)cosα = 0.9Vm(1+cosα)/2 for R load."
+        },
+        {
+          "question": "The purpose of freewheeling diode in controlled rectifiers is to:",
+          "options": [
+            "Improve power factor",
+            "Provide path for inductive load current",
+            "Reduce harmonics",
+            "Increase output voltage"
+          ],
+          "answer": 1,
+          "explanation": "📝 It prevents voltage spikes by providing current path when SCRs turn off in inductive loads."
+        },
+        {
+          "question": "A step-down chopper has input 200V and duty cycle 0.4. The output voltage is:",
+          "options": [
+            "80V",
+            "120V",
+            "200V",
+            "500V"
+          ],
+          "answer": 0,
+          "explanation": "📝 Vout = D×Vin = 0.4×200 = 80V for buck converter."
+        },
+        {
+          "question": "The harmonic component eliminated in 3-phase full wave rectifier is:",
+          "options": [
+            "2nd",
+            "3rd",
+            "5th",
+            "7th"
+          ],
+          "answer": 1,
+          "explanation": "📝 6-pulse rectifiers naturally eliminate 3rd harmonic and multiples (triplen harmonics)."
+        },
+        {
+          "question": "The turn-off method used in IGBT is:",
+          "options": [
+            "Natural commutation",
+            "Forced commutation",
+            "Load commutation",
+            "Gate commutation"
+          ],
+          "answer": 1,
+          "explanation": "📝 IGBTs require forced commutation by removing gate signal (unlike SCRs)."
+        },
+        {
+          "question": "In PWM inverters, harmonic reduction is achieved by:",
+          "options": [
+            "Increasing switching frequency",
+            "Using multiple pulses per half-cycle",
+            "Both increasing frequency and multiple pulses",
+            "Reducing DC voltage"
+          ],
+          "answer": 2,
+          "explanation": "📝 Higher switching frequency and optimized pulse patterns push harmonics to higher orders."
+        },
+        {
+          "question": "The snubber circuit protects SCRs against:",
+          "options": [
+            "High dv/dt",
+            "High di/dt",
+            "Overcurrent",
+            "Overvoltage"
+          ],
+          "answer": 0,
+          "explanation": "📝 RC snubber limits dv/dt to prevent false triggering."
+        },
+        {
+          "question": "A single-phase inverter produces:",
+          "options": [
+            "Pure sine wave",
+            "Square wave",
+            "Triangular wave",
+            "Pulse train"
+          ],
+          "answer": 1,
+          "explanation": "📝 Basic single-phase VSI produces square wave output without PWM."
+        },
+        {
+          "question": "The efficiency of a thyristor-based converter is typically:",
+          "options": [
+            "60-70%",
+            "75-85%",
+            "90-95%",
+            "98-99%"
+          ],
+          "answer": 2,
+          "explanation": "📝 Modern thyristor converters achieve 90-95% efficiency at full load."
+        },
+        {
+          "question": "The number of SCRs required for a 3-phase full converter is:",
+          "options": [
+            "3",
+            "4",
+            "6",
+            "8"
+          ],
+          "answer": 2,
+          "explanation": "📝 6 SCRs (2 per phase) are needed for three-phase full-wave controlled rectification."
+        },
+        {
+          "question": "In a boost converter, the output voltage is controlled by:",
+          "options": [
+            "Duty cycle",
+            "Switching frequency",
+            "Input voltage",
+            "Load resistance"
+          ],
+          "answer": 0,
+          "explanation": "📝 Vout = Vin/(1-D) where D is duty cycle of the switch."
+        },
+        {
+          "question": "The commutation angle in a rectifier increases with:",
+          "options": [
+            "Decreasing source inductance",
+            "Increasing firing angle",
+            "Decreasing load current",
+            "Increasing supply frequency"
+          ],
+          "answer": 3,
+          "explanation": "📝 μ ≈ ωLsId/V where ω=2πf, so overlap increases with frequency."
+        },
+        {
+          "question": "The holding current of an SCR is:",
+          "options": [
+            "Higher than latching current",
+            "Equal to latching current",
+            "Lower than latching current",
+            "Independent of latching current"
+          ],
+          "answer": 2,
+          "explanation": "📝 Holding current (5-100mA) is lower than latching current to maintain conduction."
+        },
+        {
+          "question": "The most suitable device for AC voltage regulation is:",
+          "options": [
+            "SCR",
+            "TRIAC",
+            "GTO",
+            "MOSFET"
+          ],
+          "answer": 1,
+          "explanation": "📝 TRIACs are bidirectional and ideal for AC phase control applications."
+        },
+        {
+          "question": "The output voltage of a 3-phase bridge inverter is:",
+          "options": [
+            "Square wave",
+            "Sine wave",
+            "Triangular wave",
+            "DC voltage"
+          ],
+          "answer": 0,
+          "explanation": "📝 Basic 3-phase VSI produces six-step quasi-square wave output."
+        },
+        {
+          "question": "The input power factor of a phase-controlled rectifier at α=90° is:",
+          "options": [
+            "0.5 lagging",
+            "0.707 lagging",
+            "Zero",
+            "Unity"
+          ],
+          "answer": 2,
+          "explanation": "📝 At α=90°, current is 90° out of phase with voltage → zero power factor."
+        },
+        {
+          "question": "The purpose of choke in SMPS is to:",
+          "options": [
+            "Filter input",
+            "Store energy",
+            "Limit inrush current",
+            "Reduce EMI"
+          ],
+          "answer": 1,
+          "explanation": "📝 Inductors store energy during ON time and release during OFF time in switching converters."
+        },
+        {
+          "question": "The turn-on time of an SCR is typically in the range of:",
+          "options": [
+            "0.1-1 μs",
+            "1-5 μs",
+            "10-50 μs",
+            "100-500 μs"
+          ],
+          "answer": 1,
+          "explanation": "📝 Modern SCRs have turn-on times of 1-5μs with proper gate drive."
+        },
+        {
+          "question": "The output voltage of a single-phase semi-converter is:",
+          "options": [
+            "Always positive",
+            "Always negative",
+            "Either positive or negative",
+            "Zero"
+          ],
+          "answer": 0,
+          "explanation": "📝 Semi-converters cannot produce negative voltage due to diode in one half."
+        },
+        {
+          "question": "The most suitable device for a 1MW wind turbine converter is:",
+          "options": [
+            "SCR",
+            "IGBT",
+            "MOSFET",
+            "TRIAC"
+          ],
+          "answer": 1,
+          "explanation": "📝 IGBTs are preferred for high-power (kW-MW) medium frequency applications."
+        },
+        {
+          "question": "The voltage ripple factor is highest in:",
+          "options": [
+            "Half-wave rectifier",
+            "Full-wave rectifier",
+            "Bridge rectifier",
+            "Three-phase rectifier"
+          ],
+          "answer": 0,
+          "explanation": "📝 Half-wave rectifiers have ripple factor of 1.21 vs 0.48 for full-wave."
+        },
+        {
+          "question": "The purpose of bypass diode in solar panels is to:",
+          "options": [
+            "Prevent reverse current",
+            "Increase output voltage",
+            "Reduce shading losses",
+            "Improve efficiency"
+          ],
+          "answer": 2,
+          "explanation": "📝 Bypass diodes allow current to flow around shaded cells, minimizing power loss."
+        },
+        {
+          "question": "The output frequency of a cycloconverter is:",
+          "options": [
+            "Higher than input",
+            "Lower than input",
+            "Equal to input",
+            "Independent of input"
+          ],
+          "answer": 1,
+          "explanation": "📝 Cycloconverters can only produce output frequencies lower than input (typically fin/3)."
+        },
+        {
+          "question": "The dv/dt rating of an SCR indicates its:",
+          "options": [
+            "Turn-on capability",
+            "Turn-off capability",
+            "Voltage blocking capability",
+            "Current carrying capacity"
+          ],
+          "answer": 0,
+          "explanation": "📝 High dv/dt can cause false turn-on without gate signal."
+        },
+        {
+          "question": "The number of pulses in the output of a 3-phase full converter is:",
+          "options": [
+            "3",
+            "6",
+            "12",
+            "24"
+          ],
+          "answer": 1,
+          "explanation": "📝 3-phase full converter produces 6-pulse output waveform."
+        },
+        {
+          "question": "The conduction angle of a TRIAC-based lamp dimmer at α=90° is:",
+          "options": [
+            "90°",
+            "180°",
+            "270°",
+            "360°"
+          ],
+          "answer": 0,
+          "explanation": "📝 Conduction angle = 180° - α = 90° when triggered at 90°."
+        },
+        {
+          "question": "The most suitable converter for battery charging is:",
+          "options": [
+            "Buck converter",
+            "Boost converter",
+            "Buck-boost converter",
+            "Flyback converter"
+          ],
+          "answer": 0,
+          "explanation": "📝 Buck converters provide controlled step-down voltage ideal for battery charging."
+        },
+        {
+          "question": "The displacement factor of a fully controlled bridge at α=30° is:",
+          "options": [
+            "0.5",
+            "0.707",
+            "0.866",
+            "1.0"
+          ],
+          "answer": 2,
+          "explanation": "📝 Displacement factor = cosα = cos30° = 0.866."
+        },
+        {
+          "question": "The purpose of snubber circuit across thyristor is to limit:",
+          "options": [
+            "di/dt",
+            "dv/dt",
+            "Both di/dt and dv/dt",
+            "Peak current"
+          ],
+          "answer": 1,
+          "explanation": "📝 RC snubber primarily limits dv/dt across the device."
+        },
+        {
+          "question": "The output voltage of a step-up chopper with D=0.75 and Vin=100V is:",
+          "options": [
+            "75V",
+            "133V",
+            "400V",
+            "750V"
+          ],
+          "answer": 2,
+          "explanation": "📝 Vout = Vin/(1-D) = 100/(1-0.75) = 400V."
+        },
+        {
+          "question": "The harmonic filter in inverters is placed:",
+          "options": [
+            "At input side",
+            "At output side",
+            "Across switches",
+            "In gate drive"
+          ],
+          "answer": 1,
+          "explanation": "📝 LC filters at inverter output attenuate high-frequency switching harmonics."
+        },
+        {
+          "question": "The turn-off time of an SCR is specified to ensure:",
+          "options": [
+            "Proper turn-on",
+            "Reverse recovery",
+            "Forward blocking capability",
+            "Gate control"
+          ],
+          "answer": 2,
+          "explanation": "📝 Sufficient turn-off time (tq) allows SCR to regain forward blocking capability."
+        },
+        {
+          "question": "The output voltage of a single-phase bridge inverter is:",
+          "options": [
+            "0.45Vdc",
+            "0.9Vdc",
+            "1.0Vdc",
+            "1.414Vdc"
+          ],
+          "answer": 1,
+          "explanation": "📝 Fundamental component of square wave is 4Vdc/π ≈ 0.9Vdc."
+        },
+        {
+          "question": "The most suitable device for a 100W, 500kHz SMPS is:",
+          "options": [
+            "SCR",
+            "IGBT",
+            "Power MOSFET",
+            "GTO"
+          ],
+          "answer": 2,
+          "explanation": "📝 MOSFETs are preferred for high-frequency (>100kHz) low-power applications."
+        },
+        {
+          "question": "The input power factor of a diode rectifier with capacitive filter is:",
+          "options": [
+            "0.5-0.6",
+            "0.7-0.8",
+            "0.9-0.95",
+            "Unity"
+          ],
+          "answer": 0,
+          "explanation": "📝 Capacitive filters cause high peak currents, reducing PF to 0.5-0.6 typically."
+        },
+        {
+          "question": "The purpose of freewheeling diode in chopper circuits is to:",
+          "options": [
+            "Protect the switch",
+            "Provide continuous current path",
+            "Both protection and current path",
+            "Reduce output voltage"
+          ],
+          "answer": 1,
+          "explanation": "📝 Maintains inductor current when switch turns off in buck/boost converters."
+        },
+        {
+          "question": "The output voltage of a 3-phase full converter at α=0° is:",
+          "options": [
+            "0.45VLL",
+            "1.35VLL",
+            "2.34VLL",
+            "3.0VLL"
+          ],
+          "answer": 1,
+          "explanation": "📝 Vdc = (3√2/π)VLL ≈ 1.35VLL for 3-phase full converter at α=0°."
+        },
+        {
+          "question": "The commutation method used in DC-DC converters is:",
+          "options": [
+            "Natural commutation",
+            "Forced commutation",
+            "Load commutation",
+            "Line commutation"
+          ],
+          "answer": 1,
+          "explanation": "📝 Switching devices in choppers require forced commutation via gate control."
+        }
+      ],
+      "quiz4": [
+        {
+          "question": "In a buck-boost converter with D=0.6 and Vin=50V, the output voltage is:",
+          "options": [
+            "30V",
+            "50V",
+            "75V",
+            "125V"
+          ],
+          "answer": 2,
+          "explanation": "📝 Vout = -Vin(D/(1-D)) = -50(0.6/0.4) = -75V (magnitude 75V)."
+        },
+        {
+          "question": "The harmonic component having highest amplitude in 6-pulse rectifier output is:",
+          "options": [
+            "3rd",
+            "5th",
+            "7th",
+            "11th"
+          ],
+          "answer": 1,
+          "explanation": "📝 5th harmonic is typically the strongest in 6-pulse converters."
+        },
+        {
+          "question": "The minimum firing angle limit in dual converters is set to:",
+          "options": [
+            "Prevent circulating current",
+            "Improve power factor",
+            "Reduce harmonics",
+            "Limit output voltage"
+          ],
+          "answer": 0,
+          "explanation": "📝 Minimum α (5-10°) ensures one converter is always ready, preventing circulating currents."
+        },
+        {
+          "question": "The number of SCRs conducting simultaneously in 3-phase full converter is:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1,
+          "explanation": "📝 2 SCRs conduct at any time (one from positive group, one from negative)."
+        },
+        {
+          "question": "The output voltage of a single-phase full converter with freewheeling diode is:",
+          "options": [
+            "0-0.45Vm",
+            "0-0.9Vm",
+            "0.45Vm only",
+            "0.9Vm only"
+          ],
+          "answer": 1,
+          "explanation": "📝 With FWD, voltage range is 0 to 0.9Vm (compared to 0.45Vm for half-wave)."
+        },
+        {
+          "question": "The turn-on time of an IGBT is primarily determined by:",
+          "options": [
+            "Gate resistance",
+            "Collector current",
+            "DC bus voltage",
+            "Junction temperature"
+          ],
+          "answer": 0,
+          "explanation": "📝 ton ≈ 2.2RgCies where Rg is gate resistance, Cies is input capacitance."
+        },
+        {
+          "question": "The output voltage of a 3-phase inverter is controlled by:",
+          "options": [
+            "Duty cycle",
+            "Switching frequency",
+            "Both duty and frequency",
+            "Input voltage"
+          ],
+          "answer": 0,
+          "explanation": "📝 PWM duty cycle controls fundamental output voltage magnitude."
+        },
+        {
+          "question": "The commutation overlap in rectifiers causes:",
+          "options": [
+            "Output voltage reduction",
+            "Input current distortion",
+            "Both voltage reduction and current distortion",
+            "No significant effect"
+          ],
+          "answer": 2,
+          "explanation": "📝 Overlap angle (μ) reduces Vd and distorts input current waveform."
+        },
+        {
+          "question": "The most suitable device for a 10kW induction heating system is:",
+          "options": [
+            "SCR",
+            "MOSFET",
+            "IGBT",
+            "TRIAC"
+          ],
+          "answer": 2,
+          "explanation": "📝 IGBTs are ideal for medium-power (kW range) high-frequency resonant converters."
+        },
+        {
+          "question": "The output voltage of a step-down chopper cannot be:",
+          "options": [
+            "Lower than input",
+            "Higher than input",
+            "Equal to input",
+            "All of the above"
+          ],
+          "answer": 1,
+          "explanation": "📝 Buck converters can only produce Vout ≤ Vin by definition."
+        },
+        {
+          "question": "The purpose of series inductor with SCR is to limit:",
+          "options": [
+            "dv/dt",
+            "di/dt",
+            "Peak current",
+            "Turn-off time"
+          ],
+          "answer": 1,
+          "explanation": "📝 Small series inductor limits di/dt during turn-on to prevent device damage."
+        },
+        {
+          "question": "The output voltage of a 3-phase half-wave rectifier is:",
+          "options": [
+            "0.45VLL",
+            "0.9VLL",
+            "1.17VLL",
+            "1.35VLL"
+          ],
+          "answer": 2,
+          "explanation": "📝 Vdc = (3√2/2π)VLL ≈ 1.17VLL for 3-phase half-wave rectifier."
+        },
+        {
+          "question": "The firing angle delay in single-phase full converter cannot exceed:",
+          "options": [
+            "90°",
+            "120°",
+            "180°",
+            "360°"
+          ],
+          "answer": 2,
+          "explanation": "📝 For continuous conduction, α must be ≤180° to maintain current flow."
+        },
+        {
+          "question": "The voltage ripple in capacitor filters is reduced by:",
+          "options": [
+            "Increasing capacitance",
+            "Increasing load resistance",
+            "Both increasing C and RL",
+            "Decreasing input voltage"
+          ],
+          "answer": 2,
+          "explanation": "📝 Vripple = Idc/(fC) where Idc = Vdc/RL, so both C and RL affect ripple."
+        },
+        {
+          "question": "The most suitable PWM technique for 3-phase inverters is:",
+          "options": [
+            "Single-pulse modulation",
+            "Multiple-pulse modulation",
+            "Sinusoidal PWM",
+            "Delta modulation"
+          ],
+          "answer": 2,
+          "explanation": "📝 SPWM provides better harmonic profile and linear control in 3-phase VSIs."
+        },
+        {
+          "question": "The output frequency of a 6-pulse cycloconverter with 50Hz input is limited to:",
+          "options": [
+            "5-10Hz",
+            "15-20Hz",
+            "25-30Hz",
+            "35-40Hz"
+          ],
+          "answer": 1,
+          "explanation": "📝 Practical limit is 1/3 to 1/2 of input frequency (50/3≈17Hz) for reasonable waveform."
+        },
+        {
+          "question": "The number of pulses in the output of a 12-pulse converter is:",
+          "options": [
+            "6",
+            "12",
+            "18",
+            "24"
+          ],
+          "answer": 1,
+          "explanation": "📝 12-pulse configuration uses phase-shifted transformers to create 12 pulses/cycle."
+        },
+        {
+          "question": "The purpose of bypass diode in PV modules is to:",
+          "options": [
+            "Prevent reverse current",
+            "Increase output voltage",
+            "Reduce shading losses",
+            "Improve efficiency"
+          ],
+          "answer": 2,
+          "explanation": "📝 Bypass diodes allow current to flow around shaded cells, minimizing power loss."
+        },
+        {
+          "question": "The output voltage of a full-bridge inverter with square wave operation is:",
+          "options": [
+            "0.45Vdc",
+            "0.9Vdc",
+            "1.0Vdc",
+            "1.414Vdc"
+          ],
+          "answer": 1,
+          "explanation": "📝 Fundamental component is 4Vdc/π ≈ 0.9Vdc for square wave operation."
+        },
+        {
+          "question": "The turn-off method used in GTO is:",
+          "options": [
+            "Anode current interruption",
+            "Gate pulse removal",
+            "Negative gate current",
+            "Natural commutation"
+          ],
+          "answer": 2,
+          "explanation": "📝 GTOs require negative gate current (20-30% of anode current) for turn-off."
+        },
+        {
+          "question": "The output voltage of a buck converter operating in CCM is:",
+          "options": [
+            "Directly proportional to D",
+            "Inversely proportional to D",
+            "Independent of D",
+            "Proportional to D²"
+          ],
+          "answer": 0,
+          "explanation": "📝 Vout = D×Vin in continuous conduction mode (CCM)."
+        },
+        {
+          "question": "The most suitable device for a 1kW UPS inverter is:",
+          "options": [
+            "SCR",
+            "IGBT",
+            "MOSFET",
+            "TRIAC"
+          ],
+          "answer": 1,
+          "explanation": "📝 IGBTs are optimal for kW-range inverter applications (efficiency vs cost tradeoff)."
+        },
+        {
+          "question": "The input power factor of a fully controlled bridge at α=60° is:",
+          "options": [
+            "0.5 lagging",
+            "0.707 lagging",
+            "0.866 lagging",
+            "Unity"
+          ],
+          "answer": 0,
+          "explanation": "📝 Displacement factor = cosα = cos60° = 0.5, and distortion factor ≈ 1."
+        },
+        {
+          "question": "The output voltage of a 3-phase bridge inverter is controlled by:",
+          "options": [
+            "Duty cycle",
+            "Switching frequency",
+            "Both duty and frequency",
+            "Input voltage"
+          ],
+          "answer": 0,
+          "explanation": "📝 PWM duty cycle controls fundamental output voltage magnitude."
+        },
+        {
+          "question": "The purpose of snubber circuit in thyristors is to limit:",
+          "options": [
+            "di/dt",
+            "dv/dt",
+            "Both di/dt and dv/dt",
+            "Peak current"
+          ],
+          "answer": 1,
+          "explanation": "📝 RC snubber primarily limits dv/dt to prevent false triggering."
+        },
+        {
+          "question": "The output voltage of a step-up chopper with D=0.75 and Vin=100V is:",
+          "options": [
+            "75V",
+            "133V",
+            "400V",
+            "750V"
+          ],
+          "answer": 2,
+          "explanation": "📝 Vout = Vin/(1-D) = 100/(1-0.75) = 400V."
+        },
+        {
+          "question": "The harmonic filter in inverters is placed:",
+          "options": [
+            "At input side",
+            "At output side",
+            "Across switches",
+            "In gate drive"
+          ],
+          "answer": 1,
+          "explanation": "📝 LC filters at inverter output attenuate high-frequency switching harmonics."
+        },
+        {
+          "question": "The turn-off time of an SCR is specified to ensure:",
+          "options": [
+            "Proper turn-on",
+            "Reverse recovery",
+            "Forward blocking capability",
+            "Gate control"
+          ],
+          "answer": 2,
+          "explanation": "📝 Sufficient turn-off time (tq) allows SCR to regain forward blocking capability."
+        },
+        {
+          "question": "The output voltage of a single-phase bridge inverter is:",
+          "options": [
+            "0.45Vdc",
+            "0.9Vdc",
+            "1.0Vdc",
+            "1.414Vdc"
+          ],
+          "answer": 1,
+          "explanation": "📝 Fundamental component of square wave is 4Vdc/π ≈ 0.9Vdc."
+        },
+        {
+          "question": "The most suitable device for a 100W, 500kHz SMPS is:",
+          "options": [
+            "SCR",
+            "IGBT",
+            "Power MOSFET",
+            "GTO"
+          ],
+          "answer": 2,
+          "explanation": "📝 MOSFETs are preferred for high-frequency (>100kHz) low-power applications."
+        },
+        {
+          "question": "The input power factor of a diode rectifier with capacitive filter is:",
+          "options": [
+            "0.5-0.6",
+            "0.7-0.8",
+            "0.9-0.95",
+            "Unity"
+          ],
+          "answer": 0,
+          "explanation": "📝 Capacitive filters cause high peak currents, reducing PF to 0.5-0.6 typically."
+        },
+        {
+          "question": "The purpose of freewheeling diode in chopper circuits is to:",
+          "options": [
+            "Protect the switch",
+            "Provide continuous current path",
+            "Both protection and current path",
+            "Reduce output voltage"
+          ],
+          "answer": 1,
+          "explanation": "📝 Maintains inductor current when switch turns off in buck/boost converters."
+        },
+        {
+          "question": "The output voltage of a 3-phase full converter at α=0° is:",
+          "options": [
+            "0.45VLL",
+            "1.35VLL",
+            "2.34VLL",
+            "3.0VLL"
+          ],
+          "answer": 1,
+          "explanation": "📝 Vdc = (3√2/π)VLL ≈ 1.35VLL for 3-phase full converter at α=0°."
+        },
+        {
+          "question": "The commutation method used in DC-DC converters is:",
+          "options": [
+            "Natural commutation",
+            "Forced commutation",
+            "Load commutation",
+            "Line commutation"
+          ],
+          "answer": 1,
+          "explanation": "📝 Switching devices in choppers require forced commutation via gate control."
+        }
+      ],
+        
+
+  "quiz5": [
+    {
+      "question": "A single-phase full converter with R load has input voltage 230V, 50Hz. The average output voltage at α=45° is:",
+      "options": [
+        "103.5V",
+        "146.4V",
+        "207V",
+        "230V"
+      ],
+      "answer": 1,
+      "explanation": "📝 Vdc = (2Vm/π)cosα = (2×√2×230/π)cos45° ≈ 146.4V"
+    },
+    {
+      "question": "The harmonic component NOT present in the output of a 3-phase full-wave rectifier is:",
+      "options": [
+        "5th",
+        "7th",
+        "3rd",
+        "11th"
+      ],
+      "answer": 2,
+      "explanation": "📝 6-pulse rectifiers eliminate triplen harmonics (3rd, 9th, 15th...)"
+    },
+    {
+      "question": "In a buck converter with Vin=48V and D=0.25, the output voltage is:",
+      "options": [
+        "12V",
+        "24V",
+        "48V",
+        "192V"
+      ],
+      "answer": 0,
+      "explanation": "📝 Vout = D×Vin = 0.25×48 = 12V"
+    },
+    {
+      "question": "The number of SCRs conducting simultaneously in a 3-phase half-wave converter is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "📝 Only 1 SCR conducts at any time in 3-phase half-wave configuration"
+    },
+    {
+      "question": "The output voltage of a single-phase semi-converter with RLE load is:",
+      "options": [
+        "Always positive",
+        "Always negative",
+        "Either positive or negative",
+        "Zero"
+      ],
+      "answer": 0,
+      "explanation": "📝 Semi-converters cannot produce negative voltage due to diode in one half"
+    },
+    {
+      "question": "A step-up chopper has input 50V and output 200V. The duty cycle is:",
+      "options": [
+        "0.25",
+        "0.5",
+        "0.75",
+        "0.8"
+      ],
+      "answer": 2,
+      "explanation": "📝 D = 1 - (Vin/Vout) = 1 - (50/200) = 0.75"
+    },
+    {
+      "question": "The turn-off time of an SCR is typically in the range of:",
+      "options": [
+        "1-5 μs",
+        "10-50 μs",
+        "100-200 μs",
+        "1-5 ms"
+      ],
+      "answer": 1,
+      "explanation": "📝 Modern SCRs have tq = 10-100μs to regain forward blocking capability"
+    },
+    {
+      "question": "The most suitable device for a 5kW, 20kHz SMPS is:",
+      "options": [
+        "SCR",
+        "IGBT",
+        "MOSFET",
+        "TRIAC"
+      ],
+      "answer": 1,
+      "explanation": "📝 IGBTs are optimal for kW-range medium-frequency applications"
+    },
+    {
+      "question": "The output voltage ripple frequency of a single-phase full-wave rectifier is:",
+      "options": [
+        "50Hz",
+        "100Hz",
+        "150Hz",
+        "200Hz"
+      ],
+      "answer": 1,
+      "explanation": "📝 Full-wave rectification doubles input frequency (2×50Hz=100Hz)"
+    },
+    {
+      "question": "The displacement factor of a fully controlled bridge at α=60° is:",
+      "options": [
+        "0.5",
+        "0.707",
+        "0.866",
+        "1.0"
+      ],
+      "answer": 0,
+      "explanation": "📝 Displacement factor = cosα = cos60° = 0.5"
+    },
+    {
+      "question": "The purpose of snubber circuit across thyristor is to limit:",
+      "options": [
+        "di/dt",
+        "dv/dt",
+        "Both di/dt and dv/dt",
+        "Peak current"
+      ],
+      "answer": 1,
+      "explanation": "📝 RC snubber primarily limits dv/dt to prevent false triggering"
+    },
+    {
+      "question": "In a 3-phase full converter, the output voltage waveform contains:",
+      "options": [
+        "3 pulses per cycle",
+        "6 pulses per cycle",
+        "12 pulses per cycle",
+        "Continuous DC"
+      ],
+      "answer": 1,
+      "explanation": "📝 3-phase full converter produces 6-pulse output waveform"
+    },
+    {
+      "question": "The input power factor of a phase-controlled rectifier at α=90° is:",
+      "options": [
+        "0.5 lagging",
+        "0.707 lagging",
+        "Zero",
+        "Unity"
+      ],
+      "answer": 2,
+      "explanation": "📝 At α=90°, current is 90° out of phase with voltage → zero power factor"
+    },
+    {
+      "question": "The output voltage of a single-phase bridge inverter with square wave operation is:",
+      "options": [
+        "0.45Vdc",
+        "0.9Vdc",
+        "1.0Vdc",
+        "1.414Vdc"
+      ],
+      "answer": 1,
+      "explanation": "📝 Fundamental component = 4Vdc/π ≈ 0.9Vdc"
+    },
+    {
+      "question": "The holding current of an SCR is typically:",
+      "options": [
+        "5-100 mA",
+        "0.5-1 A",
+        "2-5 A",
+        "10-20 A"
+      ],
+      "answer": 0,
+      "explanation": "📝 Holding current (5-100mA) is lower than latching current to maintain conduction"
+    },
+    {
+      "question": "The output voltage of a 3-phase half-wave rectifier with 400V line voltage is:",
+      "options": [
+        "148V",
+        "256V",
+        "400V",
+        "540V"
+      ],
+      "answer": 1,
+      "explanation": "📝 Vdc = (3√2/2π)VLL = (3√2/2π)×400 ≈ 256V"
+    },
+    {
+      "question": "The most suitable device for AC voltage regulation is:",
+      "options": [
+        "SCR",
+        "TRIAC",
+        "GTO",
+        "MOSFET"
+      ],
+      "answer": 1,
+      "explanation": "📝 TRIACs are bidirectional and ideal for AC phase control"
+    },
+    {
+      "question": "The output voltage of a buck-boost converter with D=0.6 and Vin=50V is:",
+      "options": [
+        "30V",
+        "75V",
+        "83.3V",
+        "125V"
+      ],
+      "answer": 1,
+      "explanation": "📝 Vout = -Vin(D/(1-D)) = -50(0.6/0.4) = -75V (magnitude 75V)"
+    },
+    {
+      "question": "The number of SCRs required for a 3-phase dual converter is:",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "answer": 1,
+      "explanation": "📝 Two 6-SCR bridges (total 12) for four-quadrant operation"
+    },
+    {
+      "question": "The commutation method used in inverters is:",
+      "options": [
+        "Natural commutation",
+        "Forced commutation",
+        "Load commutation",
+        "Line commutation"
+      ],
+      "answer": 1,
+      "explanation": "📝 Inverters require forced commutation via gate control"
+    },
+    {
+      "question": "The output voltage of a single-phase full converter with freewheeling diode is:",
+      "options": [
+        "0-0.45Vm",
+        "0-0.9Vm",
+        "0.45Vm only",
+        "0.9Vm only"
+      ],
+      "answer": 1,
+      "explanation": "📝 With FWD, voltage range is 0 to 0.9Vm (compared to 0.45Vm for half-wave)"
+    },
+    {
+      "question": "The dv/dt rating of an SCR indicates its:",
+      "options": [
+        "Turn-on capability",
+        "Turn-off capability",
+        "Voltage blocking capability",
+        "Current carrying capacity"
+      ],
+      "answer": 0,
+      "explanation": "📝 High dv/dt can cause false turn-on without gate signal"
+    },
+    {
+      "question": "The output frequency of a 6-pulse cycloconverter with 50Hz input is limited to:",
+      "options": [
+        "5-10Hz",
+        "15-20Hz",
+        "25-30Hz",
+        "35-40Hz"
+      ],
+      "answer": 1,
+      "explanation": "📝 Practical limit is 1/3 of input frequency (50/3≈17Hz)"
+    },
+    {
+      "question": "The purpose of series inductor with SCR is to limit:",
+      "options": [
+        "dv/dt",
+        "di/dt",
+        "Peak current",
+        "Turn-off time"
+      ],
+      "answer": 1,
+      "explanation": "📝 Small series inductor limits di/dt during turn-on"
+    },
+    {
+      "question": "The output voltage ripple in a buck converter is reduced by:",
+      "options": [
+        "Increasing switching frequency",
+        "Increasing inductance",
+        "Both frequency and inductance",
+        "Decreasing load current"
+      ],
+      "answer": 2,
+      "explanation": "📝 ΔVout = (Vin-Vout)D/(8Lf²C) → affected by both L and f"
+    },
+    {
+      "question": "The most suitable PWM technique for motor drives is:",
+      "options": [
+        "Single-pulse modulation",
+        "Sinusoidal PWM",
+        "Space vector PWM",
+        "Delta modulation"
+      ],
+      "answer": 2,
+      "explanation": "📝 SVPWM provides better DC bus utilization and lower harmonics"
+    },
+    {
+      "question": "The output voltage of a 3-phase full converter at α=30° is:",
+      "options": [
+        "0.45VLLcos30°",
+        "0.9VLLcos30°",
+        "1.35VLLcos30°",
+        "2.34VLLcos30°"
+      ],
+      "answer": 2,
+      "explanation": "📝 Vdc = (3√2/π)VLLcosα ≈ 1.35VLLcosα"
+    },
+    {
+      "question": "The turn-on time of an IGBT is primarily determined by:",
+      "options": [
+        "Gate resistance",
+        "Collector current",
+        "DC bus voltage",
+        "Junction temperature"
+      ],
+      "answer": 0,
+      "explanation": "📝 ton ≈ 2.2RgCies where Rg is gate resistance"
+    },
+    {
+      "question": "The minimum firing angle in dual converters is typically:",
+      "options": [
+        "0°",
+        "5-10°",
+        "30°",
+        "45°"
+      ],
+      "answer": 1,
+      "explanation": "📝 Minimum α ensures one converter is always ready to prevent circulating current"
+    },
+    {
+      "question": "The output voltage of a flyback converter is:",
+      "options": [
+        "Directly proportional to D",
+        "Inversely proportional to D",
+        "Independent of D",
+        "Proportional to D²"
+      ],
+      "answer": 1,
+      "explanation": "📝 Vout = Vin(Ns/Np)(D/(1-D)) → depends on turns ratio and duty cycle"
+    },
+    {
+      "question": "The harmonic filter in inverters is placed:",
+      "options": [
+        "At input side",
+        "At output side",
+        "Across switches",
+        "In gate drive"
+      ],
+      "answer": 1,
+      "explanation": "📝 LC filters at output attenuate switching harmonics"
+    },
+    {
+      "question": "The output voltage of a SEPIC converter is:",
+      "options": [
+        "Always step-down",
+        "Always step-up",
+        "Either step-up or step-down",
+        "Always inverted"
+      ],
+      "answer": 2,
+      "explanation": "📝 SEPIC can produce output higher or lower than input (non-inverted)"
+    },
+    {
+      "question": "The most suitable device for a 100W LED driver is:",
+      "options": [
+        "SCR",
+        "IGBT",
+        "MOSFET",
+        "GTO"
+      ],
+      "answer": 2,
+      "explanation": "📝 MOSFETs are ideal for high-frequency (>100kHz) low-power applications"
+    },
+    {
+      "question": "The input power factor of a diode rectifier with capacitive filter is:",
+      "options": [
+        "0.5-0.6",
+        "0.7-0.8",
+        "0.9-0.95",
+        "Unity"
+      ],
+      "answer": 0,
+      "explanation": "📝 High peak currents reduce PF to 0.5-0.6"
+    },
+    {
+      "question": "The purpose of freewheeling diode in chopper circuits is to:",
+      "options": [
+        "Protect the switch",
+        "Provide continuous current path",
+        "Both protection and current path",
+        "Reduce output voltage"
+      ],
+      "answer": 1,
+      "explanation": "📝 Maintains inductor current when switch turns off"
+    },
+    {
+      "question": "The output voltage of a 3-phase full converter at α=0° is:",
+      "options": [
+        "0.45VLL",
+        "1.35VLL",
+        "2.34VLL",
+        "3.0VLL"
+      ],
+      "answer": 1,
+      "explanation": "📝 Vdc = (3√2/π)VLL ≈ 1.35VLL"
+    },
+    {
+      "question": "The commutation method used in DC-DC converters is:",
+      "options": [
+        "Natural commutation",
+        "Forced commutation",
+        "Load commutation",
+        "Line commutation"
+      ],
+      "answer": 1,
+      "explanation": "📝 Requires forced commutation via gate control"
     }
+  ]
+        }
+        
+  
