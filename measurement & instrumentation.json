@@ -1,5 +1,5 @@
 {
-  "quiz": [
+  "quiz1": [
     {
       "question": "What does this oscilloscope waveform indicate?",
       "options": ["Overvoltage", "Phase shift", "Harmonic distortion", "Ground loop"],
