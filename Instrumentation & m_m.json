@@ -444,9 +444,9 @@
           "answer": 0,
           "explanation": "📝 Creep test checks for disc rotation with voltage but no current."
         },
-        // ... (38 more questions for quiz2)
+      
       ],
-      // ... (quiz3 to quiz10)
+      
     }
   ]
 }
