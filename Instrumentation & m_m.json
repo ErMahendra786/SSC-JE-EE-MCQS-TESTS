@@ -1,5 +1,4 @@
-{
-  "instrumentation_quizzes": [
+
     {
       "quiz1": [
         {
@@ -443,9 +442,6 @@
           ],
           "answer": 0,
           "explanation": "📝 Creep test checks for disc rotation with voltage but no current."
-        },
-      
-      ],
       
     }
   ]
