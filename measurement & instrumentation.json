@@ -1,7 +1,7 @@
 {
   "quiz1": [
     {
-      "question": "The frequency response of a first-order measurement system is best represented by:",
+      "question": "The frequency response of a first-order system is best represented by:",
       "options": [
         "Linear plot",
         "Logarithmic Bode plot",
@@ -9,21 +9,29 @@
         "Nyquist plot"
       ],
       "answer": 1,
-      "explanation": "📝 Bode plots show cutoff frequency (ω_c) and -20dB/decade roll-off:\n   ______\n  /      \\\n /        \\\n/          \\\nω_c→"
+      "explanation": {
+        "text": "Bode magnitude plot shows -20dB/decade roll-off after cutoff frequency",
+        "diagram": "mermaid\ngraph LR\nA[ωc] -->|Slope: -20dB/dec| B[High Freq]\nstyle A fill:#f9f,stroke:#333\nstyle B fill:#bbf,stroke:#333",
+        "type": "frequency_response"
+      }
     },
     {
-      "question": "The Lissajous pattern for two signals with 90° phase difference forms a:",
+      "question": "A Lissajous pattern for 90° phase difference appears as:",
       "options": [
         "Straight line",
         "Ellipse",
-        "Circle",
+        "Perfect circle",
         "Figure-eight"
       ],
       "answer": 2,
-      "explanation": "📝 90° phase difference produces perfect circle Lissajous pattern:\n   * * *\n *       *\n*         *\n *       *\n   * * *"
+      "explanation": {
+        "text": "Quadrature signals (sin vs cos) produce circular patterns",
+        "diagram": "mermaid\npie\ntitle Lissajous Pattern\n\"X-Axis\" : 50\n\"Y-Axis\" : 50",
+        "type": "phase_analysis"
+      }
     },
     {
-      "question": "The Maxwell bridge circuit measures inductance using:",
+      "question": "The Maxwell bridge measures inductance using:",
       "options": [
         "Known capacitance",
         "Known resistance",
@@ -31,224 +39,53 @@
         "Frequency standard"
       ],
       "answer": 0,
-      "explanation": "📝 Maxwell bridge configuration:\nR1      R3\n[###]---[###]\n|       C1  |\n[###]---||--\nR2      Lx\nBalance condition: Lx = R1*R3*C1"
+      "explanation": {
+        "text": "Bridge configuration balances unknown L against known C",
+        "diagram": "mermaid\ncircuit\nLR1[Lx] -- R1 -- R3\nC1 -- R2 -- GND\nLR1 -- C1\nR3 -- Vout",
+        "type": "bridge_circuit"
+      }
     },
     {
-      "question": "The resolution of a 3½ digit DMM is:",
+      "question": "A 3½ digit DMM's resolution is approximately:",
       "options": [
         "0.1%",
         "0.05%",
-        "0.01%",
-        "0.005%"
-      ],
-      "answer": 1,
-      "explanation": "📝 3½ digit = 1999 counts → Resolution = 1/1999 ≈ 0.05%\nDisplay range: -1999 to +1999"
-    },
-    {
-      "question": "The four-point probe method eliminates errors from:",
-      "options": [
-        "Contact resistance",
-        "Thermal EMF",
-        "Electromagnetic interference",
-        "Probe spacing"
-      ],
-      "answer": 0,
-      "explanation": "📝 Four-point probe arrangement:\nI+ o---[Sample]---o V+\nI- o---[Sample]---o V-\nCurrent and voltage probes are separate"
-    },
-    {
-      "question": "The Wien bridge oscillator frequency is given by:",
-      "options": [
-        "f = 1/2π√LC",
-        "f = 1/2πRC",
-        "f = R/2πL",
-        "f = 1/(2π√R₁R₂C₁C₂)"
-      ],
-      "answer": 1,
-      "explanation": "📝 Wien bridge components:\nR1    R2\n[###]---[###]\n|     C1    |\n[###]---||--\n      C2\nf_osc = 1/(2πRC) when R1=R2=R, C1=C2=C"
-    },
-    {
-      "question": "The optical pyrometer works on:",
-      "options": [
-        "Stefan-Boltzmann law",
-        "Wien's displacement law",
-        "Planck's law",
-        "Rayleigh-Jeans law"
-      ],
-      "answer": 1,
-      "explanation": "📝 Wien's law: λ_max × T = b (2.898×10⁻³ m·K)\nFilament brightness vs wavelength curve:\n  Brightness\n    |\n    |   /\n    |  /\n    | /\n    +----- λ"
-    },
-    {
-      "question": "The Hall effect sensor output depends on:",
-      "options": [
-        "I×B",
-        "I/B",
-        "B/I",
-        "I+B"
-      ],
-      "answer": 0,
-      "explanation": "📝 Hall voltage V_H = (I×B)/(n×t×e)\nWhere:\n• n = charge density\n• t = thickness\n• e = electron charge"
-    },
-    {
-      "question": "The dead time in Geiger counters causes:",
-      "options": [
-        "Linear response",
-        "Counting losses",
-        "Energy resolution",
-        "Temperature drift"
-      ],
-      "answer": 1,
-      "explanation": "📝 Dead time effect on pulses:\n|__|‾|__|‾|____|‾\n ↑ Dead time"
-    },
-    {
-      "question": "The Q-meter measures quality factor using:",
-      "options": [
-        "Series resonance",
-        "Parallel resonance",
-        "Bridge balance",
-        "Current ratio"
-      ],
-      "answer": 0,
-      "explanation": "📝 Q = V_L/V_S = ωL/R at resonance\nCircuit diagram:\n[AC]---[L]---[C]---[R]---┐\n      V_L     V_S      |\n└-------------------┘"
-    },
-    {
-      "question": "The guard ring in megohmmeters prevents:",
-      "options": [
-        "Surface leakage",
-        "Dielectric absorption",
-        "Corona discharge",
-        "Partial discharges"
-      ],
-      "answer": 0,
-      "explanation": "📝 Guard ring configuration:\n  Guard\n  -----\n  | o---o Meas\n  -----\n  Surface"
-    },
-    {
-      "question": "The strain gauge factor is defined as:",
-      "options": [
-        "ΔR/R",
-        "ΔR/(R×ε)",
-        "ε/ΔR",
-        "R/ΔR"
-      ],
-      "answer": 1,
-      "explanation": "📝 GF = (ΔR/R)/ε\nWhere ε = strain (ΔL/L)\nTypical GF ≈ 2 for metallic gauges"
-    },
-    {
-      "question": "The dual-slope ADC integration time is typically:",
-      "options": [
-        "1 power line cycle",
-        "10 ms",
-        "100 μs",
-        "Arbitrary"
-      ],
-      "answer": 0,
-      "explanation": "📝 Integration phases:\n  /\\\n /  \\____\nT1  T2\nT1 = fixed (n×power line period)"
-    },
-    {
-      "question": "The Rogowski coil output depends on:",
-      "options": [
-        "di/dt",
-        "∫i dt",
-        "i²",
-        "√i"
-      ],
-      "answer": 0,
-      "explanation": "📝 V_out = M(di/dt)\nCoil geometry:\n┌───────────────┐\n│  o o o o o o  │\n└───────────────┘\n  Conductor →"
-    },
-    {
-      "question": "The third harmonic distortion is calculated using:",
-      "options": [
-        "THD = √(V2²+V3²+...)/V1",
-        "THD = V3/V1",
-        "THD = (V2+V3)/V1",
-        "THD = V1/V3"
-      ],
-      "answer": 0,
-      "explanation": "📝 THD = √(ΣV_h²)/V_fundamental × 100%\nFrequency spectrum:\nV1\n|\n|   V3\n|   |\n0 1 2 3 f"
-    },
-    {
-      "question": "The ionization gauge measures vacuum via:",
-      "options": [
-        "Thermal conductivity",
-        "Ion current",
-        "Capacitance",
-        "Piezoresistance"
-      ],
-      "answer": 1,
-      "explanation": "📝 Ion current (I+) vs pressure (P):\nI+ ↗\n|  \\\n|   \\\n+----→ P"
-    },
-    {
-      "question": "The Kerr effect measures:",
-      "options": [
-        "Magnetic fields",
-        "Electric fields",
-        "Light intensity",
-        "Voltage"
-      ],
-      "answer": 1,
-      "explanation": "📝 Δn ∝ E² (quadratic electro-optic effect)\nOptical path:\nLight → Kerr cell → Analyzer"
-    },
-    {
-      "question": "The Pirani gauge operates based on:",
-      "options": [
-        "Thermal conductivity",
-        "Ionization",
-        "Capacitance",
-        "Piezoresistance"
-      ],
-      "answer": 0,
-      "explanation": "📝 Heat loss vs pressure:\nR_filament ↗ at low P\nWheatstone bridge configuration"
-    },
-    {
-      "question": "The strain gauge bridge configuration with maximum sensitivity is:",
-      "options": [
-        "Quarter bridge",
-        "Half bridge",
-        "Full bridge",
-        "Dual bridge"
-      ],
-      "answer": 2,
-      "explanation": "📝 Full bridge arrangement:\nR+ΔR R-ΔR\n[###]---[###]\n|        |\n[###]---[###]\nR-ΔR R+ΔR\nV_out ∝ 4×(ΔR/R)"
-    },
-    {
-      "question": "The megger test voltage for 11kV equipment is typically:",
-      "options": [
-        "500V",
-        "1kV",
-        "5kV",
-        "10kV"
-      ],
-      "answer": 2,
-      "explanation": "📝 Standard test voltage formula:\nV_test = 2×V_rated + 1kV\nFor 11kV: 2×11 + 1 = 23kV → limited to 5kV"
-    },
-
-       {
-      "question": "The frequency response of a first-order measurement system is best represented by:",
-      "options": [
-        "Linear plot",
-        "Logarithmic Bode plot",
-        "Polar plot",
-        "Nyquist plot"
+        "1%",
+        "5%"
       ],
       "answer": 1,
       "explanation": {
-        "text": "Bode plots show magnitude (dB) vs frequency on logarithmic scales:",
-        "graphic": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTAwIj48cGF0aCBkPSJNMjAgODBMMTAwIDgwTDE4MCAyMCIgc3Ryb2tlPSJibHVlIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz48dGV4dCB4PSIxMDAiIHk9IjkwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5mPC90ZXh0Pjwvc3ZnPg=="
+        "text": "1999 counts provide 1 part in 2000 resolution",
+        "diagram": "mermaid\ngauge\ntitle DMM Resolution\n0.05% : 100\nOther : 0",
+        "type": "instrument_specs"
       }
     },
     {
-      "question": "The Lissajous pattern for 90° phase difference appears as:",
+      "question": "Four-point probe measurement eliminates:",
       "options": [
-        "Straight line",
-        "Ellipse",
-        "Circle",
-        "Figure-eight"
+        "Contact resistance errors",
+        "Thermal drift",
+        "Capacitive coupling",
+        "Inductive interference"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanation": {
-        "text": "90° phase shift produces a perfect circle in X-Y mode:",
-        "graphic": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgc3Ryb2tlPSJyZWQiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg=="
+        "text": "Separate current injection and voltage sensing paths",
+        "diagram": "mermaid\nflowchart TD\nI+ -->|Force| Sample\nSample -->|Sense| V+\nI- --> GND\nV- --> GND",
+        "type": "measurement_technique"
       }
-    
     }
-  ]
+  ],
+  "visualization_guide": {
+    "mermaid_support_required": true,
+    "recommended_rendering": "Use Mermaid.js (v8.8+) or compatible viewer",
+    "diagram_types": {
+      "frequency_response": "Shows magnitude vs log-frequency relationship",
+      "phase_analysis": "Displays X-Y signal relationships",
+      "bridge_circuit": "Precision measurement circuit layout",
+      "instrument_specs": "Technical specifications visualization",
+      "measurement_technique": "Probe configuration diagrams"
+    }
+  }
 }
+
