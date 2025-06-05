@@ -431,6 +431,9 @@
           "explanation": "📝 Minimum α (typically 5°-10°) ensures one converter is always ready to take over current, preventing circulating current."
         }
       ],
+      {
+  "power_electronics_quizzes": [
+    {
       "quiz2": [
         {
           "question": "The resonant frequency in a series resonant converter is given by:",
@@ -464,7 +467,402 @@
           ],
           "answer": 1,
           "explanation": "📝 Stray inductance in the circuit causes voltage spikes (V=Ldi/dt) during fast current transitions at turn-off."
-       
+        },
+        {
+          "question": "The harmonic injection technique in PWM is used to:",
+          "options": [
+            "Increase fundamental voltage",
+            "Reduce THD",
+            "Eliminate even harmonics",
+            "Improve power factor"
+          ],
+          "answer": 0,
+          "explanation": "📝 Third harmonic injection allows 15% higher fundamental output voltage without overmodulation."
+        },
+        {
+          "question": "The safe operating area (SOA) of a power device is bounded by:",
+          "options": [
+            "Voltage, current and power limits",
+            "Temperature and frequency",
+            "dv/dt and di/dt",
+            "Gate drive capability"
+          ],
+          "answer": 0,
+          "explanation": "📝 SOA is defined by maximum voltage (avalanche), current (bond wires) and power (thermal) limits."
+        },
+        {
+          "question": "The commutation failure in line-commutated converters occurs due to:",
+          "options": [
+            "High firing angle",
+            "AC voltage dip",
+            "DC overcurrent",
+            "Gate pulse loss"
+          ],
+          "answer": 1,
+          "explanation": "📝 Insufficient AC voltage prevents proper commutation, causing failure when overlap angle exceeds 60°."
+        },
+        {
+          "question": "The shoot-through fault in voltage source inverters is prevented by:",
+          "options": [
+            "Snubber circuits",
+            "Dead-time insertion",
+            "Current limiting reactors",
+            "Varistors"
+          ],
+          "answer": 1,
+          "explanation": "📝 Dead-time ensures one device turns off completely before complementary device turns on."
+        },
+        {
+          "question": "The input power factor of a phase-controlled rectifier at α=90° is:",
+          "options": [
+            "0.5 lagging",
+            "0.707 lagging",
+            "Zero",
+            "Unity"
+          ],
+          "answer": 2,
+          "explanation": "📝 At α=90°, the fundamental current is 90° out of phase with voltage, resulting in zero power factor."
+        },
+        {
+          "question": "The reverse recovery charge of a diode depends on:",
+          "options": [
+            "Forward current before turn-off",
+            "Peak reverse voltage",
+            "Junction capacitance",
+            "Case temperature"
+          ],
+          "answer": 0,
+          "explanation": "📝 Qrr is proportional to forward current before commutation and minority carrier lifetime."
+        },
+        {
+          "question": "The isolation voltage requirement for gate drive circuits in medium voltage IGBTs is typically:",
+          "options": [
+            "5-10V",
+            "15-20V",
+            "1-5kV",
+            "10-20kV"
+          ],
+          "answer": 2,
+          "explanation": "📝 Gate drives for 3.3kV-6.5kV IGBTs require 1-5kV isolation to withstand collector-gate potential differences."
+        },
+        {
+          "question": "The output voltage of a 3-level NPC inverter has:",
+          "options": [
+            "Lower dv/dt",
+            "Higher THD",
+            "Double voltage stress",
+            "Reduced harmonic spectrum"
+          ],
+          "answer": 0,
+          "explanation": "📝 Multi-level inverters reduce dv/dt stress on motor windings compared to 2-level inverters."
+        },
+        {
+          "question": "The latching current of an SCR is typically:",
+          "options": [
+            "Equal to holding current",
+            "2-3 times holding current",
+            "10-20 times holding current",
+            "100 times holding current"
+          ],
+          "answer": 1,
+          "explanation": "📝 Latching current (100-500mA) is higher than holding current to ensure proper turn-on."
+        },
+        {
+          "question": "The zero-voltage switching (ZVS) is achieved when:",
+          "options": [
+            "Device turns on at zero current",
+            "Device turns off at zero voltage",
+            "Device turns on at zero voltage",
+            "Device turns off at zero current"
+          ],
+          "answer": 2,
+          "explanation": "📝 ZVS occurs when the device voltage is zero at turn-on, eliminating capacitive turn-on losses."
+        },
+        {
+          "question": "The matrix converter requires:",
+          "options": [
+            "Energy storage elements",
+            "Bidirectional switches",
+            "DC link capacitor",
+            "Freewheeling diodes"
+          ],
+          "answer": 1,
+          "explanation": "📝 Matrix converters use 9 bidirectional switches (18 IGBTs) for direct AC-AC conversion without DC link."
+        },
+        {
+          "question": "The thermal resistance junction-to-case (Rθjc) is specified to ensure:",
+          "options": [
+            "Proper heat sink design",
+            "Adequate gate drive",
+            "Voltage isolation",
+            "Current sharing"
+          ],
+          "answer": 0,
+          "explanation": "📝 Rθjc determines temperature rise from junction to case, critical for heat sink calculations."
+        },
+        {
+          "question": "The discontinuous conduction mode in buck converters occurs when:",
+          "options": [
+            "Inductor current reaches zero",
+            "Output voltage exceeds input",
+            "Duty cycle > 0.5",
+            "Switching frequency is high"
+          ],
+          "answer": 0,
+          "explanation": "📝 DCM happens when inductor current falls to zero during part of switching period."
+        },
+        {
+          "question": "The gate drive power requirement increases with:",
+          "options": [
+            "Higher switching frequency",
+            "Higher DC bus voltage",
+            "Lower load current",
+            "Reduced dead-time"
+          ],
+          "answer": 0,
+          "explanation": "📝 Pgate = Qg×Vg×fsw where Qg is gate charge, Vg is gate voltage and fsw is switching frequency."
+        },
+        {
+          "question": "The circulating current in dual converters flows through:",
+          "options": [
+            "Load",
+            "Source",
+            "Both converters",
+            "Freewheeling diodes"
+          ],
+          "answer": 2,
+          "explanation": "📝 Circulating current flows between the two converters when both are triggered simultaneously."
+        },
+        {
+          "question": "The turn-off snubber capacitor value is selected based on:",
+          "options": [
+            "Peak current",
+            "dv/dt requirement",
+            "Junction temperature",
+            "Gate resistance"
+          ],
+          "answer": 1,
+          "explanation": "📝 C = I/(dv/dt) where I is turn-off current and dv/dt is maximum allowed rate of voltage rise."
+        },
+        {
+          "question": "The output voltage of a single-phase full converter with discontinuous conduction is:",
+          "options": [
+            "Always positive",
+            "Always negative",
+            "Either positive or negative",
+            "Zero"
+          ],
+          "answer": 0,
+          "explanation": "📝 Even with discontinuous conduction, output voltage remains positive as current can't reverse without freewheeling path."
+        },
+        {
+          "question": "The voltage clamping in multilevel inverters is achieved using:",
+          "options": [
+            "Snubber circuits",
+            "Flying capacitors",
+            "Gate drive control",
+            "Current sensors"
+          ],
+          "answer": 1,
+          "explanation": "📝 Flying capacitor topology uses capacitors to clamp voltage levels between phases."
+        },
+        {
+          "question": "The reverse recovery time of fast recovery diodes is typically in the range of:",
+          "options": [
+            "10-100 ns",
+            "1-10 μs",
+            "50-100 μs",
+            ">1 ms"
+          ],
+          "answer": 0,
+          "explanation": "📝 Fast recovery diodes have trr < 200ns, while standard rectifiers may have trr > 1μs."
+        },
+        {
+          "question": "The carrier frequency ratio in PWM inverters is chosen to be:",
+          "options": [
+            "An integer",
+            "An odd integer",
+            "A non-integer",
+            "A multiple of 3"
+          ],
+          "answer": 1,
+          "explanation": "📝 Odd integer ratios prevent sub-harmonics and even-order harmonics in the output."
+        },
+        {
+          "question": "The main purpose of an input filter in switch-mode power supplies is to:",
+          "options": [
+            "Improve power factor",
+            "Reduce conducted EMI",
+            "Limit inrush current",
+            "Stabilize DC bus"
+          ],
+          "answer": 1,
+          "explanation": "📝 Input filters attenuate high-frequency switching noise from reaching the AC mains."
+        },
+        {
+          "question": "The conduction angle of a TRIAC in lamp dimmer circuit is adjusted by:",
+          "options": [
+            "Variable resistor",
+            "DIAC breakover voltage",
+            "Gate pulse width",
+            "Snubber capacitor"
+          ],
+          "answer": 1,
+          "explanation": "📝 DIAC triggers TRIAC when capacitor voltage reaches its breakover voltage (typically 30V)."
+        },
+        {
+          "question": "The voltage stress across switches in a full-bridge converter is:",
+          "options": [
+            "Equal to input voltage",
+            "Twice input voltage",
+            "Half input voltage",
+            "Four times input voltage"
+          ],
+          "answer": 0,
+          "explanation": "📝 Each switch in full-bridge configuration blocks only the input DC voltage (Vdc)."
+        },
+        {
+          "question": "The dynamic equalization of series-connected IGBTs is achieved by:",
+          "options": [
+            "Gate delay adjustment",
+            "Active voltage clamping",
+            "Common heat sink",
+            "Identical gate resistors"
+          ],
+          "answer": 1,
+          "explanation": "📝 Active clamping circuits using zener diodes ensure equal voltage sharing during switching."
+        },
+        {
+          "question": "The output voltage ripple frequency of a three-phase full-wave rectifier is:",
+          "options": [
+            "Equal to supply frequency",
+            "Twice supply frequency",
+            "Six times supply frequency",
+            "Same as switching frequency"
+          ],
+          "answer": 2,
+          "explanation": "📝 6-pulse rectifier produces ripple at 6× line frequency (300Hz for 50Hz supply)."
+        },
+        {
+          "question": "The turn-on delay time (td(on)) of a power MOSFET is primarily determined by:",
+          "options": [
+            "Gate resistance",
+            "Drain-source capacitance",
+            "Channel resistance",
+            "Body diode recovery"
+          ],
+          "answer": 0,
+          "explanation": "📝 td(on) = Rg×Ciss×ln(Vgg/(Vgg-Vth)) where Rg is gate resistance, Ciss is input capacitance."
+        },
+        {
+          "question": "The harmonic content in CHB (Cascaded H-Bridge) multilevel inverters can be reduced by:",
+          "options": [
+            "Increasing switching frequency",
+            "Phase-shifted carrier PWM",
+            "Using larger DC capacitors",
+            "Adding output filters"
+          ],
+          "answer": 1,
+          "explanation": "📝 Phase-shifting carriers for each H-bridge creates equivalent higher switching frequency."
+        },
+        {
+          "question": "The short-circuit withstand time (SCWT) of IGBT modules is typically:",
+          "options": [
+            "1-5 μs",
+            "10-20 μs",
+            "5-10 ms",
+            ">100 ms"
+          ],
+          "answer": 2,
+          "explanation": "📝 Modern IGBTs can withstand short-circuit for 5-10μs before thermal destruction occurs."
+        },
+        {
+          "question": "The output voltage of a Cuk converter:",
+          "options": [
+            "Is always step-down",
+            "Is always step-up",
+            "Can be step-up or step-down",
+            "Is always inverted"
+          ],
+          "answer": 3,
+          "explanation": "📝 Cuk converter provides inverted output voltage that can be higher or lower than input."
+        },
+        {
+          "question": "The Miller plateau in IGBT turn-on characteristics is caused by:",
+          "options": [
+            "Gate oxide charging",
+            "Collector current rise",
+            "Gate-drain capacitance (Cgd)",
+            "Tail current"
+          ],
+          "answer": 2,
+          "explanation": "📝 Miller effect occurs when Cgd feeds back collector voltage changes to gate during switching."
+        },
+        {
+          "question": "The voltage balancing in flying capacitor multilevel inverters is maintained by:",
+          "options": [
+            "Separate DC sources",
+            "Switching state selection",
+            "Output filters",
+            "Gate drive adjustment"
+          ],
+          "answer": 1,
+          "explanation": "📝 Redundant switching states are used to charge/discharge capacitors to maintain voltage levels."
+        },
+        {
+          "question": "The commutation overlap in rectifiers causes:",
+          "options": [
+            "Output voltage reduction",
+            "Input current distortion",
+            "Both voltage reduction and current distortion",
+            "No significant effect"
+          ],
+          "answer": 2,
+          "explanation": "📝 Overlap (μ) reduces average output voltage by Vd = (Vdo/2)(cosα + cos(α+μ)) and distorts input current."
+        },
+        {
+          "question": "The reverse recovery characteristics of diodes become softer with:",
+          "options": [
+            "Higher forward current",
+            "Increased temperature",
+            "Lower doping concentration",
+            "Reduced junction area"
+          ],
+          "answer": 1,
+          "explanation": "📝 At higher temperatures, minority carrier lifetime increases, causing softer recovery."
+        },
+        {
+          "question": "The minimum number of switches required for a 3-phase matrix converter is:",
+          "options": [
+            "6",
+            "9",
+            "12",
+            "18"
+          ],
+          "answer": 1,
+          "explanation": "📝 3×3 matrix requires 9 bidirectional switches (implemented with 18 IGBTs and diodes)."
+        },
+        {
+          "question": "The output voltage of a SEPIC converter is:",
+          "options": [
+            "Always less than input",
+            "Always greater than input",
+            "Either less or greater than input",
+            "Always equal to input"
+          ],
+          "answer": 2,
+          "explanation": "📝 SEPIC (Single-Ended Primary Inductance Converter) can step-up or step-down like Cuk but with non-inverted output."
+        },
+        {
+          "question": "The gate charge (Qg) parameter of MOSFETs is important for:",
+          "options": [
+            "Conduction loss calculation",
+            "Gate drive design",
+            "Voltage rating selection",
+            "Thermal design"
+          ],
+          "answer": 1,
+          "explanation": "📝 Qg determines the energy required to switch the device (Qg×Vg) and gate driver current capability."
+        }
+        ]
     }
-  ]
-}
