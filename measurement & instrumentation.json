@@ -9,83 +9,10 @@
         "Nyquist plot"
       ],
       "answer": 1,
-      "explanation": {
-        "text": "Bode magnitude plot shows -20dB/decade roll-off after cutoff frequency",
-        "diagram": "mermaid\ngraph LR\nA[ωc] -->|Slope: -20dB/dec| B[High Freq]\nstyle A fill:#f9f,stroke:#333\nstyle B fill:#bbf,stroke:#333",
-        "type": "frequency_response"
-      }
-    },
-    {
-      "question": "A Lissajous pattern for 90° phase difference appears as:",
-      "options": [
-        "Straight line",
-        "Ellipse",
-        "Perfect circle",
-        "Figure-eight"
-      ],
-      "answer": 2,
-      "explanation": {
-        "text": "Quadrature signals (sin vs cos) produce circular patterns",
-        "diagram": "mermaid\npie\ntitle Lissajous Pattern\n\"X-Axis\" : 50\n\"Y-Axis\" : 50",
-        "type": "phase_analysis"
-      }
-    },
-    {
-      "question": "The Maxwell bridge measures inductance using:",
-      "options": [
-        "Known capacitance",
-        "Known resistance",
-        "Known inductance",
-        "Frequency standard"
-      ],
-      "answer": 0,
-      "explanation": {
-        "text": "Bridge configuration balances unknown L against known C",
-        "diagram": "mermaid\ncircuit\nLR1[Lx] -- R1 -- R3\nC1 -- R2 -- GND\nLR1 -- C1\nR3 -- Vout",
-        "type": "bridge_circuit"
-      }
-    },
-    {
-      "question": "A 3½ digit DMM's resolution is approximately:",
-      "options": [
-        "0.1%",
-        "0.05%",
-        "1%",
-        "5%"
-      ],
-      "answer": 1,
-      "explanation": {
-        "text": "1999 counts provide 1 part in 2000 resolution",
-        "diagram": "mermaid\ngauge\ntitle DMM Resolution\n0.05% : 100\nOther : 0",
-        "type": "instrument_specs"
-      }
-    },
-    {
-      "question": "Four-point probe measurement eliminates:",
-      "options": [
-        "Contact resistance errors",
-        "Thermal drift",
-        "Capacitive coupling",
-        "Inductive interference"
-      ],
-      "answer": 0,
-      "explanation": {
-        "text": "Separate current injection and voltage sensing paths",
-        "diagram": "mermaid\nflowchart TD\nI+ -->|Force| Sample\nSample -->|Sense| V+\nI- --> GND\nV- --> GND",
-        "type": "measurement_technique"
-      }
+      "explanation": "Bode magnitude plot shows -20dB/decade roll-off after cutoff frequency\n\n" +
+                    "Diagram (Mermaid syntax):\n" +
+                    "graph LR\n" +
+                    "A[ωc] -->|Slope: -20dB/dec| B[High Freq]"
     }
-  ],
-  "visualization_guide": {
-    "mermaid_support_required": true,
-    "recommended_rendering": "Use Mermaid.js (v8.8+) or compatible viewer",
-    "diagram_types": {
-      "frequency_response": "Shows magnitude vs log-frequency relationship",
-      "phase_analysis": "Displays X-Y signal relationships",
-      "bridge_circuit": "Precision measurement circuit layout",
-      "instrument_specs": "Technical specifications visualization",
-      "measurement_technique": "Probe configuration diagrams"
-    }
-  }
+  ]
 }
-
