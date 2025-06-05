@@ -2133,5 +2133,867 @@
           "answer": 1,
           "explanation": "Slip ring motors provide the high starting torque needed to rotate heavy kilns."
         }
-      ]
+      ],
+      "quiz6": [
+        {
+          "question": "The main advantage of using induction motors with VFDs in industrial fans is:",
+          "options": [
+            "Improved starting torque",
+            "Energy savings up to 50%",
+            "Reduced initial cost",
+            "Simpler construction"
+          ],
+          "answer": 1,
+          "explanation": "VFDs can reduce fan energy consumption by 50% through cube law affinity (power ∝ speed³)."
+        },
+        {
+          "question": "In electric traction, the purpose of a 'dead man's handle' is to:",
+          "options": [
+            "Control acceleration",
+            "Ensure driver alertness",
+            "Activate emergency brakes",
+            "Regulate pantograph pressure"
+          ],
+          "answer": 1,
+          "explanation": "This safety device stops the train if the driver becomes incapacitated."
+        },
+        {
+          "question": "The most suitable motor for a CNC machine tool is:",
+          "options": [
+            "DC shunt motor",
+            "AC servo motor",
+            "Squirrel cage motor",
+            "Universal motor"
+          ],
+          "answer": 1,
+          "explanation": "AC servo motors provide precise position/speed control needed for CNC applications."
+        },
+        {
+          "question": "In illumination design, the recommended uniformity ratio (min:avg) for road lighting is:",
+          "options": [
+            "0.1",
+            "0.3",
+            "0.5",
+            "0.7"
+          ],
+          "answer": 1,
+          "explanation": "Minimum illuminance should be at least 30% of average for safe road lighting."
+        },
+        {
+          "question": "The main advantage of electron beam welding for aerospace components is:",
+          "options": [
+            "Portability",
+            "Minimal heat distortion",
+            "No vacuum required",
+            "High deposition rate"
+          ],
+          "answer": 1,
+          "explanation": "EBW's concentrated heat input minimizes distortion in thin aerospace structures."
+        },
+        {
+          "question": "In electric heating, the main advantage of molybdenum disilicide heating elements is:",
+          "options": [
+            "Low cost",
+            "Operation up to 1800°C",
+            "Resistance to oxidation",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "MoSi₂ elements can withstand temperatures up to 1800°C in oxidizing atmospheres."
+        },
+        {
+          "question": "The most suitable lamp for high-mast lighting is:",
+          "options": [
+            "LED (100-150 lm/W)",
+            "High pressure sodium (100-150 lm/W)",
+            "Metal halide (75-100 lm/W)",
+            "Mercury vapor (30-65 lm/W)"
+          ],
+          "answer": 1,
+          "explanation": "HPSV lamps provide the best combination of efficacy and maintenance for high-mast applications."
+        },
+        {
+          "question": "In electric traction, the main advantage of using IGBTs in inverters is:",
+          "options": [
+            "Higher voltage rating",
+            "Lower switching losses (10-20kHz)",
+            "Simpler gate drive",
+            "Higher current capacity"
+          ],
+          "answer": 1,
+          "explanation": "IGBTs enable high-frequency PWM (10-20kHz) with lower losses compared to GTOs."
+        },
+        {
+          "question": "The main disadvantage of resistance heating for bulk melting is:",
+          "options": [
+            "High energy consumption",
+            "Poor temperature control",
+            "Limited to metals",
+            "Low power factor"
+          ],
+          "answer": 0,
+          "explanation": "Resistance melting has lower efficiency compared to induction for bulk applications."
+        },
+        {
+          "question": "In illumination engineering, the recommended color rendering index (CRI) for hospitals is:",
+          "options": [
+            "Ra > 70",
+            "Ra > 80",
+            "Ra > 90",
+            "Ra > 95"
+          ],
+          "answer": 2,
+          "explanation": "Medical facilities require high CRI (>90) for accurate color discrimination."
+        },
+        {
+          "question": "The most suitable motor for a steel mill reversing rolling stand is:",
+          "options": [
+            "DC shunt motor",
+            "Ward-Leonard controlled DC motor",
+            "Squirrel cage motor",
+            "Reluctance motor"
+          ],
+          "answer": 1,
+          "explanation": "Ward-Leonard systems provide precise speed reversal control needed for rolling stands."
+        },
+        {
+          "question": "In electric welding, the main advantage of laser-hybrid welding is:",
+          "options": [
+            "Lower equipment cost",
+            "Increased penetration (up to 25mm)",
+            "No shielding gas required",
+            "Ability to weld all materials"
+          ],
+          "answer": 1,
+          "explanation": "Combining laser with arc welding increases penetration depth significantly."
+        },
+        {
+          "question": "The main advantage of sulfur plasma lamps is:",
+          "options": [
+            "High efficacy (100 lm/W)",
+            "Sun-like spectrum (CRI=100)",
+            "Compact size",
+            "Instant restrike"
+          ],
+          "answer": 1,
+          "explanation": "Sulfur plasma produces a continuous spectrum nearly identical to sunlight."
+        },
+        {
+          "question": "In electric heating, the main advantage of fluidized bed furnaces for heat treatment is:",
+          "options": [
+            "Lower energy consumption",
+            "Rapid heat transfer (±1°C uniformity)",
+            "Ability to process all materials",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "Fluidized beds provide extremely uniform heating through intense particle mixing."
+        },
+        {
+          "question": "The most suitable motor for a mine hoist is:",
+          "options": [
+            "DC series motor",
+            "Slip ring induction motor",
+            "Squirrel cage motor",
+            "Universal motor"
+          ],
+          "answer": 1,
+          "explanation": "Slip ring motors provide the high starting torque and speed control needed for hoists."
+        },
+        {
+          "question": "In illumination design, the recommended maintained illuminance for operating theaters is:",
+          "options": [
+            "300 lux",
+            "1000 lux",
+            "5000 lux",
+            "10000 lux"
+          ],
+          "answer": 3,
+          "explanation": "Surgical areas require extremely high illumination (10,000 lux) for precision work."
+        },
+        {
+          "question": "The main advantage of plasma arc cutting for stainless steel is:",
+          "options": [
+            "Lower equipment cost",
+            "Cutting thickness up to 150mm",
+            "No gas required",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "Plasma can cut thick stainless steel (up to 150mm) with clean edges."
+        },
+        {
+          "question": "In electric traction, the main advantage of permanent magnet synchronous motors is:",
+          "options": [
+            "Lower cost",
+            "Higher efficiency (up to 97%)",
+            "Simpler control",
+            "Higher starting torque"
+          ],
+          "answer": 1,
+          "explanation": "PMSMs eliminate rotor losses, achieving efficiencies up to 97%."
+        },
+        {
+          "question": "The most suitable lamp for aquarium lighting is:",
+          "options": [
+            "High pressure sodium",
+            "Metal halide (10,000K)",
+            "Low pressure sodium",
+            "Mercury vapor"
+          ],
+          "answer": 1,
+          "explanation": "10,000K metal halide simulates deep water light spectrum for marine life."
+        },
+        {
+          "question": "In electric heating, the main advantage of silicon carbide heating elements is:",
+          "options": [
+            "Low cost",
+            "Operation up to 1600°C",
+            "Resistance to thermal shock",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "SiC elements can withstand temperatures up to 1600°C in oxidizing atmospheres."
+        },
+        {
+          "question": "The main disadvantage of mercury vapor lamps for sports lighting is:",
+          "options": [
+            "High power consumption",
+            "Poor color rendering (CRI 15-50)",
+            "Long restrike time",
+            "Large size"
+          ],
+          "answer": 1,
+          "explanation": "The poor CRI makes player uniforms and field markings appear unnatural."
+        },
+        {
+          "question": "In electric welding, the main advantage of friction stir welding for aluminum is:",
+          "options": [
+            "Lower equipment cost",
+            "No melting (solid-state process)",
+            "No skill required",
+            "High deposition rate"
+          ],
+          "answer": 1,
+          "explanation": "FSW avoids aluminum's hot cracking issues by not melting the base metal."
+        },
+        {
+          "question": "The most suitable motor for a paper machine dryer section is:",
+          "options": [
+            "DC shunt motor",
+            "Synchronous motor",
+            "Squirrel cage motor",
+            "Reluctance motor"
+          ],
+          "answer": 1,
+          "explanation": "Synchronous motors maintain constant speed under load variations in dryer sections."
+        },
+        {
+          "question": "In illumination engineering, the mesopic multiplier for road lighting is:",
+          "options": [
+            "0.5-0.7",
+            "1.0-1.2",
+            "1.5-2.0",
+            "2.5-3.0"
+          ],
+          "answer": 2,
+          "explanation": "Under mesopic conditions (0.1-3 cd/m²), light appears 1.5-2.0× brighter to the eye."
+        },
+        {
+          "question": "The main advantage of induction heating for pipe welding is:",
+          "options": [
+            "Lower equipment cost",
+            "Precise heat control (±5°C)",
+            "Ability to heat all materials",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "Induction provides precise temperature control for consistent weld quality."
+        },
+        {
+          "question": "In electric traction, the main advantage of direct torque control (DTC) is:",
+          "options": [
+            "Lower cost",
+            "Fast torque response (<5ms)",
+            "Simpler implementation",
+            "Higher starting torque"
+          ],
+          "answer": 1,
+          "explanation": "DTC provides extremely fast torque control without position sensors."
+        },
+        {
+          "question": "The most suitable lamp for film production is:",
+          "options": [
+            "LED (CRI >95)",
+            "High pressure sodium",
+            "Low pressure sodium",
+            "Mercury vapor"
+          ],
+          "answer": 0,
+          "explanation": "High-CRI LEDs provide flicker-free lighting matching camera requirements."
+        },
+        {
+          "question": "In electric heating, the main advantage of PTC heaters for appliances is:",
+          "options": [
+            "Higher efficiency",
+            "Self-limiting temperature",
+            "Ability to heat all materials",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "PTC elements automatically stabilize at design temperature without controls."
+        },
+        {
+          "question": "The main disadvantage of fluorescent lamps for high-speed video is:",
+          "options": [
+            "Low efficacy",
+            "100Hz flicker",
+            "Poor color rendering",
+            "Large size"
+          ],
+          "answer": 1,
+          "explanation": "Mains-frequency operation causes visible flicker in high-speed footage."
+        },
+        {
+          "question": "In electric welding, the main advantage of resistance seam welding is:",
+          "options": [
+            "Lower equipment cost",
+            "Continuous leak-proof joints",
+            "No power required",
+            "Deep penetration"
+          ],
+          "answer": 1,
+          "explanation": "Seam welding produces continuous joints ideal for liquid/gas containers."
+        },
+        {
+          "question": "The most suitable motor for a ship's bow thruster is:",
+          "options": [
+            "DC shunt motor",
+            "Water-cooled induction motor",
+            "Squirrel cage motor",
+            "Universal motor"
+          ],
+          "answer": 1,
+          "explanation": "Water-cooled motors handle the high power density needed for thrusters."
+        },
+        {
+          "question": "In illumination design, the equivalent veiling luminance (EVL) measures:",
+          "options": [
+            "Color rendering",
+            "Disability glare",
+            "Uniformity ratio",
+            "Flicker index"
+          ],
+          "answer": 1,
+          "explanation": "EVL quantifies how much glare reduces contrast sensitivity (disability glare)."
+        },
+        {
+          "question": "The main advantage of induction heating for shrink fitting is:",
+          "options": [
+            "Lower equipment cost",
+            "Precise temperature control (±2°C)",
+            "Ability to heat all materials",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "Precise temperature control ensures consistent expansion for interference fits."
+        },
+        {
+          "question": "In electric traction, the main advantage of multilevel inverters is:",
+          "options": [
+            "Lower cost",
+            "Reduced harmonic distortion",
+            "Simpler control",
+            "Higher starting torque"
+          ],
+          "answer": 1,
+          "explanation": "Multilevel topologies produce near-sinusoidal voltages with low THD (<5%)."
+        },
+        {
+          "question": "The most suitable lamp for greenhouse lighting is:",
+          "options": [
+            "High pressure sodium",
+            "LED grow lights",
+            "Low pressure sodium",
+            "Mercury vapor"
+          ],
+          "answer": 1,
+          "explanation": "LEDs can be tuned to specific photosynthetic spectra (450nm blue, 660nm red)."
+        },
+        {
+          "question": "In electric heating, the main advantage of graphite heating elements is:",
+          "options": [
+            "Low cost",
+            "Operation up to 3000°C",
+            "Resistance to oxidation",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "Graphite withstands extreme temperatures in vacuum/inert atmospheres."
+        },
+        {
+          "question": "The main disadvantage of HID lamps for indoor sports is:",
+          "options": [
+            "High power consumption",
+            "Long restrike time (3-10 min)",
+            "Poor color rendering",
+            "Large size"
+          ],
+          "answer": 1,
+          "explanation": "HID lamps cannot restart immediately after power interruption."
+        },
+        {
+          "question": "In electric welding, the main advantage of explosive welding is:",
+          "options": [
+            "Lower equipment cost",
+            "Ability to bond dissimilar metals",
+            "No skill required",
+            "High deposition rate"
+          ],
+          "answer": 1,
+          "explanation": "Explosive welding can join metallurgically incompatible metals like aluminum to steel."
+        },
+        {
+          "question": "The most suitable motor for a steel mill blooming mill is:",
+          "options": [
+            "DC shunt motor",
+            "DC series motor",
+            "Synchronous motor",
+            "Reluctance motor"
+          ],
+          "answer": 1,
+          "explanation": "DC series motors provide the high starting torque needed for heavy ingots."
+        }
+      ],
+              "quiz7": [
+        {
+          "question": "The main advantage of LED street lights with adaptive controls is:",
+          "options": [
+            "Higher luminous efficacy",
+            "Energy savings up to 70%",
+            "Lower initial cost",
+            "Smaller size"
+          ],
+          "answer": 1,
+          "explanation": "Dimming during low-traffic periods can reduce energy use by 70% while maintaining safety."
+        },
+        {
+          "question": "In electric traction, the purpose of a 'wheel slide protection' system is to:",
+          "options": [
+            "Improve acceleration",
+            "Prevent wheel flats during braking",
+            "Reduce noise",
+            "Increase adhesion"
+          ],
+          "answer": 1,
+          "explanation": "WSP modulates braking force to prevent locked wheels that cause flat spots."
+        },
+        {
+          "question": "The most suitable motor for a robotic arm is:",
+          "options": [
+            "Stepper motor",
+            "DC shunt motor",
+            "Squirrel cage motor",
+            "Universal motor"
+          ],
+          "answer": 0,
+          "explanation": "Stepper motors provide precise position control without feedback sensors."
+        },
+        {
+          "question": "In illumination design, the recommended vertical illuminance for sports fields is:",
+          "options": [
+            "10-30 lux",
+            "50-100 lux",
+            "200-500 lux",
+            "1000-1500 lux"
+          ],
+          "answer": 2,
+          "explanation": "Vertical illuminance (200-500 lux) ensures player visibility for spectators."
+        },
+        {
+          "question": "The main advantage of laser hardening over induction hardening is:",
+          "options": [
+            "Lower equipment cost",
+            "Precise area selection (0.1mm resolution)",
+            "Deeper case depth",
+            "Higher power factor"
+          ],
+          "answer": 1,
+          "explanation": "Lasers can selectively harden complex geometries with 0.1mm precision."
+        },
+        {
+          "question": "In electric welding, the current range for micro-TIG welding is:",
+          "options": [
+            "1-10A",
+            "20-50A",
+            "100-200A",
+            "300-500A"
+          ],
+          "answer": 0,
+          "explanation": "Micro-TIG uses 1-10A for precision welding of thin materials (0.1-0.5mm)."
+        },
+        {
+          "question": "The most suitable lamp for airport runway lighting is:",
+          "options": [
+            "LED (100-150 lm/W)",
+            "High pressure sodium (100-150 lm/W)",
+            "Incandescent (10-18 lm/W)",
+            "Mercury vapor (30-65 lm/W)"
+          ],
+          "answer": 0,
+          "explanation": "LEDs provide the reliability and instant-on capability critical for runways."
+        },
+        {
+          "question": "In electric traction, the main advantage of permanent magnet linear motors is:",
+          "options": [
+            "Lower cost",
+            "Higher efficiency (up to 95%)",
+            "Simpler construction",
+            "Higher starting force"
+          ],
+          "answer": 1,
+          "explanation": "PMLMs eliminate gear losses, achieving efficiencies up to 95% in maglev systems."
+        },
+        {
+          "question": "The main disadvantage of dielectric heating for wood drying is:",
+          "options": [
+            "High energy cost",
+            "Non-uniform drying",
+            "Limited to thin sections",
+            "Low power factor (0.05)"
+          ],
+          "answer": 0,
+          "explanation": "Dielectric drying is 3-5× more energy intensive than conventional kilns."
+        },
+        {
+          "question": "In illumination engineering, the recommended maintained illuminance for ICUs is:",
+          "options": [
+            "100 lux",
+            "300 lux",
+            "1000 lux",
+            "5000 lux"
+          ],
+          "answer": 1,
+          "explanation": "ICUs require 300 lux general lighting with 10,000 lux for procedures."
+        },
+        {
+          "question": "The most suitable motor for a wire drawing machine is:",
+          "options": [
+            "DC shunt motor",
+            "Ward-Leonard controlled DC motor",
+            "Squirrel cage motor",
+            "Reluctance motor"
+          ],
+          "answer": 1,
+          "explanation": "Ward-Leonard systems provide the precise tension control needed for wire drawing."
+        },
+        {
+          "question": "In electric welding, the main advantage of cold metal transfer (CMT) is:",
+          "options": [
+            "Lower equipment cost",
+            "Reduced heat input (30% less)",
+            "No gas required",
+            "Higher deposition rate"
+          ],
+          "answer": 1,
+          "explanation": "CMT reduces heat input by 30%, minimizing distortion in thin sheets."
+        },
+        {
+          "question": "The main advantage of induction-powered lamps is:",
+          "options": [
+            "Higher efficacy",
+            "100,000 hour lifespan (no electrodes)",
+            "Smaller size",
+            "Lower initial cost"
+          ],
+          "answer": 1,
+          "explanation": "Electrodeless design extends lifespan to 100,000 hours (10× conventional lamps)."
+        },
+        {
+          "question": "In electric heating, the main advantage of fluidized sand baths is:",
+          "options": [
+            "Lower energy consumption",
+            "Uniform heating (±0.5°C)",
+            "Ability to process all materials",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "Sand baths provide exceptional temperature uniformity for precision heat treatment."
+        },
+        {
+          "question": "The most suitable motor for a steel mill continuous caster is:",
+          "options": [
+            "DC shunt motor",
+            "DC series motor",
+            "Synchronous motor",
+            "Universal motor"
+          ],
+          "answer": 0,
+          "explanation": "DC shunt motors provide the constant speed needed for continuous casting."
+        },
+        {
+          "question": "In illumination design, the recommended color temperature for relaxing environments is:",
+          "options": [
+            "2700K (warm white)",
+            "4000K (neutral white)",
+            "6500K (cool white)",
+            "10000K (daylight)"
+          ],
+          "answer": 0,
+          "explanation": "Warm white (2700K) creates a relaxing atmosphere similar to incandescent."
+        },
+        {
+          "question": "The main advantage of electron beam welding for aerospace is:",
+          "options": [
+            "Portability",
+            "Depth-to-width ratio up to 50:1",
+            "No vacuum required",
+            "High deposition rate"
+          ],
+          "answer": 1,
+          "explanation": "EBW achieves exceptional penetration with minimal heat input (narrow HAZ)."
+        },
+        {
+          "question": "In electric traction, the main advantage of switched reluctance motors is:",
+          "options": [
+            "Lower cost",
+            "Rugged construction (no magnets)",
+            "Simpler control",
+            "Higher starting torque"
+          ],
+          "answer": 1,
+          "explanation": "SRMs have no permanent magnets or windings on the rotor, making them extremely robust."
+        },
+        {
+          "question": "The most suitable lamp for jewelry display lighting is:",
+          "options": [
+            "High pressure sodium",
+            "Ceramic metal halide (CRI >95)",
+            "Low pressure sodium",
+            "Mercury vapor"
+          ],
+          "answer": 1,
+          "explanation": "Ceramic MH provides the high CRI needed to showcase gemstone brilliance."
+        },
+        {
+          "question": "In electric heating, the main advantage of PTC heaters for automotive is:",
+          "options": [
+            "Higher efficiency",
+            "Self-regulating temperature",
+            "Ability to heat all materials",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "PTC elements automatically limit temperature without separate controls."
+        },
+        {
+          "question": "The main disadvantage of mercury vapor lamps for retail is:",
+          "options": [
+            "High power consumption",
+            "Poor color rendering (CRI 15-50)",
+            "Long restrike time",
+            "Large size"
+          ],
+          "answer": 1,
+          "explanation": "Low CRI makes merchandise colors appear unnatural and unappealing."
+        },
+        {
+          "question": "In electric welding, the main advantage of magnetic pulse welding is:",
+          "options": [
+            "Lower equipment cost",
+            "Ability to bond dissimilar metals",
+            "No skill required",
+            "High deposition rate"
+          ],
+          "answer": 1,
+          "explanation": "MPW can join aluminum to steel or copper without intermetallic formation."
+        },
+        {
+          "question": "The most suitable motor for a ship's propulsion is:",
+          "options": [
+            "DC shunt motor",
+            "Synchronous motor (10-100MW)",
+            "Squirrel cage motor",
+            "Universal motor"
+          ],
+          "answer": 1,
+          "explanation": "Large synchronous motors provide the power and efficiency needed for propulsion."
+        },
+        {
+          "question": "In illumination engineering, the Stiles-Crawford effect describes:",
+          "options": [
+            "Color perception shifts",
+            "Directional sensitivity of cones",
+            "Mesopic vision adaptation",
+            "Glare recovery time"
+          ],
+          "answer": 1,
+          "explanation": "Cones are most sensitive to light entering the pupil centrally (phototropic effect)."
+        },
+        {
+          "question": "The main advantage of induction heating for brazing carbide tips is:",
+          "options": [
+            "Lower equipment cost",
+            "Precise localized heating",
+            "Ability to heat all materials",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "Induction provides controlled heating only at the joint interface."
+        },
+        {
+          "question": "In electric traction, the main advantage of matrix converters is:",
+          "options": [
+            "Lower cost",
+            "Direct AC-AC conversion (no DC link)",
+            "Simpler control",
+            "Higher starting torque"
+          ],
+          "answer": 1,
+          "explanation": "Matrix converters eliminate bulky DC capacitors, improving power density."
+        },
+        {
+          "question": "The most suitable lamp for coral reef aquariums is:",
+          "options": [
+            "High pressure sodium",
+            "Metal halide (20,000K)",
+            "Low pressure sodium",
+            "Mercury vapor"
+          ],
+          "answer": 1,
+          "explanation": "20,000K MH simulates deep ocean light spectrum for coral symbionts."
+        },
+        {
+          "question": "In electric heating, the main advantage of tungsten heating elements is:",
+          "options": [
+            "Low cost",
+            "Operation up to 2800°C",
+            "Resistance to oxidation",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "Tungsten withstands extreme temperatures in hydrogen/vacuum furnaces."
+        },
+        {
+          "question": "The main disadvantage of fluorescent lamps for photography is:",
+          "options": [
+            "Low efficacy",
+            "Spectral spikes causing color casts",
+            "Large size",
+            "Short lifespan"
+          ],
+          "answer": 1,
+          "explanation": "Discontinuous spectrum requires special color correction filters."
+        },
+        {
+          "question": "In electric welding, the main advantage of resistance projection welding is:",
+          "options": [
+            "Lower equipment cost",
+            "Multiple simultaneous welds",
+            "No power required",
+            "Deep penetration"
+          ],
+          "answer": 1,
+          "explanation": "Projection welding can make multiple welds simultaneously in assemblies."
+        },
+        {
+          "question": "The most suitable motor for a steel mill hot strip finishing train is:",
+          "options": [
+            "DC shunt motor",
+            "DC series motor",
+            "Synchronous motor",
+            "Reluctance motor"
+          ],
+          "answer": 0,
+          "explanation": "DC shunt motors provide the precise speed control needed for finishing stands."
+        },
+        {
+          "question": "In illumination design, the Hunt effect describes:",
+          "options": [
+            "Colorfulness increases with luminance",
+            "Mesopic adaptation time",
+            "Glare recovery",
+            "Flicker perception"
+          ],
+          "answer": 0,
+          "explanation": "Colors appear more vivid at higher illuminance levels (important for retail)."
+        },
+        {
+          "question": "The main advantage of induction heating for shrink fitting is:",
+          "options": [
+            "Lower equipment cost",
+            "Precise temperature control (±2°C)",
+            "Ability to heat all materials",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "Precise control ensures consistent interference fits."
+        },
+        {
+          "question": "In electric traction, the main advantage of modular multilevel converters is:",
+          "options": [
+            "Lower cost",
+            "Scalable voltage/power",
+            "Simpler control",
+            "Higher starting torque"
+          ],
+          "answer": 1,
+          "explanation": "MMCs can be scaled by adding submodules for different voltage classes."
+        },
+        {
+          "question": "The most suitable lamp for art gallery lighting is:",
+          "options": [
+            "LED (CRI >98)",
+            "High pressure sodium",
+            "Low pressure sodium",
+            "Mercury vapor"
+          ],
+          "answer": 0,
+          "explanation": "Ultra-high CRI LEDs provide accurate color rendering without UV damage."
+        },
+        {
+          "question": "In electric heating, the main advantage of radiant tube heaters is:",
+          "options": [
+            "Lower equipment cost",
+            "Isolated combustion (no fumes)",
+            "Ability to heat all materials",
+            "High power factor"
+          ],
+          "answer": 1,
+          "explanation": "Combustion gases stay inside tubes, preventing product contamination."
+        },
+        {
+          "question": "The main disadvantage of HID lamps for indoor arenas is:",
+          "options": [
+            "High power consumption",
+            "Long restrike time (3-10 min)",
+            "Poor color rendering",
+            "Large size"
+          ],
+          "answer": 1,
+          "explanation": "HID lamps cannot restart immediately after power interruption."
+        },
+        {
+          "question": "In electric welding, the main advantage of ultrasonic welding for batteries is:",
+          "options": [
+            "Lower equipment cost",
+            "No heat input",
+            "No skill required",
+            "High deposition rate"
+          ],
+          "answer": 1,
+          "explanation": "USW avoids thermal damage to sensitive battery materials."
+        },
+        {
+          "question": "The most suitable motor for a cement mill is:",
+          "options": [
+            "DC shunt motor",
+            "Slip ring induction motor (10MW+)",
+            "Squirrel cage motor",
+            "Universal motor"
+          ],
+          "answer": 1,
+          "explanation": "Large slip ring motors provide the high starting torque needed for mills."
+        }
+              ]
     }
