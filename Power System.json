@@ -418,9 +418,7 @@
           ],
           "answer": 0,
           "explanation": "📝 Explanation: HTLS conductors can operate at higher temperatures (150-250°C) without excessive sag, increasing ampacity."
-        }
-      ],
-      "quiz2": [
+        },
         {
           "question": "The main purpose of a differential relay in transformer protection is to:",
           "options": [
@@ -476,6 +474,437 @@
           "answer": 1,
           "explanation": "📝 Explanation: NGR limits earth fault current to 200-400A to protect equipment while allowing fault detection."
         }
-      ]
+      ],
+  "quiz2": [
+    {
+      "question": "The surge impedance loading (SIL) of a 400 kV line with 250 Ω surge impedance is:",
+      "options": [
+        "500 MW",
+        "640 MW",
+        "720 MW",
+        "800 MW"
+      ],
+      "answer": 1,
+      "explanation": "📝 SIL = V²/Z₀ = 400²/250 = 640 MW"
+    },
+    {
+      "question": "In a 132 kV transmission line, the minimum clearance between conductor and ground is approximately:",
+      "options": [
+        "3.5 m",
+        "6.0 m",
+        "9.2 m",
+        "12.0 m"
+      ],
+      "answer": 1,
+      "explanation": "📝 IS 802 specifies 6.0 m for 132 kV lines considering maximum sag"
+    },
+    {
+      "question": "The primary purpose of a grading ring in high voltage equipment is to:",
+      "options": [
+        "Reduce temperature rise",
+        "Equalize electric field distribution",
+        "Increase mechanical strength",
+        "Prevent corona discharge"
+      ],
+      "answer": 1,
+      "explanation": "📝 Grading rings control potential gradient to avoid localized high stress points"
+    },
+    {
+      "question": "A 50 Hz, 6-pole hydro generator running at 1010 rpm is operating with:",
+      "options": [
+        "1% slip",
+        "1% underspeed",
+        "2% overspeed",
+        "Synchronous speed"
+      ],
+      "answer": 1,
+      "explanation": "📝 Nₛ = 120f/P = 1000 rpm → Actual speed (1010 rpm) shows 1% overspeed"
+    },
+    {
+      "question": "The typical range of negative sequence current capability for large generators is:",
+      "options": [
+        "5-8% of rated current",
+        "10-15% of rated current",
+        "20-25% of rated current",
+        "30-35% of rated current"
+      ],
+      "answer": 0,
+      "explanation": "📝 IEEE Std C37.102 recommends <8% to prevent rotor overheating"
+    },
+    {
+      "question": "The main advantage of using ABC (Aerial Bundled Cables) in distribution is:",
+      "options": [
+        "Higher current capacity",
+        "Reduced right-of-way",
+        "Improved reliability",
+        "Lower voltage drop"
+      ],
+      "answer": 2,
+      "explanation": "📝 ABC prevents phase-to-phase faults and reduces outage duration"
+    },
+    {
+      "question": "The typical impedance of a 220/66 kV, 100 MVA transformer is about:",
+      "options": [
+        "5-8%",
+        "10-12%",
+        "15-18%",
+        "20-25%"
+      ],
+      "answer": 1,
+      "explanation": "📝 EHV transformers usually have 10-12% impedance for fault current limitation"
+    },
+    {
+      "question": "The polarization index (PI) for healthy transformer insulation should be:",
+      "options": [
+        "1.0-1.5",
+        "2.0-4.0",
+        "5.0-6.0",
+        ">10"
+      ],
+      "answer": 1,
+      "explanation": "📝 PI = (10-min IR)/(1-min IR). 2-4 indicates good dielectric absorption"
+    },
+    {
+      "question": "The primary control of frequency in a power system is achieved by:",
+      "options": [
+        "Governor response",
+        "AVR adjustment",
+        "Tap changers",
+        "SCADA systems"
+      ],
+      "answer": 0,
+      "explanation": "📝 Governors provide primary frequency control via turbine input adjustment"
+    },
+    {
+      "question": "The typical tower footing resistance should be less than:",
+      "options": [
+        "1 Ω",
+        "10 Ω",
+        "30 Ω",
+        "100 Ω"
+      ],
+      "answer": 1,
+      "explanation": "📝 IS 5613 recommends <10Ω for proper lightning protection"
+    },
+    {
+      "question": "The main purpose of a wave trap in substations is to:",
+      "options": [
+        "Block lightning surges",
+        "Filter carrier signals",
+        "Limit short-circuit current",
+        "Improve power factor"
+      ],
+      "answer": 1,
+      "explanation": "📝 Wave traps block high-frequency carrier signals (40-500 kHz) from entering equipment"
+    },
+    {
+      "question": "The zero-sequence current path in a delta-star transformer depends on:",
+      "options": [
+        "Neutral grounding",
+        "Turns ratio",
+        "Core material",
+        "Cooling type"
+      ],
+      "answer": 0,
+      "explanation": "📝 Zero-sequence currents flow only if star side neutral is grounded"
+    },
+    {
+      "question": "The typical range of earth resistance for large substations is:",
+      "options": [
+        "0.1-0.5 Ω",
+        "1-5 Ω",
+        "10-15 Ω",
+        "20-30 Ω"
+      ],
+      "answer": 0,
+      "explanation": "📝 IEEE Std 80 recommends <0.5Ω for EHV substations for safety"
+    },
+    {
+      "question": "The main advantage of using HTLS conductors is:",
+      "options": [
+        "Higher ampacity",
+        "Lower sag at high temps",
+        "Reduced corona loss",
+        "Improved power factor"
+      ],
+      "answer": 1,
+      "explanation": "📝 HTLS (High Temp Low Sag) conductors maintain low sag up to 250°C"
+    },
+    {
+      "question": "The typical string efficiency for a 6-disc suspension insulator is about:",
+      "options": [
+        "50-60%",
+        "70-80%",
+        "85-90%",
+        "95-100%"
+      ],
+      "answer": 1,
+      "explanation": "📝 String efficiency = V_string/(n×V_bottom_disc). 70-80% is typical"
+    },
+    {
+      "question": "The main purpose of a Buchholz relay is to detect:",
+      "options": [
+        "Overloads",
+        "Incipient faults",
+        "High oil temp",
+        "HV surges"
+      ],
+      "answer": 1,
+      "explanation": "📝 Gas bubbles from partial discharges trigger Buchholz relay"
+    },
+    {
+      "question": "The typical fault clearing time for zone-1 distance protection is:",
+      "options": [
+        "0.1-0.3 s",
+        "0.5-1 s",
+        "2-3 s",
+        "5-10 s"
+      ],
+      "answer": 0,
+      "explanation": "📝 Zone-1 operates instantaneously (1-3 cycles) for 80% line length"
+    },
+    {
+      "question": "The main advantage of GIS over AIS is:",
+      "options": [
+        "Lower cost",
+        "Reduced space",
+        "Higher fault level",
+        "Simpler maintenance"
+      ],
+      "answer": 1,
+      "explanation": "📝 GIS occupies 10-20% space of AIS due to SF6 insulation"
+    },
+    {
+      "question": "The typical range of charging current for 400 kV lines is about:",
+      "options": [
+        "1-2 A/km",
+        "5-10 A/km",
+        "15-20 A/km",
+        "30-50 A/km"
+      ],
+      "answer": 1,
+      "explanation": "📝 Charging current = VωC ≈ 5-10 A/km for 400 kV lines"
+    },
+    {
+      "question": "The main purpose of a synchrocheck relay is to prevent:",
+      "options": [
+        "Overfluxing",
+        "Out-of-phase closing",
+        "Underfrequency",
+        "Reverse power"
+      ],
+      "answer": 1,
+      "explanation": "📝 Ensures voltage, frequency and phase sequence match before paralleling"
+    },
+    {
+      "question": "The typical efficiency of a 500 MVA transformer is about:",
+      "options": [
+        "85-90%",
+        "92-95%",
+        "98-99%",
+        "99.5-99.8%"
+      ],
+      "answer": 2,
+      "explanation": "📝 Large transformers achieve 98-99% due to optimized core design"
+    },
+    {
+      "question": "The main advantage of HVDC for long-distance transmission is:",
+      "options": [
+        "Lower cost",
+        "No reactive power",
+        "Simple conversion",
+        "Lower insulation"
+      ],
+      "answer": 1,
+      "explanation": "📝 HVDC has no charging current or synchronism issues"
+    },
+    {
+      "question": "The typical surge impedance of overhead lines is:",
+      "options": [
+        "50-100 Ω",
+        "200-300 Ω",
+        "400-500 Ω",
+        "600-800 Ω"
+      ],
+      "answer": 2,
+      "explanation": "📝 Z₀ = √(L/C) ≈ 400-500 Ω for typical configurations"
+    },
+    {
+      "question": "The main cause of Ferranti effect is:",
+      "options": [
+        "Line resistance",
+        "Shunt capacitance",
+        "Series inductance",
+        "Skin effect"
+      ],
+      "answer": 1,
+      "explanation": "📝 Shunt capacitance causes voltage rise in lightly loaded long lines"
+    },
+    {
+      "question": "The typical span length for 765 kV lines is about:",
+      "options": [
+        "150-200 m",
+        "300-400 m",
+        "500-600 m",
+        "800-1000 m"
+      ],
+      "answer": 1,
+      "explanation": "📝 300-400 m spans balance mechanical and electrical requirements"
+    },
+    {
+      "question": "The main purpose of a differential relay is to detect:",
+      "options": [
+        "Overloads",
+        "Internal faults",
+        "Earth faults",
+        "Overvoltages"
+      ],
+      "answer": 1,
+      "explanation": "📝 Compares current entering/leaving protected zone for internal faults"
+    },
+    {
+      "question": "The typical breaking capacity of 11 kV vacuum circuit breakers is:",
+      "options": [
+        "10 kA",
+        "25 kA",
+        "40 kA",
+        "63 kA"
+      ],
+      "answer": 1,
+      "explanation": "📝 Standard ratings: 25 kA (normal), 40 kA (high fault areas)"
+    },
+    {
+      "question": "The main advantage of PMUs is:",
+      "options": [
+        "Higher accuracy",
+        "Time synchronization",
+        "Lower cost",
+        "Simple installation"
+      ],
+      "answer": 1,
+      "explanation": "📝 Phasor Measurement Units provide GPS-synchronized measurements (±1μs)"
+    },
+    {
+      "question": "The typical fault level for 220 kV substations is about:",
+      "options": [
+        "5-10 kA",
+        "15-20 kA",
+        "30-40 kA",
+        "50-60 kA"
+      ],
+      "answer": 1,
+      "explanation": "📝 I_fault = MVA/(√3×kV) → 8000 MVA/(1.732×220) ≈ 21 kA"
+    },
+    {
+      "question": "The main purpose of series capacitors is to:",
+      "options": [
+        "Improve power factor",
+        "Compensate line inductance",
+        "Filter harmonics",
+        "Limit fault current"
+      ],
+      "answer": 1,
+      "explanation": "📝 Series capacitors compensate line inductive reactance (X_L)"
+    },
+    {
+      "question": "The typical range of dielectric strength for SF6 gas is:",
+      "options": [
+        "Equal to air",
+        "2-3× air",
+        "5-8× air",
+        "10-12× air"
+      ],
+      "answer": 1,
+      "explanation": "📝 SF6 has 2-3× higher dielectric strength than air at same pressure"
+    },
+    {
+      "question": "The main cause of voltage flicker is:",
+      "options": [
+        "Harmonics",
+        "Load switching",
+        "Faults",
+        "Resonance"
+      ],
+      "answer": 1,
+      "explanation": "📝 Rapid load changes (e.g., arc furnaces) cause voltage fluctuations"
+    },
+    {
+      "question": "The typical range of tower footing resistance is:",
+      "options": [
+        "0.1-1 Ω",
+        "5-10 Ω",
+        "20-30 Ω",
+        "50-100 Ω"
+      ],
+      "answer": 1,
+      "explanation": "📝 5-10Ω is achievable with proper grounding in average soil"
+    },
+    {
+      "question": "The main purpose of a neutral grounding resistor is to:",
+      "options": [
+        "Increase fault current",
+        "Limit earth fault current",
+        "Improve power factor",
+        "Filter harmonics"
+      ],
+      "answer": 1,
+      "explanation": "📝 NGR limits earth fault current to 200-400A for equipment protection"
+    },
+    {
+      "question": "The typical range of power factor for industrial loads is:",
+      "options": [
+        "0.5-0.6 lagging",
+        "0.7-0.8 lagging",
+        "0.9-0.95 lagging",
+        "Unity"
+      ],
+      "answer": 1,
+      "explanation": "📝 Induction motors dominate industrial loads (PF ≈ 0.7-0.8)"
+    },
+    {
+      "question": "The main advantage of digital relays over electromechanical is:",
+      "options": [
+        "Lower cost",
+        "Multiple functions",
+        "Higher fault tolerance",
+        "Simpler testing"
+      ],
+      "answer": 1,
+      "explanation": "📝 Single digital relay can replace multiple electromechanical units"
+    },
+    {
+      "question": "The typical range of negative sequence voltage in generators should be less than:",
+      "options": [
+        "1%",
+        "3%",
+        "5%",
+        "10%"
+      ],
+      "answer": 0,
+      "explanation": "📝 IEEE Std 115 recommends <1% V₂ to prevent rotor overheating"
+    },
+    {
+      "question": "The main purpose of a conservator in transformers is to:",
+      "options": [
+        "Cool the oil",
+        "Compensate oil expansion",
+        "Filter moisture",
+        "Reduce noise"
+      ],
+      "answer": 1,
+      "explanation": "📝 Conservator allows for oil expansion/contraction with temperature"
+    },
+    {
+      "question": "The typical range of impedance voltage for distribution transformers is:",
+      "options": [
+        "2-4%",
+        "5-7%",
+        "10-12%",
+        "15-20%"
+      ],
+      "answer": 1,
+      "explanation": "📝 5-7% impedance balances fault current limitation and voltage regulation"
     }
-  
+  ]
+        }
+        
