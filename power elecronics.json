@@ -1,0 +1,470 @@
+
+    {
+      "quiz1": [
+        {
+          "question": "The most suitable device for high frequency (>100 kHz) switching applications is:",
+          "options": [
+            "SCR",
+            "GTO",
+            "MOSFET",
+            "IGBT"
+          ],
+          "answer": 2,
+          "explanation": "📝 Power MOSFETs have fast switching speeds and are ideal for high frequency applications due to their low switching losses."
+        },
+        {
+          "question": "The turn-off time of an SCR is measured from:",
+          "options": [
+            "Anode current zero to forward blocking",
+            "Gate pulse removal to anode current zero",
+            "Anode current zero to reverse recovery",
+            "Reverse recovery to forward blocking"
+          ],
+          "answer": 0,
+          "explanation": "📝 Turn-off time (tq) is the time from anode current becoming zero until SCR regains forward blocking capability."
+        },
+        {
+          "question": "The snubber circuit in power electronics is used to:",
+          "options": [
+            "Limit dv/dt",
+            "Limit di/dt",
+            "Improve power factor",
+            "Reduce conduction losses"
+          ],
+          "answer": 0,
+          "explanation": "📝 Snubber circuits protect semiconductor devices by limiting the rate of rise of voltage (dv/dt) during switching."
+        },
+        {
+          "question": "The conduction angle of a single-phase half-wave rectifier with RL load and freewheeling diode is:",
+          "options": [
+            "0°-90°",
+            "0°-180°",
+            "180°-360°",
+            "0°-360°"
+          ],
+          "answer": 1,
+          "explanation": "📝 With freewheeling diode, conduction occurs only during positive half cycle (0°-180°), while negative half cycle is bypassed by the diode."
+        },
+        {
+          "question": "The harmonic content is minimum in which type of PWM technique?",
+          "options": [
+            "Single-pulse modulation",
+            "Multiple-pulse modulation",
+            "Sinusoidal PWM",
+            "Space vector PWM"
+          ],
+          "answer": 3,
+          "explanation": "📝 Space vector PWM provides better harmonic spectrum and higher DC bus utilization compared to other PWM methods."
+        },
+        {
+          "question": "The commutation method used in three-phase full converter is:",
+          "options": [
+            "Natural commutation",
+            "Forced commutation",
+            "Load commutation",
+            "Gate commutation"
+          ],
+          "answer": 0,
+          "explanation": "📝 Line-commutated converters (like three-phase full converter) use natural commutation from the AC supply voltage."
+        },
+        {
+          "question": "The voltage rating of an IGBT is primarily determined by:",
+          "options": [
+            "Gate oxide thickness",
+            "N- drift region thickness",
+            "P+ substrate doping",
+            "JFET region resistance"
+          ],
+          "answer": 1,
+          "explanation": "📝 The thickness and doping of the N- drift region determines the breakdown voltage capability of IGBT."
+        },
+        {
+          "question": "The main advantage of a current source inverter over voltage source inverter is:",
+          "options": [
+            "Simple control circuit",
+            "Inherent short-circuit protection",
+            "Lower harmonics",
+            "Higher efficiency"
+          ],
+          "answer": 1,
+          "explanation": "📝 CSI has inherent short-circuit protection due to its current source nature, while VSI needs protection circuits."
+        },
+        {
+          "question": "The firing angle delay in a single-phase full converter feeding RLE load cannot exceed:",
+          "options": [
+            "90°",
+            "120°",
+            "180°",
+            "360°"
+          ],
+          "answer": 2,
+          "explanation": "📝 For continuous conduction, α must be ≤180°; beyond this the converter cannot deliver power to the load."
+        },
+        {
+          "question": "The displacement factor in a phase-controlled rectifier is equal to:",
+          "options": [
+            "cos(α)",
+            "cos(α/2)",
+            "sin(α)",
+            "tan(α)"
+          ],
+          "answer": 0,
+          "explanation": "📝 Displacement factor is the cosine of the phase angle between fundamental current and voltage, which equals cos(α) in phase-controlled converters."
+        },
+        {
+          "question": "The resonant converter operating above resonant frequency results in:",
+          "options": [
+            "Zero current switching",
+            "Zero voltage switching",
+            "Hard switching",
+            "Both ZVS and ZCS"
+          ],
+          "answer": 1,
+          "explanation": "📝 Above resonant frequency, the converter operates in lagging PF mode enabling ZVS as the device voltage reaches zero before turn-on."
+        },
+        {
+          "question": "The minimum number of SCRs required for a three-phase full-wave bridge converter is:",
+          "options": [
+            "3",
+            "4",
+            "6",
+            "8"
+          ],
+          "answer": 2,
+          "explanation": "📝 Three-phase full converter requires 6 SCRs (2 per phase) for six-pulse operation."
+        },
+        {
+          "question": "The harmonic elimination technique is based on:",
+          "options": [
+            "Varying switching frequency",
+            "Pre-calculated switching angles",
+            "Random pulse width modulation",
+            "Adaptive hysteresis band"
+          ],
+          "answer": 1,
+          "explanation": "📝 Selective harmonic elimination uses pre-calculated switching angles to eliminate specific harmonics while controlling fundamental."
+        },
+        {
+          "question": "The reverse recovery time of a diode depends mainly on:",
+          "options": [
+            "Forward current before commutation",
+            "Rate of fall of forward current",
+            "Peak inverse voltage",
+            "Junction temperature"
+          ],
+          "answer": 1,
+          "explanation": "📝 Reverse recovery characteristics are determined by di/dt during turn-off and minority carrier lifetime."
+        },
+        {
+          "question": "The cycloconverter operates on the principle of:",
+          "options": [
+            "DC link conversion",
+            "Direct frequency conversion",
+            "Resonant conversion",
+            "Multi-level conversion"
+          ],
+          "answer": 1,
+          "explanation": "📝 Cycloconverters directly convert AC power at one frequency to another without intermediate DC link."
+        },
+        {
+          "question": "The dv/dt capability of an IGBT is typically in the range of:",
+          "options": [
+            "1-10 V/μs",
+            "10-100 V/μs",
+            "100-1000 V/μs",
+            "1-10 kV/μs"
+          ],
+          "answer": 3,
+          "explanation": "📝 Modern IGBTs can handle dv/dt ratings of several kV/μs due to their MOS gate structure."
+        },
+        {
+          "question": "The main purpose of dead-time in PWM inverters is to:",
+          "options": [
+            "Reduce switching losses",
+            "Prevent shoot-through",
+            "Improve harmonic profile",
+            "Allow device cooling"
+          ],
+          "answer": 1,
+          "explanation": "📝 Dead-time ensures one device turns off completely before complementary device turns on, preventing short-circuit of DC bus."
+        },
+        {
+          "question": "The voltage transfer ratio of a single-phase full-bridge inverter with square wave operation is:",
+          "options": [
+            "0.45",
+            "0.637",
+            "0.707",
+            "0.9"
+          ],
+          "answer": 0,
+          "explanation": "📝 For square wave operation, Vrms(output)/Vdc = 0.45 (fundamental component)."
+        },
+        {
+          "question": "The TRIAC is equivalent to:",
+          "options": [
+            "Two SCRs in parallel",
+            "Two SCRs in anti-parallel",
+            "SCR with diode in series",
+            "SCR with diode in parallel"
+          ],
+          "answer": 1,
+          "explanation": "📝 TRIAC can conduct in both directions, equivalent to two SCRs connected back-to-back (anti-parallel)."
+        },
+        {
+          "question": "The turn-on switching losses are dominant in:",
+          "options": [
+            "SCR",
+            "GTO",
+            "MOSFET",
+            "IGBT"
+          ],
+          "answer": 3,
+          "explanation": "📝 IGBTs have significant turn-on losses due to tail current during turn-on, while MOSFETs have higher turn-off losses."
+        },
+        {
+          "question": "The minimum output frequency obtainable from a 6-pulse cycloconverter with 50Hz input is about:",
+          "options": [
+            "5 Hz",
+            "10 Hz",
+            "15 Hz",
+            "20 Hz"
+          ],
+          "answer": 1,
+          "explanation": "📝 Practical cycloconverters are limited to about 1/5 of input frequency (50Hz/5 = 10Hz) for reasonable waveform quality."
+        },
+        {
+          "question": "The commutation overlap angle in a rectifier increases with:",
+          "options": [
+            "Decreasing source inductance",
+            "Increasing firing angle",
+            "Decreasing load current",
+            "Increasing supply frequency"
+          ],
+          "answer": 3,
+          "explanation": "📝 Overlap angle (μ) increases with source inductance, load current and supply frequency (μ ≈ ωLsId/V)."
+        },
+        {
+          "question": "The fourth quadrant operation in DC motor drive requires:",
+          "options": [
+            "Positive voltage, positive current",
+            "Positive voltage, negative current",
+            "Negative voltage, positive current",
+            "Negative voltage, negative current"
+          ],
+          "answer": 2,
+          "explanation": "📝 Fourth quadrant (negative speed, positive torque) needs reverse voltage but forward current for regenerative braking."
+        },
+        {
+          "question": "The holding current of an SCR is:",
+          "options": [
+            "Higher than latching current",
+            "Equal to latching current",
+            "Lower than latching current",
+            "Independent of latching current"
+          ],
+          "answer": 2,
+          "explanation": "📝 Holding current (5-100mA) is lower than latching current (100-500mA) to maintain conduction after turn-on."
+        },
+        {
+          "question": "The main advantage of multi-level inverters is:",
+          "options": [
+            "Reduced switching losses",
+            "Lower voltage stress on devices",
+            "Elimination of filters",
+            "Higher switching frequency"
+          ],
+          "answer": 1,
+          "explanation": "📝 Multi-level inverters divide voltage stress among several devices enabling higher voltage operation with standard devices."
+        },
+        {
+          "question": "The string efficiency of series connected SCRs is improved by:",
+          "options": [
+            "Using identical devices",
+            "Forced commutation",
+            "Dynamic voltage sharing circuits",
+            "Increasing gate drive"
+          ],
+          "answer": 2,
+          "explanation": "📝 Dynamic voltage sharing using RC snubbers ensures equal voltage distribution during switching transients."
+        },
+        {
+          "question": "The output voltage of a buck-boost converter can be:",
+          "options": [
+            "Only higher than input",
+            "Only lower than input",
+            "Higher or lower than input",
+            "Equal to input"
+          ],
+          "answer": 2,
+          "explanation": "📝 Buck-boost converters provide output voltage that can be either higher or lower than input with polarity reversal."
+        },
+        {
+          "question": "The gate drive circuit of an IGBT must provide:",
+          "options": [
+            "High voltage, high current pulse",
+            "Low voltage, high current pulse",
+            "High voltage, low current pulse",
+            "Low voltage, low current pulse"
+          ],
+          "answer": 1,
+          "explanation": "📝 IGBT gates require 15-20V (low voltage) but need several amps peak current for fast switching."
+        },
+        {
+          "question": "The harmonic spectrum of a six-pulse converter contains harmonics of order:",
+          "options": [
+            "2,4,6,...",
+            "3,6,9,...",
+            "5,7,11,13,...",
+            "All harmonics"
+          ],
+          "answer": 2,
+          "explanation": "📝 6-pulse converters produce harmonics of order n=6k±1 (k=1,2,3...), i.e., 5th, 7th, 11th, 13th etc."
+        },
+        {
+          "question": "The soft-start circuit in SMPS is used to:",
+          "options": [
+            "Limit inrush current",
+            "Improve efficiency",
+            "Reduce EMI",
+            "Increase power factor"
+          ],
+          "answer": 0,
+          "explanation": "📝 Soft-start gradually increases duty cycle to prevent excessive inrush current during startup."
+        },
+        {
+          "question": "The reverse blocking capability of GTO is typically:",
+          "options": [
+            "Equal to forward blocking",
+            "Half of forward blocking",
+            "One-third of forward blocking",
+            "Zero"
+          ],
+          "answer": 3,
+          "explanation": "📝 Most GTOs are asymmetric devices with no reverse blocking capability (unlike SCRs)."
+        },
+        {
+          "question": "The conduction losses in a power MOSFET are dominant in:",
+          "options": [
+            "Low current applications",
+            "High current applications",
+            "High frequency applications",
+            "Low voltage applications"
+          ],
+          "answer": 1,
+          "explanation": "📝 MOSFET conduction losses (I²Rds(on)) become significant at high currents due to channel resistance."
+        },
+        {
+          "question": "The phase control method is not suitable for:",
+          "options": [
+            "AC voltage controllers",
+            "DC-DC converters",
+            "Controlled rectifiers",
+            "Cycloconverters"
+          ],
+          "answer": 1,
+          "explanation": "📝 DC-DC converters require pulse width modulation, not phase control which is used in AC controllers/rectifiers."
+        },
+        {
+          "question": "The di/dt protection of SCR is achieved by:",
+          "options": [
+            "Snubber circuit",
+            "Gate drive design",
+            "Series inductor",
+            "Fuse"
+          ],
+          "answer": 2,
+          "explanation": "📝 Small series inductor limits di/dt during turn-on to prevent localized heating and device failure."
+        },
+        {
+          "question": "The output voltage of a 3-phase bridge inverter contains triplen harmonics when:",
+          "options": [
+            "Load is balanced",
+            "Load is unbalanced",
+            "Modulation index is high",
+            "Dead-time is present"
+          ],
+          "answer": 1,
+          "explanation": "📝 Unbalanced loads cause triplen (3rd, 9th etc.) harmonics to appear in the output voltage."
+        },
+        {
+          "question": "The auxiliary commutation is also known as:",
+          "options": [
+            "Natural commutation",
+            "Load commutation",
+            "Impulse commutation",
+            "Class D commutation"
+          ],
+          "answer": 3,
+          "explanation": "📝 Class D commutation uses auxiliary SCR to discharge capacitor for main SCR turn-off (impulse commutation)."
+        },
+        {
+          "question": "The displacement factor of a fully controlled bridge converter at α=60° is:",
+          "options": [
+            "0.5",
+            "0.707",
+            "0.866",
+            "1.0"
+          ],
+          "answer": 0,
+          "explanation": "📝 Displacement factor = cos(α) = cos(60°) = 0.5 for fully controlled converters."
+        },
+        {
+          "question": "The voltage ripple factor is highest in:",
+          "options": [
+            "Half-wave rectifier",
+            "Full-wave rectifier",
+            "Bridge rectifier",
+            "Three-phase rectifier"
+          ],
+          "answer": 0,
+          "explanation": "📝 Half-wave rectifiers have highest ripple factor (1.21) due to long discharge period between pulses."
+        },
+        {
+          "question": "The minimum firing angle limit in dual converters is set to:",
+          "options": [
+            "Prevent circulating current",
+            "Improve power factor",
+            "Reduce harmonics",
+            "Limit output voltage"
+          ],
+          "answer": 0,
+          "explanation": "📝 Minimum α (typically 5°-10°) ensures one converter is always ready to take over current, preventing circulating current."
+        }
+      ],
+      "quiz2": [
+        {
+          "question": "The resonant frequency in a series resonant converter is given by:",
+          "options": [
+            "1/(2π√(LC))",
+            "1/(2πRC)",
+            "√(1/LC)",
+            "R/(2πL)"
+          ],
+          "answer": 0,
+          "explanation": "📝 The resonant frequency fr = 1/(2π√(LC)) where L is inductance and C is capacitance in the resonant tank."
+        },
+        {
+          "question": "The main advantage of a flyback converter is:",
+          "options": [
+            "High efficiency",
+            "Multiple outputs",
+            "Low cost",
+            "High power density"
+          ],
+          "answer": 1,
+          "explanation": "📝 Flyback converters can easily provide multiple isolated outputs using additional transformer windings."
+        },
+        {
+          "question": "The voltage spike during IGBT turn-off is caused by:",
+          "options": [
+            "Gate resistance",
+            "Stray inductance",
+            "Miller capacitance",
+            "Tail current"
+          ],
+          "answer": 1,
+          "explanation": "📝 Stray inductance in the circuit causes voltage spikes (V=Ldi/dt) during fast current transitions at turn-off."
+       
+    }
+  ]
+}
