@@ -445,8 +445,8 @@
     
         }
       ],
-        
-  "quiz2": [
+{
+  "instrumentation_quiz2": [
     {
       "question": "The frequency response of a first-order measurement system is best represented by:",
       "options": [
@@ -456,12 +456,7 @@
         "Nyquist plot"
       ],
       "answer": 1,
-      "explanation": "📝 Bode plots show cutoff frequency (ω_c) and -20dB/decade roll-off:\n"+
-                    "   ______\n"+
-                    "  /      \\\n"+
-                    " /        \\\n"+
-                    "/          \\\n"+
-                    "ω_c→"
+      "explanation": "📝 Bode plots show cutoff frequency (ω_c) and -20dB/decade roll-off:\n   ______\n  /      \\\n /        \\\n/          \\\nω_c→"
     },
     {
       "question": "The Lissajous pattern for two signals with 90° phase difference forms a:",
@@ -472,12 +467,7 @@
         "Figure-eight"
       ],
       "answer": 2,
-      "explanation": "📝 90° phase difference produces perfect circle Lissajous pattern:\n"+
-                    "   ••••\n"+
-                    " •      •\n"+
-                    "•        •\n"+
-                    " •      •\n"+
-                    "   ••••"
+      "explanation": "📝 90° phase difference produces perfect circle Lissajous pattern:\n   * * *\n *       *\n*         *\n *       *\n   * * *"
     },
     {
       "question": "The Maxwell bridge circuit measures inductance using:",
@@ -488,13 +478,7 @@
         "Frequency standard"
       ],
       "answer": 0,
-      "explanation": "📝 Maxwell bridge configuration:\n"+
-                    "R1      R3\n"+
-                    "┌─[###]──[###]─┐\n"+
-                    "│       C1      │\n"+
-                    "└─[###]──||───┘\n"+
-                    "R2      Lx\n"+
-                    "Balance condition: Lx = R1*R3*C1"
+      "explanation": "📝 Maxwell bridge configuration:\nR1      R3\n[###]---[###]\n|       C1  |\n[###]---||--\nR2      Lx\nBalance condition: Lx = R1*R3*C1"
     },
     {
       "question": "The resolution of a 3½ digit DMM is:",
@@ -505,8 +489,7 @@
         "0.005%"
       ],
       "answer": 1,
-      "explanation": "📝 3½ digit = 1999 counts → Resolution = 1/1999 ≈ 0.05%\n"+
-                    "Display example: ±1.999"
+      "explanation": "📝 3½ digit = 1999 counts → Resolution = 1/1999 ≈ 0.05%\nDisplay range: -1999 to +1999"
     },
     {
       "question": "The four-point probe method eliminates errors from:",
@@ -517,10 +500,7 @@
         "Probe spacing"
       ],
       "answer": 0,
-      "explanation": "📝 Four-point probe arrangement:\n"+
-                    "I+ ●──[Sample]──● V+\n"+
-                    "I- ●──[Sample]──● V-\n"+
-                    "Current and voltage probes are separate"
+      "explanation": "📝 Four-point probe arrangement:\nI+ o---[Sample]---o V+\nI- o---[Sample]---o V-\nCurrent and voltage probes are separate"
     },
     {
       "question": "The Wien bridge oscillator frequency is given by:",
@@ -531,13 +511,7 @@
         "f = 1/(2π√R₁R₂C₁C₂)"
       ],
       "answer": 1,
-      "explanation": "📝 Wien bridge components:\n"+
-                    "R1    R2\n"+
-                    "┌─[###]──[###]─┐\n"+
-                    "│       C1      │\n"+
-                    "└─[###]──||───┘\n"+
-                    "        C2\n"+
-                    "f_osc = 1/(2πRC) when R1=R2=R, C1=C2=C"
+      "explanation": "📝 Wien bridge components:\nR1    R2\n[###]---[###]\n|     C1    |\n[###]---||--\n      C2\nf_osc = 1/(2πRC) when R1=R2=R, C1=C2=C"
     },
     {
       "question": "The optical pyrometer works on:",
@@ -548,9 +522,7 @@
         "Rayleigh-Jeans law"
       ],
       "answer": 1,
-      "explanation": "📝 Wien's law: λ_max × T = b (2.898×10⁻³ m·K)\n"+
-                    "Filament brightness vs wavelength:\n"+
-                    "λ →"
+      "explanation": "📝 Wien's law: λ_max × T = b (2.898×10⁻³ m·K)\nFilament brightness vs wavelength curve:\n  Brightness\n    |\n    |   /\n    |  /\n    | /\n    +----- λ"
     },
     {
       "question": "The Hall effect sensor output depends on:",
@@ -561,11 +533,7 @@
         "I+B"
       ],
       "answer": 0,
-      "explanation": "📝 Hall voltage V_H = (I×B)/(n×t×e)\n"+
-                    "Where:\n"+
-                    "n = charge density\n"+
-                    "t = thickness\n"+
-                    "e = electron charge"
+      "explanation": "📝 Hall voltage V_H = (I×B)/(n×t×e)\nWhere:\n• n = charge density\n• t = thickness\n• e = electron charge"
     },
     {
       "question": "The dead time in Geiger counters causes:",
@@ -576,9 +544,7 @@
         "Temperature drift"
       ],
       "answer": 1,
-      "explanation": "📝 Dead time (t_d) effect:\n"+
-                    "Pulses: |__|‾|__|‾|____|‾\n"+
-                    "         t_d →"
+      "explanation": "📝 Dead time effect on pulses:\n|__|‾|__|‾|____|‾\n ↑ Dead time"
     },
     {
       "question": "The Q-meter measures quality factor using:",
@@ -589,11 +555,7 @@
         "Current ratio"
       ],
       "answer": 0,
-      "explanation": "📝 Q = V_L/V_S = ωL/R at resonance\n"+
-                    "Circuit:\n"+
-                    "[AC]─[L]─[C]─[R]─┐\n"+
-                    "      V_L     V_S │\n"+
-                    "└───────────────┘"
+      "explanation": "📝 Q = V_L/V_S = ωL/R at resonance\nCircuit diagram:\n[AC]---[L]---[C]---[R]---┐\n      V_L     V_S      |\n└-------------------┘"
     },
     {
       "question": "The guard ring in megohmmeters prevents:",
@@ -604,12 +566,7 @@
         "Partial discharges"
       ],
       "answer": 0,
-      "explanation": "📝 Guard ring configuration:\n"+
-                    "  Guard\n"+
-                    "  ┌────┐\n"+
-                    "  │ ●─┼─● Meas\n"+
-                    "  └────┘\n"+
-                    "  Surface"
+      "explanation": "📝 Guard ring configuration:\n  Guard\n  -----\n  | o---o Meas\n  -----\n  Surface"
     },
     {
       "question": "The strain gauge factor is defined as:",
@@ -620,9 +577,7 @@
         "R/ΔR"
       ],
       "answer": 1,
-      "explanation": "📝 GF = (ΔR/R)/ε\n"+
-                    "Where ε = strain (ΔL/L)\n"+
-                    "Typical GF ≈ 2 for metallic gauges"
+      "explanation": "📝 GF = (ΔR/R)/ε\nWhere ε = strain (ΔL/L)\nTypical GF ≈ 2 for metallic gauges"
     },
     {
       "question": "The dual-slope ADC integration time is typically:",
@@ -633,11 +588,7 @@
         "Arbitrary"
       ],
       "answer": 0,
-      "explanation": "📝 Integration phases:\n"+
-                    "  /\\\n"+
-                    " /  \\______\n"+
-                    "T1→←T2→\n"+
-                    "T1 = fixed (n×power line period)"
+      "explanation": "📝 Integration phases:\n  /\\\n /  \\____\nT1  T2\nT1 = fixed (n×power line period)"
     },
     {
       "question": "The Rogowski coil output depends on:",
@@ -648,12 +599,7 @@
         "√i"
       ],
       "answer": 0,
-      "explanation": "📝 V_out = M(di/dt)\n"+
-                    "Coil geometry:\n"+
-                    "┌───────────────┐\n"+
-                    "│  ●●●●●●●●●●●  │\n"+
-                    "└───────────────┘\n"+
-                    "  Conductor →"
+      "explanation": "📝 V_out = M(di/dt)\nCoil geometry:\n┌───────────────┐\n│  o o o o o o  │\n└───────────────┘\n  Conductor →"
     },
     {
       "question": "The third harmonic distortion is calculated using:",
@@ -664,13 +610,7 @@
         "THD = V1/V3"
       ],
       "answer": 0,
-      "explanation": "📝 THD = √(ΣV_h²)/V_fundamental × 100%\n"+
-                    "Spectrum:\n"+
-                    "V1\n"+
-                    "|\n"+
-                    "|   V3\n"+
-                    "|   |\n"+
-                    "0 1 2 3 f"
+      "explanation": "📝 THD = √(ΣV_h²)/V_fundamental × 100%\nFrequency spectrum:\nV1\n|\n|   V3\n|   |\n0 1 2 3 f"
     },
     {
       "question": "The ionization gauge measures vacuum via:",
@@ -681,11 +621,7 @@
         "Piezoresistance"
       ],
       "answer": 1,
-      "explanation": "📝 Ion current (I+) vs pressure (P):\n"+
-                    "I+ ↗\n"+
-                    "   | \\\n"+
-                    "   |  \\\n"+
-                    "   +──→ P"
+      "explanation": "📝 Ion current (I+) vs pressure (P):\nI+ ↗\n|  \\\n|   \\\n+----→ P"
     },
     {
       "question": "The Kerr effect measures:",
@@ -696,9 +632,7 @@
         "Voltage"
       ],
       "answer": 1,
-      "explanation": "📝 Δn ∝ E² (quadratic electro-optic effect)\n"+
-                    "Optical path:\n"+
-                    "Light → Kerr cell → Analyzer"
+      "explanation": "📝 Δn ∝ E² (quadratic electro-optic effect)\nOptical path:\nLight → Kerr cell → Analyzer"
     },
     {
       "question": "The Pirani gauge operates based on:",
@@ -709,9 +643,7 @@
         "Piezoresistance"
       ],
       "answer": 0,
-      "explanation": "📝 Heat loss vs pressure:\n"+
-                    "R_filament ↗ at low P\n"+
-                    "Wheatstone bridge configuration"
+      "explanation": "📝 Heat loss vs pressure:\nR_filament ↗ at low P\nWheatstone bridge configuration"
     },
     {
       "question": "The strain gauge bridge configuration with maximum sensitivity is:",
@@ -722,13 +654,7 @@
         "Dual bridge"
       ],
       "answer": 2,
-      "explanation": "📝 Full bridge arrangement:\n"+
-                    "R+ΔR   R-ΔR\n"+
-                    "┌─[###]──[###]─┐\n"+
-                    "│              │\n"+
-                    "└─[###]──[###]─┘\n"+
-                    "R-ΔR   R+ΔR\n"+
-                    "V_out ∝ 4×(ΔR/R)"
+      "explanation": "📝 Full bridge arrangement:\nR+ΔR R-ΔR\n[###]---[###]\n|        |\n[###]---[###]\nR-ΔR R+ΔR\nV_out ∝ 4×(ΔR/R)"
     },
     {
       "question": "The megger test voltage for 11kV equipment is typically:",
@@ -739,9 +665,7 @@
         "10kV"
       ],
       "answer": 2,
-      "explanation": "📝 Standard test voltage formula:\n"+
-                    "V_test = 2×V_rated + 1kV\n"+
-                    "For 11kV: 2×11 + 1 = 23kV → limited to 5kV"
+      "explanation": "📝 Standard test voltage formula:\nV_test = 2×V_rated + 1kV\nFor 11kV: 2×11 + 1 = 23kV → limited to 5kV"
     }
   ]
 }
