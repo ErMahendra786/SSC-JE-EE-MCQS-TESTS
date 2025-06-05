@@ -431,21 +431,7 @@
           "explanation": "📝 Resolution = 360°/N where N = pulses per revolution."
         }
       ],
-      "quiz2": [
-        {
-          "question": "The creeping in energy meter can be detected by:",
-          "options": [
-            "Applying rated voltage with no load",
-            "Applying rated current with no voltage",
-            "Reversing connections",
-            "Increasing power factor"
-          ],
-          "answer": 0,
-          "explanation": "📝 Creep test checks for disc rotation with voltage but no current."
-    
-        }
-      ],
-{
+     {
   "instrumentation_quiz2": [
     {
       "question": "The frequency response of a first-order measurement system is best represented by:",
