@@ -431,9 +431,7 @@
           "explanation": "📝 Minimum α (typically 5°-10°) ensures one converter is always ready to take over current, preventing circulating current."
         }
       ],
-      {
-  "power_electronics_quizzes": [
-    {
+  
       "quiz2": [
         {
           "question": "The resonant frequency in a series resonant converter is given by:",
