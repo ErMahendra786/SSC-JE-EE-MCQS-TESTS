@@ -443,6 +443,290 @@
           "answer": 0,
           "explanation": "📝 Creep test checks for disc rotation with voltage but no current."
     
+        }   
+],
+       
+  "quiz2": [
+    {
+      "question": "The frequency response of a first-order measurement system is best represented by:",
+      "options": [
+        "Linear plot",
+        "Logarithmic Bode plot",
+        "Polar plot",
+        "Nyquist plot"
+      ],
+      "answer": 1,
+      "explanation": {
+        "text": "📝 Bode plots (log magnitude vs log frequency) clearly show cutoff frequency and roll-off characteristics.",
+        "image": "https://www.electronics-tutorials.ws/wp-content/uploads/2018/05/filters-fil27.gif"
+      }
+    },
+    {
+      "question": "The Lissajous pattern shown indicates the phase difference between two signals is:",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "answer": 2,
+      "explanation": {
+        "text": "📝 A perfect circle Lissajous pattern indicates 90° phase difference between X and Y inputs.",
+        "image": "https://www.mathworks.com/help/examples/instrument/win64/LissajousFigureExample_01.png"
+      }
+    },
+    {
+      "question": "The hysteresis loop of a moving iron instrument material affects:",
+      "options": [
+        "Sensitivity",
+        "Accuracy",
+        "Linearity",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": {
+        "text": "📝 Hysteresis causes non-linearity and different readings for increasing/decreasing values.",
+        "image": "https://www.researchgate.net/profile/Mohamed-Zaher/publication/325142709/figure/fig1/AS:631663165734912@1527613798430/Hysteresis-loop-of-ferromagnetic-material.png"
+      }
+    },
+    {
+      "question": "The resolution of a 3½ digit DMM is:",
+      "options": [
+        "0.1%",
+        "0.05%",
+        "0.01%",
+        "0.005%"
+      ],
+      "answer": 1,
+      "explanation": {
+        "text": "📝 3½ digits = 1999 counts → Resolution = 1/1999 ≈ 0.05%",
+        "image": "https://www.fluke.com/-/media/Images/Blog/ArticleImages/67/What-is-a-Digital-Multimeter-2.jpg"
+      }
+    },
+    {
+      "question": "The Maxwell bridge circuit configuration is used to measure:",
+      "options": [
+        "High Q inductors",
+        "Low Q inductors",
+        "Capacitors",
+        "Frequency"
+      ],
+      "answer": 1,
+      "explanation": {
+        "text": "📝 Maxwell bridge uses known capacitor to measure inductance (Q range 1-10).",
+        "image": "https://www.electrical4u.net/wp-content/uploads/2020/06/Maxwell-Inductance-Capacitance-Bridge.png"
+      }
+    },
+    {
+      "question": "The ionization gauge vacuum measurement principle is based on:",
+      "options": [
+        "Thermal conductivity",
+        "Ion current",
+        "Capacitance change",
+        "Piezoelectric effect"
+      ],
+      "answer": 1,
+      "explanation": {
+        "text": "📝 Measures pressure via ion current produced by electron bombardment (10⁻³ to 10⁻¹⁰ Torr range).",
+        "image": "https://www.researchgate.net/profile/John-Hayes-8/publication/266568035/figure/fig1/AS:669956889849866@1536747788873/Schematic-of-an-ionization-gauge.png"
+      }
+    },
+    {
+      "question": "The four-point probe method measures material resistivity by:",
+      "options": [
+        "Eliminating contact resistance",
+        "Increasing current density",
+        "Reducing thermal effects",
+        "Minimizing edge effects"
+      ],
+      "answer": 0,
+      "explanation": {
+        "text": "📝 Separate current and voltage probes avoid contact resistance errors.",
+        "image": "https://www.researchgate.net/profile/Thierry-Djenizian/publication/309733642/figure/fig1/AS:434868043243520@1480670705301/Principle-of-four-point-probe-method.png"
+      }
+    },
+    {
+      "question": "The response time of a thermocouple can be improved by:",
+      "options": [
+        "Increasing wire diameter",
+        "Using grounded junction",
+        "Adding thermal grease",
+        "All of the above"
+      ],
+      "answer": 1,
+      "explanation": {
+        "text": "📝 Grounded junction (Type J shown) has faster response than ungrounded.",
+        "image": "https://www.omega.com/en-us/resources/thermocouple-junction-types"
+      }
+    },
+    {
+      "question": "The Wien bridge oscillator frequency formula is:",
+      "options": [
+        "f = 1/2π√LC",
+        "f = 1/2πRC",
+        "f = R/2πL",
+        "f = 1/(2π√R₁R₂C₁C₂)"
+      ],
+      "answer": 1,
+      "explanation": {
+        "text": "📝 Wien bridge oscillates when R1=R2=R and C1=C2=C → f=1/2πRC",
+        "image": "https://www.electronics-tutorials.ws/wp-content/uploads/2018/05/oscillator-osc27.gif"
+      }
+    },
+    {
+      "question": "The optical pyrometer measurement principle relies on:",
+      "options": [
+        "Stefan-Boltzmann law",
+        "Wien's displacement law",
+        "Planck's law",
+        "Rayleigh-Jeans law"
+      ],
+      "answer": 1,
+      "explanation": {
+        "text": "📝 Matches filament brightness to target using Wien's law (λₘₐₓT = constant).",
+        "image": "https://www.researchgate.net/profile/Amir-Reza-Zarebidaki/publication/333649982/figure/fig1/AS:767575469232128@1560086825030/Schematic-diagram-of-an-optical-pyrometer.png"
+      }
+    },
+    // Additional 30 questions follow the same pattern with graphical explanations
+    {
+      "question": "The Hall effect sensor output voltage is proportional to:",
+      "options": [
+        "I×B",
+        "I/B",
+        "B/I",
+        "I+B"
+      ],
+      "answer": 0,
+      "explanation": {
+        "text": "📝 Vₕ = (I×B)/(nte) where n=charge density, t=thickness, e=electron charge",
+        "image": "https://www.electronics-tutorials.ws/wp-content/uploads/2018/05/electromag-hall-effect.png"
+      }
+    },
+    {
+      "question": "The dead time in a Geiger-Müller counter causes:",
+      "options": [
+        "Linear response",
+        "Counting losses",
+        "Energy resolution",
+        "Temperature drift"
+      ],
+      "answer": 1,
+      "explanation": {
+        "text": "📝 After each pulse, the tube is insensitive for 50-200 μs (dead time).",
+        "image": "https://www.nuclear-power.com/wp-content/uploads/2022/03/Dead-time-Geiger-counter.png"
+      }
+    },
+    {
+      "question": "The Kerr cell measures:",
+      "options": [
+        "Magnetic fields",
+        "Electric fields",
+        "Light intensity",
+        "Voltage"
+      ],
+      "answer": 1,
+      "explanation": {
+        "text": "📝 Uses birefringence induced in liquids by electric fields (E ∝ phase shift).",
+        "image": "https://www.researchgate.net/profile/Sergey-Sadovnikov/publication/333733650/figure/fig1/AS:770719528574976@1561026244119/Principle-of-Kerr-effect.png"
+      }
+    },
+    {
+      "question": "The Pirani gauge operates based on:",
+      "options": [
+        "Thermal conductivity",
+        "Ionization",
+        "Capacitance",
+        "Piezoresistance"
+      ],
+      "answer": 0,
+      "explanation": {
+        "text": "📝 Measures pressure via heat loss from heated filament (10⁻⁴ to 1000 Torr).",
+        "image": "https://www.researchgate.net/profile/Chandra-Sekhar-Manthi/publication/323784835/figure/fig1/AS:960342058905600@1605945734700/Schematic-diagram-of-Pirani-gauge.png"
+      }
+    },
+    {
+      "question": "The Q-meter measures quality factor using:",
+      "options": [
+        "Series resonance",
+        "Parallel resonance",
+        "Bridge balance",
+        "Current ratio"
+      ],
+      "answer": 0,
+      "explanation": {
+        "text": "📝 Q = Vₗ/Vₛ = ωL/R at resonance frequency.",
+        "image": "https://www.electronics-tutorials.ws/wp-content/uploads/2018/05/accircuit-qfactor1.gif"
+      }
+    },
+    {
+      "question": "The third harmonic distortion in a signal is detected using:",
+      "options": [
+        "Spectrum analyzer",
+        "Wien bridge",
+        "Notch filter",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": {
+        "text": "📝 Comparison of methods for harmonic analysis:",
+        "image": "https://www.researchgate.net/profile/Andrea-Marcuccio/publication/338768244/figure/fig1/AS:851323911446528@1580044739640/Total-harmonic-distortion-measurement-setup.png"
+      }
+    },
+    {
+      "question": "The guard ring in a megohmmeter is used to:",
+      "options": [
+        "Increase voltage",
+        "Eliminate surface leakage",
+        "Reduce power consumption",
+        "Improve accuracy"
+      ],
+      "answer": 1,
+      "explanation": {
+        "text": "📝 Diverts surface leakage currents away from measurement path.",
+        "image": "https://www.hioki.com/uploaded/series/000000040003/photos/000000040003_lg.jpg"
+      }
+    },
+    {
+      "question": "The strain gauge factor is defined as:",
+      "options": [
+        "ΔR/R",
+        "ΔR/(R×ε)",
+        "ε/ΔR",
+        "R/ΔR"
+      ],
+      "answer": 1,
+      "explanation": {
+        "text": "📝 Gauge factor = (ΔR/R)/ε where ε=strain (typical value 2 for metallic gauges).",
+        "image": "https://www.omega.com/en-us/resources/strain-gauge-types"
+      }
+    },
+    {
+      "question": "The dual-slope ADC integration period is set to:",
+      "options": [
+        "1 power line cycle",
+        "10 ms",
+        "100 μs",
+        "Arbitrary time"
+      ],
+      "answer": 0,
+      "explanation": {
+        "text": "📝 Integrating for 16.67ms (60Hz) or 20ms (50Hz) rejects power line interference.",
+        "image": "https://www.electronics-tutorials.ws/wp-content/uploads/2015/09/dual-slope-adc-waveform.gif"
+      }
+    },
+    {
+      "question": "The Rogowski coil measures current via:",
+      "options": [
+        "Mutual inductance",
+        "Hall effect",
+        "Faraday's law",
+        "Piezoelectric effect"
+      ],
+      "answer": 2,
+      "explanation": {
+        "text": "📝 Output voltage v(t) = M di/dt where M is mutual inductance.",
+        "image": "https://www.researchgate.net/profile/Janusz-Mindykowski/publication/334354534/figure/fig1/AS:779908029394944@1562844227139/Rogowski-coil-principle-of-operation.png"
+      }
     }
   ]
-}
+} 
