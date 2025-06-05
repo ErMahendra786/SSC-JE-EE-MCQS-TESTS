@@ -1,5 +1,4 @@
-{
-  "quizzes": [
+
     {
       "quiz1": [
         {
@@ -1288,7 +1287,4 @@
         }
       ]
     }
-    // Additional quizzes (quiz4 through quiz10) would follow the same pattern
-    // Each with 40 unique questions not repeated in any other quiz
-  ]
-}
+  
