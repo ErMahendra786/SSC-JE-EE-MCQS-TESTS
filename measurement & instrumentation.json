@@ -1,0 +1,15 @@
+{
+  "quiz1":[
+
+    {
+  "question": "Identify this circuit configuration:",
+  "options": ["Voltage Divider", "Wheatstone Bridge", "RC Filter", "Op-Amp"],
+  "answer": 1,
+  "explanation": {
+    "text": "This is a Wheatstone bridge used for precise resistance measurements.",
+    "diagram": {
+      "type": "mermaid",
+      "code": "circuit LR\n  V+ --- R1\n  R1 --- R3\n  R3 --- GND\n  V+ --- R2\n  R2 --- Rx\n  Rx --- GND\n  R1 & R2 --- Galvanometer\n  R3 & Rx --- Galvanometer"
+    }
+  }
+}
