@@ -1,15 +1,24 @@
 {
   "quiz1": [
     {
-      "question": "Identify this electrical symbol:",
-      "image": {
-        "data": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAA+UlEQVQ4y2NgGAXDFmzatMmKAQ38v3///n8GImDjxo1WQPwfiP8D8X8g/g/E/4H4PxD/B+L/QPwfiP8D8X8g/g/E/4H4PxD/B+L/QPwfiP8D8X8g/g/E/4H4PxD/B+L/QPwfiP8D8X8g/g/E/4H4PxD/B+L/QPwfiP8D8X8g/g/E/4H4PxD/B+L/QPwfiP8D8X8g/g/E/4H4PxD/B+L/QPwfiP8D8X8g/g/E/4H4PxD/B+L/QPwfiP8D8X8g/g/E/4H4PxD/B+L/QPwfiP8D8X8g/g/E/4H4PxD/B+L/QPwfiP8D8X8g/g/E/4H4PxD/B+L/AGv+E4mM3Q3NAAAAAElFTkSuQmCC",
-        "type": "png",
-        "alt": "Electrical symbol for resistor"
+      "question": "Which product had the highest sales in Q3?",
+      "chart": {
+        "type": "bar",
+        "base64": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==",
+        "description": "Sales data for Products A, B, and C across four quarters"
       },
-      "options": ["Capacitor", "Resistor", "Inductor", "Transistor"],
-      "answer": 1,
-      "explanation": "This is the standard IEC symbol for a fixed resistor." 
+      "options": ["Product A", "Product B", "Product C"],
+      "answer": 0
+    },
+    {
+      "question": "What was the revenue trend in 2022?",
+      "chart": {
+        "type": "line",
+        "base64": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==",
+        "description": "Monthly revenue chart for 2022"
+      },
+      "options": ["Increasing", "Decreasing", "Stable"],
+      "answer": 0
     }
   ]
 }
