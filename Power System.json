@@ -1,0 +1,483 @@
+{
+  "power_systems_quizzes": [
+    {
+      "quiz1": [
+        {
+          "question": "The main advantage of bundled conductors in EHV transmission lines is:",
+          "options": [
+            "Reduced corona loss",
+            "Increased mechanical strength",
+            "Lower inductance",
+            "Higher current capacity"
+          ],
+          "answer": 0,
+          "explanation": "📝 Explanation: Bundled conductors reduce voltage gradient, thereby minimizing corona loss and radio interference."
+        },
+        {
+          "question": "In a 132 kV transmission line, the string efficiency is 80%. If 8 discs are used, the voltage across the disc nearest to the conductor is:",
+          "options": [
+            "16.5 kV",
+            "20.6 kV",
+            "13.2 kV",
+            "18.7 kV"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: String efficiency = (Total voltage)/(No. of discs × Voltage across bottom disc). Calculation gives 20.6 kV."
+        },
+        {
+          "question": "The zero-sequence current in a transformer depends on:",
+          "options": [
+            "Winding connection",
+            "Core material",
+            "Turns ratio",
+            "Cooling method"
+          ],
+          "answer": 0,
+          "explanation": "📝 Explanation: Zero-sequence currents flow only when both primary and secondary windings are star-connected with grounded neutral."
+        },
+        {
+          "question": "For a 50 Hz system, the critical clearing time is typically in the range of:",
+          "options": [
+            "0.1-0.3 seconds",
+            "1-3 seconds",
+            "5-10 seconds",
+            "0.01-0.05 seconds"
+          ],
+          "answer": 0,
+          "explanation": "📝 Explanation: Critical clearing time is the maximum time before which a fault must be cleared to maintain stability (usually 6-10 cycles)."
+        },
+        {
+          "question": "The most economical power factor for a consumer is generally:",
+          "options": [
+            "0.8 lagging",
+            "0.95 lagging",
+            "Unity",
+            "0.6 leading"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: 0.95 lagging avoids penalty charges while minimizing capacitor investment costs."
+        },
+        {
+          "question": "A 100 MVA, 11 kV generator has %X = 20%. The base impedance for 50 MVA, 22 kV base is:",
+          "options": [
+            "9.68 Ω",
+            "4.84 Ω",
+            "2.42 Ω",
+            "19.36 Ω"
+          ],
+          "answer": 0,
+          "explanation": "📝 Explanation: Z_base = (kV_base)^2 / MVA_base = (22)^2 / 50 = 9.68 Ω."
+        },
+        {
+          "question": "The sequence components of a three-phase unbalanced system satisfy:",
+          "options": [
+            "Ia0 = Ia1 = Ia2",
+            "Ia0 + Ia1 + Ia2 = 0",
+            "Ia0 + Ia1 + Ia2 = 3Ia",
+            "Ia1 = Ia2"
+          ],
+          "answer": 2,
+          "explanation": "📝 Explanation: The sum of sequence components equals three times the zero-sequence component (Ia0 + Ib0 + Ic0 = 3Ia0)."
+        },
+        {
+          "question": "The primary reason for using high voltage in transmission is:",
+          "options": [
+            "Reduce insulation cost",
+            "Reduce I²R losses",
+            "Increase fault level",
+            "Improve power factor"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: P = VI → Higher V means lower I for same P, reducing I²R losses."
+        },
+        {
+          "question": "The charging current in a 400 kV line is primarily due to:",
+          "options": [
+            "Line resistance",
+            "Line inductance",
+            "Line capacitance",
+            "Corona effect"
+          ],
+          "answer": 2,
+          "explanation": "📝 Explanation: Shunt capacitance between conductors causes charging current in long EHV lines."
+        },
+        {
+          "question": "The main purpose of a slack bus in load flow studies is to:",
+          "options": [
+            "Supply reactive power",
+            "Supply real power imbalance",
+            "Maintain constant frequency",
+            "Control voltage"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: Slack bus balances real power mismatch in the system while voltage magnitude and angle are specified."
+        },
+        {
+          "question": "The Ferranti effect is more pronounced in:",
+          "options": [
+            "Short transmission lines",
+            "Medium transmission lines",
+            "Long transmission lines",
+            "Underground cables"
+          ],
+          "answer": 2,
+          "explanation": "📝 Explanation: Ferranti effect (receiving end voltage > sending end) occurs due to line capacitance in long lightly loaded lines."
+        },
+        {
+          "question": "The dielectric strength of SF6 gas is approximately _____ times that of air at atmospheric pressure:",
+          "options": [
+            "1.5",
+            "2.5",
+            "5",
+            "10"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: SF6 has 2.5x higher dielectric strength than air, making it ideal for circuit breakers."
+        },
+        {
+          "question": "The positive sequence impedance of a transmission line is:",
+          "options": [
+            "Equal to negative sequence impedance",
+            "Half of zero sequence impedance",
+            "Three times zero sequence impedance",
+            "Equal to fault impedance"
+          ],
+          "answer": 0,
+          "explanation": "📝 Explanation: For symmetrical elements like transmission lines, Z1 = Z2 ≠ Z0."
+        },
+        {
+          "question": "The most severe fault in a power system is:",
+          "options": [
+            "LLL fault",
+            "LL fault",
+            "LG fault",
+            "LLG fault"
+          ],
+          "answer": 0,
+          "explanation": "📝 Explanation: 3-phase symmetrical fault (LLL) has the highest fault current as all phases are shorted."
+        },
+        {
+          "question": "The typical span length for 400 kV transmission lines in India is about:",
+          "options": [
+            "100-150 m",
+            "250-350 m",
+            "500-600 m",
+            "800-1000 m"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: 400 kV lines typically have spans of 250-350 m to balance mechanical and electrical considerations."
+        },
+        {
+          "question": "The primary control of frequency in a power system is achieved by:",
+          "options": [
+            "Governor action",
+            "Automatic Voltage Regulator",
+            "Tap changing transformers",
+            "Synchronous condensers"
+          ],
+          "answer": 0,
+          "explanation": "📝 Explanation: Governors provide primary frequency control by adjusting turbine input in response to speed changes."
+        },
+        {
+          "question": "The polarization index (PI) test for transformer insulation should ideally be:",
+          "options": [
+            "1-1.5",
+            "2-4",
+            "5-7",
+            ">10"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: PI = (10-min IR)/(1-min IR). Healthy insulation shows 2-4 due to dielectric absorption."
+        },
+        {
+          "question": "The typical clearance between conductor and ground for 132 kV transmission line is about:",
+          "options": [
+            "3-4 m",
+            "6-7 m",
+            "10-12 m",
+            "15-18 m"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: IS 802 specifies 6-7 m ground clearance for 132 kV lines considering sag and safety."
+        },
+        {
+          "question": "The main purpose of grading rings in high voltage bushings is to:",
+          "options": [
+            "Reduce temperature",
+            "Equalize voltage distribution",
+            "Increase mechanical strength",
+            "Prevent corona"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: Grading rings control electric field distribution to avoid localized high stress areas."
+        },
+        {
+          "question": "The typical impedance of a 400/220 kV, 500 MVA transformer is about:",
+          "options": [
+            "5-10%",
+            "12-15%",
+            "20-25%",
+            "30-35%"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: EHV transformers usually have 12-15% impedance for fault current limitation."
+        },
+        {
+          "question": "The skin effect is more pronounced in:",
+          "options": [
+            "DC systems",
+            "Low frequency AC",
+            "High frequency AC",
+            "Underground cables"
+          ],
+          "answer": 2,
+          "explanation": "📝 Explanation: Skin effect (current crowding at conductor surface) increases with frequency due to eddy currents."
+        },
+        {
+          "question": "The main advantage of using GIS (Gas Insulated Substation) is:",
+          "options": [
+            "Lower cost",
+            "Reduced space requirement",
+            "Higher fault level",
+            "Easier maintenance"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: GIS occupies 10-20% space of conventional AIS due to SF6 insulation at high pressure."
+        },
+        {
+          "question": "The typical value of earth resistance for a substation should be less than:",
+          "options": [
+            "0.5 Ω",
+            "1 Ω",
+            "5 Ω",
+            "10 Ω"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: IEEE Std 80 recommends <1Ω for large substations to ensure safety and proper relay operation."
+        },
+        {
+          "question": "The main purpose of a wave trap in a substation is to:",
+          "options": [
+            "Trap lightning surges",
+            "Block high frequency carrier signals",
+            "Filter harmonics",
+            "Limit short circuit current"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: Wave traps block carrier communication signals (40-500 kHz) from entering substation equipment."
+        },
+        {
+          "question": "The typical range of power factor for distribution transformers at full load is:",
+          "options": [
+            "0.2-0.4 lagging",
+            "0.95-0.98 lagging",
+            "Unity",
+            "0.8-0.85 leading"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: Distribution transformers operate near unity PF (0.95-0.98 lagging) under normal loading."
+        },
+        {
+          "question": "The main cause of voltage drop in distribution lines is:",
+          "options": [
+            "Series resistance",
+            "Shunt capacitance",
+            "Skin effect",
+            "Corona"
+          ],
+          "answer": 0,
+          "explanation": "📝 Explanation: Voltage drop = I(Rcosφ + Xsinφ), where R dominates in distribution lines (low X/R ratio)."
+        },
+        {
+          "question": "The typical breaking capacity of a 11 kV, 750 MVA circuit breaker is about:",
+          "options": [
+            "750 A",
+            "2.5 kA",
+            "20 kA",
+            "40 kA"
+          ],
+          "answer": 3,
+          "explanation": "📝 Explanation: I = MVA/(√3×kV) = 750/(1.732×11) ≈ 40 kA (breaking capacity is RMS value during interruption)."
+        },
+        {
+          "question": "The main purpose of a shunt reactor in EHV systems is to:",
+          "options": [
+            "Improve power factor",
+            "Compensate line capacitance",
+            "Limit fault current",
+            "Filter harmonics"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: Shunt reactors absorb reactive power generated by line capacitance during light load conditions."
+        },
+        {
+          "question": "The typical efficiency of a large power transformer is about:",
+          "options": [
+            "60-70%",
+            "75-85%",
+            "90-95%",
+            "98-99%"
+          ],
+          "answer": 3,
+          "explanation": "📝 Explanation: Modern power transformers achieve 98-99% efficiency due to low core and copper losses."
+        },
+        {
+          "question": "The main advantage of HVDC transmission over HVAC is:",
+          "options": [
+            "Lower cost for short distances",
+            "No reactive power issues",
+            "Simple converter stations",
+            "Lower insulation requirements"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: HVDC has no charging current, skin effect, or synchronism issues, making it ideal for long distances."
+        },
+        {
+          "question": "The typical range of string efficiency for a 8-disc suspension insulator is:",
+          "options": [
+            "30-50%",
+            "60-80%",
+            "85-90%",
+            "95-100%"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: String efficiency = (Voltage across string)/(No. of discs × Voltage across bottom disc) ≈ 60-80% for 8 discs."
+        },
+        {
+          "question": "The main purpose of a Buchholz relay is to:",
+          "options": [
+            "Protect against overloads",
+            "Detect incipient faults",
+            "Measure oil temperature",
+            "Control tap changing"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: Buchholz relay detects gas bubbles from incipient faults (partial discharges) in oil-filled transformers."
+        },
+        {
+          "question": "The typical range of fault clearing time for a zone-1 distance relay is:",
+          "options": [
+            "0.1-0.3 s",
+            "0.5-1 s",
+            "2-3 s",
+            "5-10 s"
+          ],
+          "answer": 0,
+          "explanation": "📝 Explanation: Zone-1 operates instantaneously (typically 1-3 cycles) for 80-85% of the line length."
+        },
+        {
+          "question": "The main advantage of using ABC (Aerial Bundled Cables) is:",
+          "options": [
+            "Higher current rating",
+            "Reduced right-of-way",
+            "Improved reliability",
+            "Lower voltage drop"
+          ],
+          "answer": 2,
+          "explanation": "📝 Explanation: ABC provides improved reliability by preventing phase-to-phase faults and reducing outage time."
+        },
+        {
+          "question": "The typical range of surge impedance for overhead transmission lines is:",
+          "options": [
+            "20-60 Ω",
+            "100-200 Ω",
+            "300-500 Ω",
+            "600-800 Ω"
+          ],
+          "answer": 2,
+          "explanation": "📝 Explanation: Z₀ = √(L/C) ≈ 300-500 Ω for OH lines (400 Ω typical)."
+        },
+        {
+          "question": "The main purpose of a synchronizing relay is to:",
+          "options": [
+            "Detect loss of excitation",
+            "Prevent out-of-phase closing",
+            "Measure power factor",
+            "Control reactive power"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: Synchronizing relays ensure voltage, frequency, and phase sequence match before paralleling generators."
+        },
+        {
+          "question": "The typical range of tower footing resistance should be less than:",
+          "options": [
+            "1 Ω",
+            "10 Ω",
+            "30 Ω",
+            "100 Ω"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: IS 5613 recommends <10Ω for tower footing resistance in average soil conditions."
+        },
+        {
+          "question": "The main advantage of using HTLS (High Temperature Low Sag) conductors is:",
+          "options": [
+            "Higher current capacity",
+            "Reduced corona loss",
+            "Lower initial cost",
+            "Improved power factor"
+          ],
+          "answer": 0,
+          "explanation": "📝 Explanation: HTLS conductors can operate at higher temperatures (150-250°C) without excessive sag, increasing ampacity."
+        }
+      ],
+      "quiz2": [
+        {
+          "question": "The main purpose of a differential relay in transformer protection is to:",
+          "options": [
+            "Detect overcurrent",
+            "Detect internal faults",
+            "Monitor oil temperature",
+            "Control tap changer"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: Differential relays compare current entering and leaving the transformer to detect internal faults."
+        },
+        {
+          "question": "The typical range of negative phase sequence current in a generator should be less than:",
+          "options": [
+            "5% of rated current",
+            "10% of rated current",
+            "20% of rated current",
+            "50% of rated current"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: IS 5422 recommends <10% negative sequence current to prevent rotor overheating."
+        },
+        {
+          "question": "The main advantage of using PMU (Phasor Measurement Unit) is:",
+          "options": [
+            "Higher accuracy",
+            "Time-synchronized measurements",
+            "Lower cost",
+            "Simple installation"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: PMUs provide GPS-synchronized measurements (μs accuracy) for wide-area monitoring."
+        },
+        {
+          "question": "The typical range of short circuit MVA for a 400 kV substation bus is about:",
+          "options": [
+            "500-1000 MVA",
+            "2000-5000 MVA",
+            "10000-15000 MVA",
+            "20000-25000 MVA"
+          ],
+          "answer": 2,
+          "explanation": "📝 Explanation: 400 kV systems typically have 10-15 GVA fault level (I_sc ≈ 15-20 kA)."
+        },
+        {
+          "question": "The main purpose of a neutral grounding resistor is to:",
+          "options": [
+            "Increase fault current",
+            "Limit earth fault current",
+            "Improve power factor",
+            "Reduce harmonics"
+          ],
+          "answer": 1,
+          "explanation": "📝 Explanation: NGR limits earth fault current to 200-400A to protect equipment while allowing fault detection."
+        }
+      ]
+    }
+  ]
+}
