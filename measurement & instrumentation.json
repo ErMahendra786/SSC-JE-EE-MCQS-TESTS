@@ -1,18 +1,14 @@
 {
-  "quiz1": [
+  "quiz": [
     {
-      "question": "The frequency response of a first-order system is best represented by:",
-      "options": [
-        "Linear plot",
-        "Logarithmic Bode plot",
-        "Polar plot",
-        "Nyquist plot"
-      ],
-      "answer": 1,
-      "explanation": "Bode magnitude plot shows -20dB/decade roll-off after cutoff frequency\n\n" +
-                    "Diagram (Mermaid syntax):\n" +
-                    "graph LR\n" +
-                    "A[ωc] -->|Slope: -20dB/dec| B[High Freq]"
+      "question": "What does this oscilloscope waveform indicate?",
+      "options": ["Overvoltage", "Phase shift", "Harmonic distortion", "Ground loop"],
+      "answer": 2,
+      "explanation": {
+        "text": "The waveform shows 3rd harmonic distortion:",
+        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...",
+        "image_type": "waveform"
+      }
     }
   ]
 }
