@@ -430,9 +430,7 @@
           "answer": 1,
           "explanation": "Dielectric loss increases with the square of frequency in high frequency heating applications."
         }
-      ]
-    },
-    {
+      ],
       "quiz2": [
         {
           "question": "The main purpose of using energy-efficient motors is to:",
@@ -841,9 +839,7 @@
           "answer": 1,
           "explanation": "Coasting is when the train moves without power application, using its kinetic energy."
         }
-      ]
-    },
-    {
+      ],
       "quiz3": [
         {
           "question": "The main advantage of using VFD (Variable Frequency Drive) with induction motors is:",
