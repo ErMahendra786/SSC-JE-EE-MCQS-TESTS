@@ -8,7 +8,8 @@
         "alt": "Electrical symbol for resistor"
       },
       "options": ["Capacitor", "Resistor", "Inductor", "Transistor"],
-      "answer": 1
+      "answer": 1,
+      "explanation": "This is the standard IEC symbol for a fixed resistor." 
     }
   ]
 }
