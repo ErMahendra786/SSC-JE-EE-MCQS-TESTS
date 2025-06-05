@@ -1,24 +1,13 @@
 {
   "quiz1": [
     {
-      "question": "Which product had the highest sales in Q3?",
-      "chart": {
-        "type": "bar",
-        "base64": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==",
-        "description": "Sales data for Products A, B, and C across four quarters"
-      },
-      "options": ["Product A", "Product B", "Product C"],
-      "answer": 0
-    },
-    {
-      "question": "What was the revenue trend in 2022?",
-      "chart": {
-        "type": "line",
-        "base64": "iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==",
-        "description": "Monthly revenue chart for 2022"
-      },
-      "options": ["Increasing", "Decreasing", "Stable"],
-      "answer": 0
-    }
+  "question": "Analyze this IV curve:",
+  "image": {
+    "url": "https://your-cdn.com/graphs/iv-curve-3.png",
+    "alt": "Current-Voltage characteristics",
+    "width": 500
+  },
+  "answer_type": "graph_analysis" 
+}
   ]
 }
