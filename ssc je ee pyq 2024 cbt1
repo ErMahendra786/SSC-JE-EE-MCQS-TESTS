@@ -1013,8 +1013,9 @@ A(1) - 5 = (1-5) = -4. In alphabet, -4 is Z(0), Y(-1), X(-2), W(-3), V(-4). So V
       ],
       "answer": 1,
       "explanation": "Let's define the properties:\n1. Conductance: The ease with which electric current flows.\n2. Resistance: The opposition offered by a material to the flow of electric current. It converts electrical energy into heat.\n3. Capacitance: The ability to store electric charge.\n4. Inductance: The property that opposes changes in current.\n\nTherefore, the property of an electrical conductor that opposes the flow of electric current through it is known as resistance. "
-    },
-    {
+    }
+    ],
+"quiz2":[
       "question": "What is the common term used for the ratio of active power to apparent power in an AC circuit?",
       "options": [
         "1. Power factor",
