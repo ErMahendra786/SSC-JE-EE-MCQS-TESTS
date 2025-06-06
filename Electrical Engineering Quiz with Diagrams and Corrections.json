@@ -96,7 +96,7 @@
         "Wheatstone bridge: Very low resistance",
         "Corey Foster's bridge: Medium resistance"
       ],
-      "answer": None,
+      "answer": "None",
       "explanation": "📝 None of the options are correct. Correct pairs are: Kelvin double bridge (low resistance, <1 Ω), Wheatstone bridge (medium resistance, 1 Ω–1 MΩ), Loss of charge method (capacitance measurement), and Carey Foster’s bridge (medium resistance comparison). **Diagram**: A Wheatstone bridge diagram would show four resistors in a diamond, with a galvanometer across the bridge, balanced when R₁R₄ = R₂R₃. **Correction Note**: The provided answer (option 3) is incorrect; Carey Foster’s bridge is for medium resistance, but the other options are mismatched (e.g., Wheatstone is not for very low resistance)."
     },
     {
