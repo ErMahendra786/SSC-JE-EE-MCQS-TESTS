@@ -1,0 +1,60 @@
+{
+  "quiz1": [
+    {
+      "question": "The position of how many letters will remain unchanged if each of the letters in the word CLOSURE is arranged in the English alphabetical order?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "answer": 0,
+      "explanation": "📝 Alphabetical order of 'CLOSURE' is: C, E, L, O, R, S, U\nOriginal: C L O S U R E\nSorted:   C E L O R S U\nCompare both: Only 'C' remains in the same position.\n✅ Hence, **One** letter remains unchanged."
+    },
+    {
+      "question": "HGCA is related to LKGE in a certain way based on the English alphabetical order. In the same way, BKOM is related to FOSQ. To which of the following is NSJD related?",
+      "options": [
+        "PLNH",
+        "HSRD",
+        "LPRY",
+        "RWNH"
+      ],
+      "answer": 3,
+      "explanation": "📝 Pattern: Each letter increases by a constant offset:\nH → L (+4), G → K (+4), C → G (+4), A → E (+4)\nSo similarly: N(+4)=R, S(+4)=W, J(+4)=N, D(+4)=H ⇒ **RWNH** ✅"
+    },
+    {
+      "question": "L, M, N, O, P and Q are sitting around a circular table facing the centre. M is to the immediate right of Q. L is to the immediate left of O. Q is to the immediate right of O. P is to the immediate left of L. Who is to the immediate right of M?",
+      "options": [
+        "P",
+        "O",
+        "N",
+        "L"
+      ],
+      "answer": 2,
+      "explanation": "🧠 Arrange the seating as per clues:\n- O at any position, Q right of O, M right of Q ⇒ O → Q → M\n- L left of O, so L → O → Q → M\n- P is left of L ⇒ P → L\nNow, only N remains. M → ? → N. ✅ **N is right of M**"
+    },
+    {
+      "question": "What should come in place of the question mark (?) in the given series based on the English alphabetical order? HNL, JPN, LRP, NTR, ?",
+      "options": [
+        "VPT",
+        "PTV",
+        "VTP",
+        "PVT"
+      ],
+      "answer": 2,
+      "explanation": "🔡 Pattern:\nFirst letters: H (+2) J (+2) L (+2) N → Next = P\nSecond: N (+2) P (+2) R (+2) T → Next = V\nThird: L (+2) N (+2) P (+2) R → Next = T ⇒ **Answer: PVT**"
+    },
+    {
+      "question": "Rahul walked 20 m north, turned right and walked 20 m, turned right and walked 10 m, then again turned right and walked 10 m. In what direction is he headed?",
+      "options": [
+        "East",
+        "West",
+        "South",
+        "North"
+      ],
+      "answer": 1,
+      "explanation": "🧭 Direction Breakdown:\n1. North 20 m → Right = East 20 m\n2. Right = South 10 m → Right = West 10 m\nNow he’s walking **West** ✅"
+    }
+
+  ]
+  }
