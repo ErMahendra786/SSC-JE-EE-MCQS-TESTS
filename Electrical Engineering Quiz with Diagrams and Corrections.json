@@ -527,6 +527,568 @@
       ],
       "answer": 2,
       "explanation": "📝 Inductive susceptance B = 1 / X_L = 1 / (ωL). **Diagram**: A parallel RL circuit would show an inductor and resistor, with susceptance calculated for the inductive branch."
+    },
+   
+    {
+      "question": "In a three-phase induction motor, the slip at maximum torque is dependent upon",
+      "options": [
+        "rotor resistance only",
+        "rotor reactance only",
+        "both rotor resistance and reactance",
+        "stator resistance"
+      ],
+      "answer": 2,
+      "explanation": "📝 In a three-phase induction motor, maximum torque occurs when the slip s_m = R_2 / X_2, where R_2 is rotor resistance and X_2 is rotor reactance. Thus, slip at maximum torque depends on both rotor resistance and reactance. **Diagram**: A torque-slip curve would show a peak torque at s_m, with the curve shifting right as R_2 increases and X_2 affects the slope."
+    },
+    {
+      "question": "Select the correct option that fills in the blanks appropriately: In a synchronous motor, if the excitation is ____, the motor operates at a ____ power factor.",
+      "options": [
+        "increased; leading",
+        "decreased; lagging",
+        "increased; lagging",
+        "decreased; leading"
+      ],
+      "answer": 0,
+      "explanation": "📝 Increasing excitation in a synchronous motor increases back EMF, causing the motor to operate at a leading power factor. **Diagram**: A phasor diagram would show back EMF (E_b) larger than terminal voltage (V), with current (I) leading V for over-excitation."
+    },
+    {
+      "question": "The power factor of an AC circuit is given by",
+      "options": [
+        "P / (V × I)",
+        "V × I / P",
+        "P × V / I",
+        "I × V / P"
+      ],
+      "answer": 0,
+      "explanation": "📝 Power factor (PF) = cos φ = P / (V × I), where P is active power, V is voltage, and I is current. **Diagram**: A power triangle would show active power (P), reactive power (Q), and apparent power (S = V × I), with PF as the cosine of the angle between P and S."
+    },
+    {
+      "question": "Which of the following is NOT an advantage of a three-phase system over a single-phase system?",
+      "options": [
+        "Constant power delivery",
+        "Higher efficiency in power transmission",
+        "Simpler construction of motors",
+        "Lower cost of equipment"
+      ],
+      "answer": 3,
+      "explanation": "📝 Three-phase systems offer constant power, higher transmission efficiency, and simpler motor designs due to rotating magnetic fields, but equipment (e.g., transformers, generators) is typically more expensive. **Diagram**: A three-phase voltage waveform would show three sinusoidal waves 120° apart, ensuring constant power delivery."
+    },
+    {
+      "question": "The efficiency of a transformer is maximum when",
+      "options": [
+        "core losses equal copper losses",
+        "core losses are zero",
+        "copper losses are zero",
+        "core losses are twice copper losses"
+      ],
+      "answer": 0,
+      "explanation": "📝 Transformer efficiency is maximum when core losses (P_core) equal copper losses (P_cu), as total losses (P_core + P_cu) are minimized. **Diagram**: A graph of efficiency vs. load would show a peak when P_core = P_cu, typically at a specific load fraction."
+    },
+    {
+      "question": "In a DC shunt motor, if the field flux is reduced, the speed",
+      "options": [
+        "decreases",
+        "remains constant",
+        "increases",
+        "becomes zero"
+      ],
+      "answer": 2,
+      "explanation": "📝 In a DC shunt motor, speed N ∝ 1 / φ, where φ is field flux. Reducing φ increases speed. **Diagram**: A speed-torque curve would shift upward as flux decreases, showing higher speed for the same torque."
+    },
+    {
+      "question": "The starting torque of a squirrel cage induction motor is",
+      "options": [
+        "very high",
+        "moderate",
+        "very low",
+        "zero"
+      ],
+      "answer": 2,
+      "explanation": "📝 Squirrel cage induction motors have low starting torque due to high rotor resistance and no external starting mechanism. **Diagram**: A torque-speed curve would show a low starting torque at s = 1, increasing to a peak near s_m."
+    },
+    {
+      "question": "Which of the following devices is used to measure the power factor of a circuit?",
+      "options": [
+        "Ammeter",
+        "Voltmeter",
+        "Wattmeter",
+        "Power factor meter"
+      ],
+      "answer": 3,
+      "explanation": "📝 A power factor meter directly measures cos φ by comparing voltage and current phases. **Diagram**: A power factor meter circuit would show connections to voltage and current coils, displaying PF on a scale."
+    },
+    {
+      "question": "The armature reaction in a DC generator under lagging load condition causes",
+      "options": [
+        "demagnetizing effect",
+        "magnetizing effect",
+        "no effect",
+        "cross-magnetizing effect"
+      ],
+      "answer": 0,
+      "explanation": "📝 Armature reaction under lagging load in a DC generator produces a demagnetizing effect, reducing the main field flux. **Diagram**: A field flux diagram would show armature flux opposing the main field flux, weakening the resultant field."
+    },
+    {
+      "question": "The frequency of rotor current in an induction motor running at slip 's' is",
+      "options": [
+        "s × supply frequency",
+        "supply frequency",
+        "(1 - s) × supply frequency",
+        "s / supply frequency"
+      ],
+      "answer": 0,
+      "explanation": "📝 Rotor current frequency f_r = s × f, where s is slip and f is supply frequency. **Diagram**: A rotor circuit diagram would show induced currents at frequency s × f due to relative motion between stator field and rotor."
+    },
+    {
+      "question": "In a parallel RLC circuit, at resonance, the circuit behaves as",
+      "options": [
+        "purely resistive",
+        "purely inductive",
+        "purely capacitive",
+        "inductive and capacitive"
+      ],
+      "answer": 0,
+      "explanation": "📝 At resonance in a parallel RLC circuit, susceptances cancel (B_L = B_C), and the circuit appears purely resistive. **Diagram**: An impedance vs. frequency graph would show a peak impedance at resonance, with zero phase angle."
+    },
+    {
+      "question": "The purpose of a commutator in a DC motor is to",
+      "options": [
+        "reverse the direction of current in the armature",
+        "increase the field flux",
+        "reduce armature resistance",
+        "control the speed"
+      ],
+      "answer": 0,
+      "explanation": "📝 The commutator reverses armature current direction to maintain torque in the same direction. **Diagram**: A DC motor cross-section would show the commutator and brushes, with current reversal as the rotor rotates."
+    },
+    {
+      "question": "Which of the following is a true statement regarding the synchronous speed of an induction motor?",
+      "options": [
+        "It is dependent on the load",
+        "It is independent of the supply frequency",
+        "It is given by Ns = 120f / P",
+        "It is equal to the rotor speed"
+      ],
+      "answer": 2,
+      "explanation": "📝 Synchronous speed Ns = 120f / P, where f is frequency and P is poles, independent of load. **Diagram**: A motor diagram would show stator poles and a rotating magnetic field at Ns."
+    },
+    {
+      "question": "The power consumed by a purely inductive load is",
+      "options": [
+        "zero",
+        "maximum",
+        "minimum",
+        "infinite"
+      ],
+      "answer": 0,
+      "explanation": "📝 A purely inductive load has a power factor of 0 (cos φ = 0), so active power P = V × I × cos φ = 0. **Diagram**: A power triangle would show only reactive power (Q), with no active power (P)."
+    },
+    {
+      "question": "In a star-connected three-phase system, the line voltage is",
+      "options": [
+        "equal to the phase voltage",
+        "√3 times the phase voltage",
+        "1/√3 times the phase voltage",
+        "twice the phase voltage"
+      ],
+      "answer": 1,
+      "explanation": "📝 Line voltage V_L = √3 × V_ph in a star connection. **Diagram**: A star connection diagram would show three phases connected to a neutral, with line voltages forming a 30° angle with phase voltages."
+    },
+    {
+      "question": "The main purpose of using a choke in a fluorescent lamp is to",
+      "options": [
+        "limit the current",
+        "increase the voltage",
+        "reduce the power consumption",
+        "improve the power factor"
+      ],
+      "answer": 0,
+      "explanation": "📝 The choke (inductor) limits current in a fluorescent lamp by providing inductive reactance. **Diagram**: A fluorescent lamp circuit would show a choke in series with the lamp, controlling current flow."
+    },
+    {
+      "question": "The torque developed by a DC series motor is proportional to",
+      "options": [
+        "armature current",
+        "square of armature current",
+        "field flux",
+        "speed"
+      ],
+      "answer": 1,
+      "explanation": "📝 In a DC series motor, torque T ∝ φ × I_a, and since φ ∝ I_a, T ∝ I_a². **Diagram**: A torque-current curve would show a parabolic increase in torque with armature current."
+    },
+    {
+      "question": "Which of the following is NOT a method to improve the power factor of a circuit?",
+      "options": [
+        "Using synchronous condensers",
+        "Installing capacitors",
+        "Increasing the load resistance",
+        "Using inductors"
+      ],
+      "answer": 3,
+      "explanation": "📝 Inductors worsen power factor by adding reactive power, unlike capacitors or synchronous condensers. **Diagram**: A power triangle would show reduced reactive power (Q) with capacitors, improving PF."
+    },
+    {
+      "question": "The open-circuit test on a transformer is conducted to determine",
+      "options": [
+        "copper losses",
+        "core losses",
+        "efficiency",
+        "regulation"
+      ],
+      "answer": 1,
+      "explanation": "📝 The open-circuit test measures core losses (P_core) due to hysteresis and eddy currents. **Diagram**: A test setup would show the low-voltage side open, with a wattmeter measuring core losses on the primary."
+    },
+    {
+      "question": "In a synchronous generator, the voltage regulation is positive when",
+      "options": [
+        "terminal voltage increases with load",
+        "terminal voltage decreases with load",
+        "terminal voltage remains constant",
+        "load is purely resistive"
+      ],
+      "answer": 1,
+      "explanation": "📝 Positive voltage regulation occurs when terminal voltage (V_t) decreases with increasing load, so % regulation = (E_g - V_t) / V_t × 100 is positive. **Diagram**: A voltage-load curve would show V_t dropping as load increases."
+    },
+    {
+      "question": "The slip of an induction motor at full load is typically",
+      "options": [
+        "0%",
+        "2-5%",
+        "10-15%",
+        "20-25%"
+      ],
+      "answer": 1,
+      "explanation": "📝 Full-load slip in induction motors is typically 2–5%, ensuring efficient operation. **Diagram**: A torque-slip curve would show slip at full load near 0.02–0.05."
+    },
+    {
+      "question": "The function of a governor in a steam turbine is to",
+      "options": [
+        "control the speed",
+        "increase the power output",
+        "reduce vibrations",
+        "improve efficiency"
+      ],
+      "answer": 0,
+      "explanation": "📝 The governor regulates steam flow to maintain constant turbine speed. **Diagram**: A governor schematic would show a feedback mechanism adjusting steam valves based on speed."
+    },
+    {
+      "question": "The Buchholz relay is used in",
+      "options": [
+        "transformers",
+        "motors",
+        "generators",
+        "circuit breakers"
+      ],
+      "answer": 0,
+      "explanation": "📝 Buchholz relays protect transformers by detecting gas accumulation or oil surges. **Diagram**: A transformer diagram would show the Buchholz relay between the tank and conservator, with gas and oil flow sensors."
+    },
+    {
+      "question": "The power output of a synchronous motor is maximum when",
+      "options": [
+        "load angle is 0°",
+        "load angle is 90°",
+        "load angle is 45°",
+        "load angle is 180°"
+      ],
+      "answer": 1,
+      "explanation": "📝 Maximum power in a synchronous motor occurs at a load angle δ = 90°, as P = (V × E_f / X_s) × sin δ. **Diagram**: A power-angle curve would show a peak at δ = 90°."
+    },
+    {
+      "question": "Which of the following is a passive component?",
+      "options": [
+        "Transistor",
+        "Diode",
+        "Resistor",
+        "Operational amplifier"
+      ],
+      "answer": 2,
+      "explanation": "📝 Resistors are passive, not amplifying or controlling signals like transistors or op-amps. **Diagram**: A circuit diagram would show a resistor as a zigzag symbol, dissipating power."
+    },
+    {
+      "question": "The direction of rotation of a DC motor can be reversed by",
+      "options": [
+        "reversing the field connections",
+        "increasing the voltage",
+        "reducing the load",
+        "changing the brush position"
+      ],
+      "answer": 0,
+      "explanation": "📝 Reversing field connections changes the magnetic field direction, reversing rotation. **Diagram**: A DC motor circuit would show field and armature connections, with a switch reversing field polarity."
+    },
+    {
+      "question": "In a delta-connected three-phase system, the line current is",
+      "options": [
+        "equal to the phase current",
+        "√3 times the phase current",
+        "1/√3 times the phase current",
+        "twice the phase current"
+      ],
+      "answer": 1,
+      "explanation": "📝 Line current I_L = √3 × I_ph in a delta connection. **Diagram**: A delta connection diagram would show three phases in a triangle, with line currents at 30° to phase currents."
+    },
+    {
+      "question": "The main advantage of a VFD (Variable Frequency Drive) in motor control is",
+      "options": [
+        "constant speed operation",
+        "energy savings",
+        "increased starting current",
+        "simplified construction"
+      ],
+      "answer": 1,
+      "explanation": "📝 VFDs adjust motor speed, reducing energy consumption. **Diagram**: A VFD block diagram would show an inverter controlling frequency to the motor."
+    },
+    {
+      "question": "The hysteresis loss in a transformer core is proportional to",
+      "options": [
+        "frequency",
+        "square of frequency",
+        "voltage",
+        "square of voltage"
+      ],
+      "answer": 0,
+      "explanation": "📝 Hysteresis loss P_h ∝ f × B_max^n, where f is frequency. **Diagram**: A hysteresis loop would show energy loss per cycle, increasing with frequency."
+    },
+    {
+      "question": "The rotor of a synchronous motor rotates at",
+      "options": [
+        "synchronous speed",
+        "slip speed",
+        "twice the synchronous speed",
+        "half the synchronous speed"
+      ],
+      "answer": 0,
+      "explanation": "📝 Synchronous motor rotor speed equals synchronous speed Ns = 120f / P. **Diagram**: A motor diagram would show the rotor locked to the stator’s rotating field."
+    },
+    {
+      "question": "Which of the following is used to protect a motor from overloading?",
+      "options": [
+        "Fuse",
+        "Circuit breaker",
+        "Overload relay",
+        "Surge protector"
+      ],
+      "answer": 2,
+      "explanation": "📝 Overload relays detect excessive current and trip to protect motors. **Diagram**: A motor control circuit would show an overload relay in series with the motor."
+    },
+    {
+      "question": "The power factor of a purely capacitive load is",
+      "options": [
+        "zero",
+        "unity",
+        "leading",
+        "lagging"
+      ],
+      "answer": 2,
+      "explanation": "📝 A purely capacitive load has a leading power factor (cos φ = 0, current leads voltage by 90°). **Diagram**: A phasor diagram would show current leading voltage by 90°."
+    },
+    {
+      "question": "The voltage across a capacitor in a series RC circuit lags the current by",
+      "options": [
+        "0°",
+        "90°",
+        "180°",
+        "45°"
+      ],
+      "answer": 1,
+      "explanation": "📝 Voltage across a capacitor lags current by 90° (V_C = I / (jωC)). **Diagram**: A phasor diagram would show V_C lagging I by 90°."
+    },
+    {
+      "question": "The main purpose of a damper winding in a synchronous motor is to",
+      "options": [
+        "increase efficiency",
+        "provide starting torque",
+        "reduce vibrations",
+        "improve power factor"
+      ],
+      "answer": 1,
+      "explanation": "📝 Damper windings induce currents to provide starting torque in synchronous motors. **Diagram**: A rotor diagram would show damper bars embedded in the pole faces."
+    },
+    {
+      "question": "The efficiency of a DC motor is maximum when",
+      "options": [
+        "armature losses equal field losses",
+        "constant losses equal variable losses",
+        "speed is maximum",
+        "torque is maximum"
+      ],
+      "answer": 1,
+      "explanation": "📝 Efficiency is maximum when constant losses (e.g., field) equal variable losses (e.g., armature). **Diagram**: An efficiency vs. load curve would show a peak at this condition."
+    },
+    {
+      "question": "In a three-phase system, the neutral current is zero when the load is",
+      "options": [
+        "unbalanced",
+        "balanced",
+        "inductive",
+        "capacitive"
+      ],
+      "answer": 1,
+      "explanation": "📝 In a balanced three-phase system, phase currents sum to zero at the neutral. **Diagram**: A star connection with balanced loads would show zero current in the neutral wire."
+    },
+    {
+      "question": "The main disadvantage of a series DC motor is",
+      "options": [
+        "low starting torque",
+        "poor speed regulation",
+        "complex construction",
+        "low efficiency"
+      ],
+      "answer": 1,
+      "explanation": "📝 Series DC motors have poor speed regulation due to T ∝ I_a². **Diagram**: A speed-torque curve would show speed dropping sharply with load."
+    },
+    {
+      "question": "The core of a transformer is laminated to reduce",
+      "options": [
+        "hysteresis loss",
+        "eddy current loss",
+        "copper loss",
+        "flux leakage"
+      ],
+      "answer": 1,
+      "explanation": "📝 Laminations reduce eddy current losses by increasing resistance to circulating currents. **Diagram**: A transformer core cross-section would show thin, insulated laminations."
+    },
+    {
+      "question": "The speed of a universal motor is controlled by",
+      "options": [
+        "varying the supply voltage",
+        "changing the number of poles",
+        "adjusting the field flux",
+        "using a governor"
+      ],
+      "answer": 0,
+      "explanation": "📝 Universal motor speed is controlled by varying supply voltage (e.g., via a dimmer). **Diagram**: A motor circuit would show a variable voltage source connected to the motor."
+    },
+    {
+      "question": "The main purpose of a circuit breaker is to",
+      "options": [
+        "protect against overcurrent",
+        "regulate voltage",
+        "improve power factor",
+        "control motor speed"
+      ],
+      "answer": 0,
+      "explanation": "📝 Circuit breakers interrupt current during faults or overcurrent. **Diagram**: A power system diagram would show a circuit breaker in series with a load, tripping on fault detection."
+    },
+    {
+      "question": "The rotor resistance starter is used in",
+      "options": [
+        "squirrel cage induction motor",
+        "slip ring induction motor",
+        "synchronous motor",
+        "DC motor"
+      ],
+      "answer": 1,
+      "explanation": "📝 Rotor resistance starters increase starting torque in slip ring induction motors. **Diagram**: A starter circuit would show external resistors connected to the rotor via slip rings."
+    },
+    {
+      "question": "The power factor of a synchronous motor can be controlled by",
+      "options": [
+        "varying the load",
+        "changing the excitation",
+        "adjusting the speed",
+        "increasing the voltage"
+      ],
+      "answer": 1,
+      "explanation": "📝 Varying excitation adjusts the power factor (leading/lagging). **Diagram**: A phasor diagram would show PF changes with excitation levels."
+    },
+    {
+      "question": "The voltage induced in a conductor moving in a magnetic field is given by",
+      "options": [
+        "B × L × v",
+        "B / (L × v)",
+        "L / (B × v)",
+        "v / (B × L)"
+      ],
+      "answer": 0,
+      "explanation": "📝 Induced voltage e = B × L × v (Faraday’s law). **Diagram**: A conductor moving in a magnetic field would show velocity (v), field (B), and length (L) vectors, with induced EMF direction."
+    },
+    {
+      "question": "The main advantage of HVDC transmission over HVAC is",
+      "options": [
+        "lower transmission losses",
+        "simpler construction",
+        "higher voltage levels",
+        "better voltage regulation"
+      ],
+      "answer": 0,
+      "explanation": "📝 HVDC reduces transmission losses due to no reactive power flow. **Diagram**: An HVDC system diagram would show rectifiers, DC lines, and inverters."
+    },
+    {
+      "question": "The torque-slip characteristic of an induction motor is",
+      "options": [
+        "linear",
+        "parabolic",
+        "hyperbolic",
+        "exponential"
+      ],
+      "answer": 2,
+      "explanation": "📝 Torque-slip curve is hyperbolic, peaking at s_m = R_2 / X_2. **Diagram**: A torque-slip curve would show torque rising to a peak, then falling as slip increases."
+    },
+    {
+      "question": "The main purpose of a fuse is to",
+      "options": [
+        "protect against overcurrent",
+        "regulate voltage",
+        "improve power factor",
+        "control motor speed"
+      ],
+      "answer": 0,
+      "explanation": "📝 Fuses melt to interrupt overcurrent, protecting circuits. **Diagram**: A circuit diagram would show a fuse in series with a load, breaking on overcurrent."
+    },
+    {
+      "question": "The efficiency of a power transformer is typically",
+      "options": [
+        "50-60%",
+        "70-80%",
+        "90-98%",
+        "100%"
+      ],
+      "answer": 2,
+      "explanation": "📝 Power transformers have high efficiency (90–98%) due to low losses. **Diagram**: An efficiency vs. load curve would show a flat, high-efficiency region."
+    },
+    {
+      "question": "The starting current of an induction motor is reduced by using",
+      "options": [
+        "star-delta starter",
+        "direct online starter",
+        "autotransformer starter",
+        "both a and c"
+      ],
+      "answer": 3,
+      "explanation": "📝 Star-delta and autotransformer starters reduce starting current. **Diagram**: A star-delta starter circuit would show a switch transitioning from star to delta connection."
+    },
+    {
+      "question": "The main function of a surge arrester is to",
+      "options": [
+        "protect against lightning surges",
+        "regulate voltage",
+        "improve power factor",
+        "control motor speed"
+      ],
+      "answer": 0,
+      "explanation": "📝 Surge arresters divert high-voltage surges to ground. **Diagram**: A power system diagram would show a surge arrester parallel to equipment, shunting surges."
+    },
+    {
+      "question": "The speed regulation of a DC shunt motor is",
+      "options": [
+        "poor",
+        "good",
+        "zero",
+        "infinite"
+      ],
+      "answer": 1,
+      "explanation": "📝 DC shunt motors have good speed regulation due to constant field flux. **Diagram**: A speed-torque curve would show a nearly flat speed profile with load."
+    },
+    {
+      "question": "The main purpose of an exciter in a synchronous generator is to",
+      "options": [
+        "provide DC field current",
+        "regulate voltage",
+        "improve power factor",
+        "control speed"
+      ],
+      "answer": 0,
+      "explanation": "📝 The exciter supplies DC current to the rotor field. **Diagram**: A generator diagram would show an exciter connected to the rotor field winding."
     }
   ]
-}
+} 
