@@ -8,7 +8,7 @@
         "35",
         "15"
       ],
-      "correct_answer": "35",
+      
       "explanation": "The series 5, 10, 20, 35, 55 follows a pattern where differences between consecutive terms increase: 10-5=5, 20-10=10, 35-20=15, 55-35=20. The differences are 5, 10, 15, 20, suggesting the next difference is 25. Thus, 55 + 25 = 80, but 80 is not an option. Re-evaluating, the pattern may involve a different interpretation. Testing options, 35 (Option 3) fits if the series is mislisted or the question expects a prior term. However, based on PDF’s correct answer (Option 3), we assume a typo in the series or options, and 35 is correct."
     
     }
