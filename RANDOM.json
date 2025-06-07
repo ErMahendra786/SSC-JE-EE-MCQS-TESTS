@@ -2,12 +2,12 @@
   "quiz1": [
   
 
-     
 {
-  "question": "What type of circuit is shown below?<br><img src='https://upload.wikimedia.org/wikipedia/commons/e/ef/RC_lowpass_filter.svg' width='300'>",
-  "options": ["High-Pass Filter", "Low-Pass Filter", "Band-Stop Filter", "Band-Pass Filter"],
-  "answer": 1,
-  "explanation": "An RC circuit where the output is across the capacitor acts as a low-pass filter."
+  "question": "Identify the circuit shown below.",
+  "image": "https://i.imgur.com/BHcH0Zw.png",  // ✅ Direct image URL
+  "options": ["RC Circuit", "RL Circuit", "RLC Circuit", "LC Filter"],
+  "answer": 2,
+  "explanation": "The image shows a resistor, inductor, and capacitor — an RLC circuit."
 }
   ]
 }
