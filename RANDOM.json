@@ -2,12 +2,19 @@
   "quiz1": [
   
 
-{
-  "question": "What is this circuit?<br><img src='https://i.imgur.com/BHcH0Zw.png' width='300'>",
-  "options": ["RC Filter", "RL Circuit", "RLC Circuit", "Bridge Rectifier"],
-  "answer": 2,
-  "explanation": "It contains all three elements R, L, and C — hence RLC circuit."
+    {
+      "question": "What is this logic gate?<br><img src='https://i.imgur.com/BHcH0Zw.png' width='300'>",
+      "options": [
+        "AND Gate",
+        "OR Gate",
+        "NAND Gate",
+        "NOR Gate"
+      ],
+      "answer": 2,
+      "explanation": "The symbol shown is a NAND gate, which is a NOT + AND combination."
+    
 }
+
 
   ]
 }
