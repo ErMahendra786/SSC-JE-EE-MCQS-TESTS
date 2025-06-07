@@ -1,7 +1,7 @@
 {
   "quiz1": [
     {
-      "question": "What will be the next number in the series: 5, 10, 20, 35, 55, ?<br><img src='https://upload.wikimedia.org/wikipedia/commons/1/1a/NumberSeriesQ1.png' width='300'>",
+      "question": "What will be the next number in the series: 5, 10, 20, 35, 55, ?",
       "options": [
         "40",
         "45",
