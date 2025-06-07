@@ -3,11 +3,11 @@
   
 
 {
-  "question": "Identify the circuit shown below.",
-  "image": "https://i.imgur.com/BHcH0Zw.png",  
-  "options": ["RC Circuit", "RL Circuit", "RLC Circuit", "LC Filter"],
+  "question": "What is this circuit?<br><img src='https://i.imgur.com/BHcH0Zw.png' width='300'>",
+  "options": ["RC Filter", "RL Circuit", "RLC Circuit", "Bridge Rectifier"],
   "answer": 2,
-  "explanation": "The image shows a resistor, inductor, and capacitor — an RLC circuit."
+  "explanation": "It contains all three elements R, L, and C — hence RLC circuit."
 }
+
   ]
 }
