@@ -1,0 +1,43 @@
+{
+  "quiz": [
+    {
+      "question": "What type of filter is shown in the following RC circuit?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/RC_lowpass_filter.svg/600px-RC_lowpass_filter.svg.png",
+      "figure_label": "Figure 1: RC Low-Pass Filter",
+      "options": [
+        "Low-Pass Filter",
+        "High-Pass Filter",
+        "Band-Pass Filter",
+        "Notch Filter"
+      ],
+      "answer": 0,
+      "explanation": "This circuit allows low frequencies to pass through while attenuating high frequencies, hence it is a low-pass filter."
+    },
+    {
+      "question": "Identify the electrical machine shown in the figure below.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Induction_motor.png/640px-Induction_motor.png",
+      "figure_label": "Figure 2: Cut-away view of an Induction Motor",
+      "options": [
+        "Synchronous Motor",
+        "DC Motor",
+        "Induction Motor",
+        "Stepper Motor"
+      ],
+      "answer": 2,
+      "explanation": "The image shows an induction motor, identifiable by its rotor and stator configuration and lack of brushes."
+    },
+    {
+      "question": "What logic gate is represented by the following symbol?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logic-gate-nand-us.svg/600px-Logic-gate-nand-us.svg.png",
+      "figure_label": "Figure 3: Logic Gate Symbol",
+      "options": [
+        "AND Gate",
+        "NAND Gate",
+        "NOR Gate",
+        "XOR Gate"
+      ],
+      "answer": 1,
+      "explanation": "The gate shown is a NAND gate, which is an AND gate followed by a NOT gate. It outputs 0 only when both inputs are 1."
+    }
+  ]
+}
