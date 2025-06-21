@@ -1,5 +1,5 @@
 {
-  "Reasoning": [
+  "quiz1": [
     {
       "question": "I, L, M, N, U, V and W are six family members. V is the son of U, who is not the mother of V. M is the brother of D. W and U are a married couple. N is the daughter of W, who is the sister of L.\n\nHow is V related to N?",
       "options": [
@@ -767,7 +767,7 @@ For Q.47, I will state: "Explanation: The series follows a complex pattern. For 
       "explanation": "Explanation: This series appears to consist of two alternating patterns.\n1. Numbers at odd positions (1st, 3rd, 5th, 7th, 9th): 4, 5, 7, 11, 19. The differences between consecutive terms are +1, +2, +4, +8. This means the differences are doubling.\n2. Numbers at even positions (2nd, 4th, 6th, 8th): 80, 40, 40, 80. This pattern is cyclic (80, 40, 40, 80). If the cycle strictly repeats, the next term in this sub-sequence would be 80. However, 80 is not among the options.\n\nConsidering the provided answer is 150, this suggests a more complex single series pattern or an unstated rule that leads to 150 from 19. Without a clear arithmetic progression to 150 that fits the preceding terms, a precise mathematical derivation is not feasible."
     }
   ],
-  "Electrical Engg": [
+  "quiz2": [
     {
       "question": "In a DC generator, the cause of sparking at brushes is:",
       "options": [
@@ -2011,7 +2011,7 @@ The marked answer is 0.015 Wb. If this is the case, there might be a simplificat
       "explanation": "Explanation: All the listed devices are used for protecting high voltage transmission lines against lightning: \n- Surge arresters (also called lightning arresters) are devices connected between the phase conductor and ground to divert lightning surge currents to the ground, limiting the overvoltage. \n- Overhead ground wires (or shield wires) are conductors run above the phase conductors along the transmission line. They intercept direct lightning strikes and safely conduct the current to the ground through tower structures."
     }
   ],
-  "GK/GS": [
+  "quiz3": [
     {
       "question": "The frequency of rotor current in a 3-phase induction motor is:",
       "options": [
