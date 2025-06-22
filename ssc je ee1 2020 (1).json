@@ -1,5 +1,5 @@
 {
-    "quiz1": [
+  "quiz1": [
     {
       "question": "I, L, M, N, U, V and W are six family members. V is the son of U, who is not the mother of V. M is the brother of D. W and U are a married couple. N is the daughter of W, who is the sister of L.\n\nHow is V related to N?",
       "options": [
@@ -87,8 +87,7 @@
       ],
       "answer": 0,
       "explanation": "Explanation: This series appears to consist of two alternating patterns.\n1. Numbers at odd positions (1st, 3rd, 5th, 7th, 9th): 4, 5, 7, 11, 19. The differences between consecutive terms are +1, +2, +4, +8. This means the differences are doubling.\n2. Numbers at even positions (2nd, 4th, 6th, 8th): 80, 40, 40, 80. This pattern is cyclic (80, 40, 40, 80). If the cycle strictly repeats, the next term in this sub-sequence would be 80. However, 80 is not among the options.\n\nConsidering the provided answer is 150, this suggests a more complex single series pattern or an unstated rule that leads to 150 from 19. Without a clear arithmetic progression to 150 that fits the preceding terms, a precise mathematical derivation is not feasible."
- 
-   }
+    }
   ],
   "quiz2": [
     {
@@ -353,7 +352,7 @@
         "permeability"
       ],
       "answer": 2,
-      "explanation": "Explanation: The ratio of the flux density (B) produced in a material to the flux density ($B_0$) produced in a vacuum by the same magnetizing force (H) is known as the relative permeability ($\mu_r$) of that material. Mathematically, $\mu_r = B/B_0$ (where $B_0 = \\mu_0 H$ and $B = \\mu H$, so $\mu_r = \\mu/\\mu_0$)."
+      "explanation": "2"
     },
     {
       "question": "The given voltage and current are $V = 100 \\angle 45^\\circ V$ and $I = 20 \\angle 15^\\circ A$, respectively. Determine the impedance and admittance of the load.",
@@ -419,7 +418,7 @@
         "73.2%"
       ],
       "answer": 2,
-      "explanation": "Explanation: The capacity of an open delta (V-V) system is $\\sqrt{3}$ times the rating of one transformer ($P_{VV} = \\sqrt{3} P_t$). The capacity of a full delta ($\\Delta$-$\\Delta$) system is $3$ times the rating of one transformer ($P_{\\Delta\\Delta} = 3 P_t$). The percentage increase in capacity, relative to the open delta system, is $\\frac{P_{\\Delta\\Delta} - P_{VV}}{P_{VV}} \\times 100\\% = \\frac{3 P_t - \\sqrt{3} P_t}{\\sqrt{3} P_t} \\times 100\\% = (\\sqrt{3} - 1) \\times 100\\% \\approx 0.732 \\times 100\\% = 73.2\\%$. However, the option 86.6% is chosen as the answer, which is often related to the utilization factor of transformers in an open delta connection (i.e., each transformer is utilized at 86.6% of its full capacity when supplying the load of the open delta system). This implies a potential different interpretation of 'increase' or a context related to utilization rather than direct capacity increase."
+      "explanation": "Explanation: The capacity of an open delta (V-V) system is $\\sqrt{3}$ times the rating of one transformer ($P_{VV} = \\sqrt{3} P_t$). The capacity of a full delta ($\\Delta$-$\\Delta$) system is $3$ times the rating of one transformer ($P_{\\Delta\\Delta} = 3 P_t$). The percentage increase in capacity, relative to the open delta system, is $\\frac{P_{\\Delta\\Delta} - P_{VV}}{P_{VV}} \\times 100\\% = (\\sqrt{3} - 1) \\times 100\\% \\approx 0.732 \\times 100\\% = 73.2\\%$. However, the option 86.6% is chosen as the answer, which is often related to the utilization factor of transformers in an open delta connection (i.e., each transformer is utilized at 86.6% of its full capacity when supplying the load of the open delta system). This implies a potential different interpretation of 'increase' or a context related to utilization rather than direct capacity increase."
     },
     {
       "question": "Which of the following machines has high power factor and efficiency under running conditions?",
@@ -617,7 +616,7 @@
         "950 rpm"
       ],
       "answer": 1,
-      "explanation": "Explanation: For a DC series motor, $V = E_b + I_a (R_a + R_{se})$, and $E_b \\propto \\Phi N$. Assuming linear magnetization, $\\Phi \\propto I_a$. Therefore, $E_b \\propto I_a N$, which means $N \\propto E_b / I_a$.\nCase 1 ($I_{a1} = 40$ A, $N_1 = 500$ rpm):\n$E_{b1} = 220 - 40 (0.25 + 0.15) = 220 - 40 \\times 0.4 = 220 - 16 = 204$ V.\nCase 2 ($I_{a2} = 20$ A, $N_2 = ? $):\n$E_{b2} = 220 - 20 (0.25 + 0.15) = 220 - 20 \\times 0.4 = 220 - 8 = 212$ V.\nUsing the proportionality: $\\frac{N_2}{N_1} = \\frac{E_{b2}/I_{a2}}{E_{b1}/I_{a1}} = \\frac{E_{b2}}{I_{a2}} \\times \\frac{I_{a1}}{E_{b1}}$.\n$N_2 = N_1 \\times \\frac{E_{b2}}{E_{b1}} \\times \\frac{I_{a1}}{I_{a2}} = 500 \\times \\frac{212}{204} \\times \\frac{40}{20} = 500 \\times 1.0392 \\times 2 \\approx 1039.2 \\text{ rpm}$.\nThere is a significant discrepancy between the calculated speed (approx. 1039.2 rpm) and the provided answer (960 rpm). The provided answer does not align with the standard formulas and assumptions for a DC series motor with linear magnetization."
+      "explanation": "Explanation: For a DC series motor, $V = E_b + I_a (R_a + R_{se})$, and $E_b \\propto \\Phi N$. Assuming linear magnetization, $\\Phi \\propto I_a$. Therefore, $E_b \\propto I_a N$, which means $N \\propto E_b / I_a$.\nCase 1 ($I_{a1} = 40$ A, $N_1 = 500$ rpm):\n$E_{b1} = 220 - 40 (0.25 + 0.15) = 220 - 40 \\times 0.4 = 220 - 16 = 204$ V.\nCase 2 ($I_{a2} = 20$ A, $N_2 = ? $):\n$E_{b2} = 220 - 20 (0.25 + 0.15) = 220 - 20 \\times 0.4 = 220 - 8 = 212$ V.\nUsing the proportionality: $\\frac{N_2}{N_1} = \\frac{E_{b2}/I_{a2}}{E_{b1}/I_{a1}} = \\frac{E_{b2}}{I_{a2}} \\times \\frac{I_{a1}}{E_{b1}}$.\n$N_2 = N_1 \\times \\frac{E_{b2}}{E_{b1}} \\times \\frac{I_{a1}}{I_{a2}} = 500 \\times 1.0392 \\times 2 \\approx 1039.2 \\text{ rpm}$.\nThere is a significant discrepancy between the calculated speed (approx. 1039.2 rpm) and the provided answer (960 rpm). The provided answer does not align with the standard formulas and assumptions for a DC series motor with linear magnetization."
     },
     {
       "question": "Which of the following materials acts as a diamagnetic material at room temperature?",
@@ -1500,7 +1499,6 @@
       ],
       "answer": 1,
       "explanation": "Explanation: The Dandi March, also known as the Salt March, was a nonviolent civil disobedience movement led by Mahatma Gandhi. It began on March 12, 1930, from Sabarmati Ashram to Dandi, a coastal village in Gujarat, to protest against the British salt tax."
-    
     }
-        ]
+  ]
 }
