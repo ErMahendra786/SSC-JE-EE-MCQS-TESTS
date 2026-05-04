@@ -21,7 +21,7 @@
         "The motor will act as a generator"
       ],
       "correct_answer": "The motor speed will increase dangerously",
-      "explanation": "Opening the field reduces flux (Φ) to residual magnetism levels. Since Speed (N) ∝ 1/Φ, the speed rises rapidly.
+      "explanation": "Opening the field reduces flux (Φ) to residual magnetism levels. Since Speed (N) ∝ 1/Φ, the speed rises rapidly."
  
     }
   ]
